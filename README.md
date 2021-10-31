@@ -49,6 +49,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - Javascript
 - Python
 - Powershell 
+- Rust
 - ...
 
 
