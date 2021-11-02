@@ -28,7 +28,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - CH014 - eine Chat-Anwendung mit Netzwerkanbindung
 - CH015 - eine Dokumentationssoftware
 
-## Zielarchitektur
+## Projektart
 
 - Console - Konsolenanwendung
 - WebApp - Webanwendung
