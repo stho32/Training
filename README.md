@@ -27,6 +27,9 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - CH013 - etwas, mit dem Du einen Datensatz in der Datenbank verändern kannst
 - CH014 - eine Chat-Anwendung mit Netzwerkanbindung
 - CH015 - eine Dokumentationssoftware
+- CH016 - eine Aufgabenverwaltung
+- CH017 - eine rezeptbasierte Einkaufsanwendung, die mit dem Kühlschrankinhalt abgleicht
+- CH018 - ein Webscraper/Qualitätssicherer für Webseiten
 
 ## Projektart
 
