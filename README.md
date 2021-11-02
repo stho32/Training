@@ -12,7 +12,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 
 ## Ideen
 
-- CH001 - ein Zufallszahlengenerator
+- (CH001 - ein Zufallsgenerator)[CH001.md]
 - CH002 - etwas, dass einen zufälligen Spruch aus einer Liste auswählt (Extra: und per Sprachausgabe ausgibt)
 - CH003 - ein Kniffel-Spiel
 - CH004 - ein Wort-Rate-Spiel wie "Glücksrad"
