@@ -30,6 +30,8 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - CH016 - eine Aufgabenverwaltung
 - CH017 - eine rezeptbasierte Einkaufsanwendung, die mit dem Kühlschrankinhalt abgleicht
 - CH018 - ein Webscraper/Qualitätssicherer für Webseiten
+- CH019 - Demo wie Unit-Tests in der gegebenen Umgebung / Sprache funktionieren
+- CH020 - Sortiere eine Liste von Zufallszahlen
 
 ## Projektart
 
@@ -54,6 +56,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - Powershell 
 - Rust
 - Ruby
+- Assembler
 - ...
 
 
