@@ -5,6 +5,8 @@ Ich übe gerne mal programmieren in einer anderen Sprache. Wenn ich selbiges tue
 
 Um die Ideen zusammenzuhalten, besteht dieses Repository.
 
+Wenn die zu viel sind und Du einfach nur daddeln willst, nutze https://www.hackerrank.com/ .
+
 ## Namenskonventionen
 
 Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B.:
