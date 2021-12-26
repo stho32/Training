@@ -16,5 +16,5 @@ Eine Challenge aus https://github.com/stho32/Collection-Of-Challenges
 
 ## Zusatzanforderungen
 
-- [ ] (Z001) Das Repository sollte eine Dokumentation und/ oder ein build-Skript beinhalten, das angibt, woe der Code zu übersetzen ist
+- [ ] (Z001) Das Repository sollte eine Dokumentation und/ oder ein build-Skript beinhalten, das angibt, wo der Code zu übersetzen ist
 - [ ] (Z002) Das Repository kann/möchte wenn möglich einen github-Workflow beinhalten, der den Code übersetzt und ein neues Release bereitstellt.
