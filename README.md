@@ -62,9 +62,3 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - Ruby
 - Assembler
 - ...
-
-
-## Bestehende Umsetzungen
-
-  - https://github.com/stho32/CH001-Console-Linux-C
-  - https://github.com/stho32/CH001-Console-Linux-CSharp
