@@ -34,8 +34,8 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - CH018 - ein Webscraper/Qualitätssicherer für Webseiten
 - CH019 - Demo wie Unit-Tests in der gegebenen Umgebung / Sprache funktionieren
 - CH020 - Sortiere eine Liste von Zufallszahlen
-- CH021 - Ein externer IMAP-Spam-Filter / Rule-Engine für deinen IMAP Account
-- CH022 - Ein Scanner/Parser, der nach einer Konfiguration Code-Dateien nach JSON umformt und für einfache Analysen bereitstellt
+- [CH021](CH021/README.md) - Ein externer IMAP-Spam-Filter / Rule-Engine für deinen IMAP Account
+- [CH022](CH022/README.md) - Ein Scanner/Parser, der nach einer Konfiguration Code-Dateien nach JSON umformt und für einfache Analysen bereitstellt
 
 ## Projektart
 
