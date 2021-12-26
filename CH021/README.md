@@ -14,3 +14,7 @@ Eine Challenge aus https://github.com/stho32/Collection-Of-Challenges
 - [ ] (A009) Es gibt einen Test-Modus in dem lediglich aufgelistet wird, welche der E-Mails in Deinem Account für Spam gehalten werden
 - [ ] (A010) Es gibt einen Modus, in dem identifizierter Spam in den IMAP-Spam-Ordner verschoben wird.
 
+## Zusatzanforderungen
+
+- [ ] (Z001) Das Repository sollte eine Dokumentation und/ oder ein build-Skript beinhalten, das angibt, woe der Code zu übersetzen ist
+- [ ] (Z002) Das Repository kann/möchte wenn möglich einen github-Workflow beinhalten, der den Code übersetzt und ein neues Release bereitstellt.
