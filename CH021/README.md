@@ -63,3 +63,4 @@ Eine Challenge aus https://github.com/stho32/Collection-Of-Challenges
 
 - [ ] (Z001) Das Repository sollte eine Dokumentation und/ oder ein build-Skript beinhalten, das angibt, wo der Code zu übersetzen ist
 - [ ] (Z002) Das Repository kann/möchte wenn möglich einen github-Workflow beinhalten, der den Code übersetzt und ein neues Release bereitstellt.
+- [ ] (Z003) Der Code im Repository hat eine Test-Coverage von 80%, wobei Unit-Test-Bibliotheken aus der Betrachtung ausgeschlossen sind
