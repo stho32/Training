@@ -1,14 +1,14 @@
 # Zufallsgenerator
 
-- [ ] (A001) Es gibt eine einfache Möglichkei eine Zufallszahl zwischen 1 und 10 abzurufen
-- [ ] (A002) Es gibt eine Möglichkeit beliebige Zufallszahlen zwischenzwei angegebenen Werten abzurufen
+- [ ] (A001) Es gibt eine einfache Möglichkeit eine Zufallszahl zwischen 1 und 10 abzurufen
+- [ ] (A002) Es gibt eine Möglichkeit beliebige Zufallszahlen zwischen zwei angegebenen Werten abzurufen
 - [ ] (A003) Es gibt eine Möglichkeit Zufallskennworte zu generieren
   - [ ] (A004) mit Sonderzeichen/ohne Sonderzeichen
   - [ ] (A005) in beliebiger Länge
   - [ ] (A006) mit Zahlen, ohne Zahlen
-  - [ ] (A007) Groß-/Klrinschreibung
+  - [ ] (A007) Groß-/Kleinschreibung
   - [ ] (A008) Steuerung der Anteile
-- [ ] (A009) Generierung von zufälligen Tiernamen z.B. lustig schnappender Lurch
+- [ ] (A009) Generierung von zufälligen Tiernamen z.B. "lustig schnappender Lurch"
 
 ## Zusatzanforderungen
 
