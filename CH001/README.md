@@ -12,5 +12,4 @@
 
 ## Zusatzanforderungen
 
-- [ ] (A010) Das Repository sollte eine Dokumentation und/ oder ein build-Skript beinhalten, das angibt, woe der Code zu übersetzen ist
-- [ ] (A011) Das Repository kann/möchte wenn möglich einen github-Workflow beinhalten, der den Code übersetzt und ein neues Release bereitstellt.
+Es gelten die generellen Zusatzanforderungen aus (Generelle-Zusatzanforderungen.md)[Create Generelle-Zusatzanforderungen.md].
