@@ -59,4 +59,6 @@ Eine Challenge aus https://github.com/stho32/Collection-Of-Challenges
 - [ ] (A044) Es gibt einen Test-Modus in dem lediglich aufgelistet wird, welche Formeln angewandt würden
 - [ ] (A045) Es gibt einen Modus, in dem die Formeln angewandt werden
 
+## Zusatzanforderungen
 
+Es gelten die generellen Zusatzanforderungen aus [Generelle-Zusatzanforderungen.md](../Generelle-Zusatzanforderungen.md).
