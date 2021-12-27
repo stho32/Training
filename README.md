@@ -16,7 +16,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 
 - [CH001](CH001/README.md) - Ein Zufallsgenerator ( [C](https://github.com/stho32/CH001-Console-Linux-C), [CSharp](https://github.com/stho32/CH001-Console-Linux-CSharp),  [Rust](https://github.com/stho32/CH001-Console-Linux-Rust) )
 - [CH002](CH002/README.md) - Ein zufälliger Spruch mit Sprachausgabe
-- CH003 - ein Kniffel-Spiel
+- [CH003](CH003/README.md) - ein Kniffel-Spiel
 - CH004 - ein Wort-Rate-Spiel wie "Glücksrad"
 - CH005 - ein Hangman-Spiel
 - CH006 - ein XXO Spiel
