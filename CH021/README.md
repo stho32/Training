@@ -4,7 +4,7 @@ Eine Challenge aus https://github.com/stho32/Collection-Of-Challenges
 
 ## Anforderungen
 
-- [ ] (A001) Die Anwendung verbindet sich per IMAP mit deinem E-Mail Account
+- [ ] (A001) Die Anwendung verbindet sich per IMAP mit deinem E-Mail Account, es ist aber generell möglich auch andere Methoden der Verbindung zu verwenden
 - [ ] (A002) Umgebung
   - [ ] (A003) Die Anwendung nutzt einen Logging-Mechanismus
   - [ ] (A004) Die Anwendung zieht die nötige Konfiguration aus der Kommandozeile
