@@ -1,4 +1,4 @@
-# Etwas, dass einen zufälligen Spruch aus einer Liste auswählt (Extra: und per Sprachausgabe ausgibt)
+# Ein zufälliger Spruch mit Sprachausgabe
 
 - [ ] (A001) Du suchst im Internet eine Liste von Sprüchen, die Dir gefallen. Bitte vergiss nicht die Quellenangabe in der Dokumentation!
 - [ ] (A002) Schreibe einen Algorithmus, die Dir bei Start der Anwendung einen der Sprüche auswählt.
