@@ -12,4 +12,4 @@
 
 ## Zusatzanforderungen
 
-Es gelten die generellen Zusatzanforderungen aus (Generelle-Zusatzanforderungen.md)[Create Generelle-Zusatzanforderungen.md].
+Es gelten die generellen Zusatzanforderungen aus [Generelle-Zusatzanforderungen.md](Create Generelle-Zusatzanforderungen.md).
