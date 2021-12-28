@@ -63,3 +63,8 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - Ruby
 - Assembler
 - ...
+
+## Zusatzherausforderungen
+
+- Keys only? Zieh die Maus bei dem Trainee ab.
+- Miss die Dauer, versuche bei jeder Challenge unter 1 Stunde zu bleiben. Besprich Dich mit deinen Kollegen nach der Stunde, warum es ggf. nicht geklappt hat und was ggf. nötig wäre. Ändert die Umstände und versucht es erneut.
