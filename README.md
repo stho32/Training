@@ -44,6 +44,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - WebApp - Webanwendung
 - WebApi - WebApi
 - GUI - Desktopanwendung
+- Library - Bibliothek
 
 ## Zielplattform
 
