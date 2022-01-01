@@ -39,7 +39,6 @@ examples:
 - CH009 - Create a documentation software
 - CH010 - Create a task management application with a kanban like view
 - CH011 - Create an app that helps you buy the right ingredients for a set of meals you want to eat
-- CH012 - Create a tool that helps you with 
 - [CH021](CH021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
 - [CH022](CH022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 - [CH023](CH023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes
