@@ -37,6 +37,7 @@ Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B
 - [CH021](CH021/README.md) - Ein externer IMAP-Spam-Filter / Rule-Engine für deinen IMAP Account
 - [CH022](CH022/README.md) - Ein Scanner/Parser, der nach einer Konfiguration Code-Dateien nach JSON umformt und für einfache Analysen bereitstellt
 - [CH023](CH023/README.md) - Eine Bibliothek zum Parsen von Kommandozeilen
+- [CH023](CH023/README.md) - A generic build script, that autodetects the contents of the repository / directory
 
 ## Projektart
 
