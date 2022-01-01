@@ -1,72 +1,51 @@
 # Collection-Of-Challenges
-Ideen, was man so programmieren kann, wenn man üben will
+A collection of projects which can be used for training
 
-Ich übe gerne mal programmieren in einer anderen Sprache. Wenn ich selbiges tue, dann braucht man Ideen. Besonders bieten sich auch die gleichen Ideen an, denn dann kann man vergleichen, was die Stärken und Schwächen der einzelnen Sprachen sind. 
+## A project is to big for today?
 
-Um die Ideen zusammenzuhalten, besteht dieses Repository.
+The projects in this repository are not designed with duration in mind. Altough there are a few that you can finish in less than in hour there are also several that can take a week or more. Even longer depending on what you want to achieve. After all it is not just about implementing but about reimplementing in other ways and learning this way what would be better in a surrounding that pays you for the job.
 
-Wenn die zu viel sind und Du einfach nur daddeln willst, nutze https://www.hackerrank.com/ .
+If a project is too big for today, you might exercise with these other things:
 
-## Namenskonventionen
+- https://www.hackerrank.com/ 
 
-Die Namenskonvention für ein Repository, wenn es eine Challenge umsetzt ist z.B.:
-"CH001-Console-Linux-C", womit das Repository angibt, dass es ein Zufallsgenerator für das Linux-Terminal ist und in C geschrieben wurde.
+## Naming convention for repositories
 
-## Ideen
+This is not a must, but I recommend it when you find yourself implementing the projects more often and want to retain a certain overview in your github.
 
-- [CH001](CH001/README.md) - Ein Zufallsgenerator ( [C](https://github.com/stho32/CH001-Console-Linux-C), [CSharp](https://github.com/stho32/CH001-Console-Linux-CSharp),  [Rust](https://github.com/stho32/CH001-Console-Linux-Rust) )
-- [CH002](CH002/README.md) - Ein zufälliger Spruch mit Sprachausgabe
-- [CH003](CH003/README.md) - ein Kniffel-Spiel
-- CH004 - ein Wort-Rate-Spiel wie "Glücksrad"
-- CH005 - ein Hangman-Spiel
-- CH006 - ein XXO Spiel
-- CH007 - eine KI für ein XXO Spiel
-- CH008 - ein Vokabel-Trainer
-- CH009 - eine Zeiterfassung
-- CH010 - eine Tabellenanzeige (mit Sortierung und Filterung)
-- CH011 - ein Formular für die Eingabe von Daten inkl. Validierungen
-- CH012 - etwas, das sich zu einer Datenbank verbindet und eine Tabelle daraus auflistet
-- CH013 - etwas, mit dem Du einen Datensatz in der Datenbank verändern kannst
-- CH014 - eine Chat-Anwendung mit Netzwerkanbindung
-- CH015 - eine Dokumentationssoftware
-- CH016 - eine Aufgabenverwaltung
-- CH017 - eine rezeptbasierte Einkaufsanwendung, die mit dem Kühlschrankinhalt abgleicht
-- CH018 - ein Webscraper/Qualitätssicherer für Webseiten
-- CH019 - Demo wie Unit-Tests in der gegebenen Umgebung / Sprache funktionieren
-- CH020 - Sortiere eine Liste von Zufallszahlen
-- [CH021](CH021/README.md) - Ein externer IMAP-Spam-Filter / Rule-Engine für deinen IMAP Account
-- [CH022](CH022/README.md) - Ein Scanner/Parser, der nach einer Konfiguration Code-Dateien nach JSON umformt und für einfache Analysen bereitstellt
-- [CH023](CH023/README.md) - Eine Bibliothek zum Parsen von Kommandozeilen
+I recommend the following structure for naming your repositories:
+ - first the challenge Id: CHxxx
+ - then the project type you are going for: Console, WebApp, WebApi, GUI, Library ...
+ - then the operating system you are going for: Win32, Win64, Linux, MacOS, X (x=cross platform)
+ - then the name of the programming language or stack you want to use: C, CSharp, JavaScript, Python...
+ - optionally followed by a 3 digit number which is the iteration
+and all seperated by hyphens
+
+examples: 
+- CH001-Console-Linux-C
+- CH001-Console-Linux-C-002 
+- CH001-Console-Linux-CSharp
+- CH001-GUI-Win64-CSharp
+
+## The challenge descriptions
+
+- [CH001](CH001/README.md) - A random stuff generator ( [C](https://github.com/stho32/CH001-Console-Linux-C), [CSharp](https://github.com/stho32/CH001-Console-Linux-CSharp),  [Rust](https://github.com/stho32/CH001-Console-Linux-Rust) )
+- [CH002](CH002/README.md) - Grab a random saying and make the app read it out loud for you
+- [CH003](CH003/README.md) - Implement a dice game
+- CH004 - Create a game of Tic-Tac-Toe complete with an AI you can play against
+- CH005 - Create a vocabulary trainer that supports a diverse set of different question types and learning methods
+- CH006 - Create a tool to record your working time
+- CH008 - Create a network chat application
+- CH009 - Create a documentation software
+- CH010 - Create a task management application with a kanban like view
+- CH011 - Create an app that helps you buy the right ingredients for a set of meals you want to eat
+- CH012 - Create a tool that helps you with 
+- [CH021](CH021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
+- [CH022](CH022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
+- [CH023](CH023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes
 - [CH024](CH023/README.md) - A generic build script, that autodetects the contents of the repository / directory
 
-## Projektart
+## additional ideas to make the training more effective and fun
 
-- Console - Konsolenanwendung
-- WebApp - Webanwendung
-- WebApi - WebApi
-- GUI - Desktopanwendung
-- Library - Bibliothek
-
-## Zielplattform
-
-- Win32/64
-- Linux
-- MacOS
-- X - cross platform
-
-## Programmiersprache
-
-- C
-- CSharp
-- Javascript
-- Python
-- Powershell 
-- Rust
-- Ruby
-- Assembler
-- ...
-
-## Zusatzherausforderungen
-
-- Keys only? Zieh die Maus bei dem Trainee ab.
-- Miss die Dauer, versuche bei jeder Challenge unter 1 Stunde zu bleiben. Besprich Dich mit deinen Kollegen nach der Stunde, warum es ggf. nicht geklappt hat und was ggf. nötig wäre. Ändert die Umstände und versucht es erneut.
+- Remove your mouse from the computer. Let us see if you are good enough to do the challenge keyboard only.
+- Implement the same project multiple times. Measure the time needed. In every iteration try to finish in half the time.
