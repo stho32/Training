@@ -1,7 +1,10 @@
 # Projects
 
 I want to have a long term relationship with the ideas that I have and implement as software.
-This way I retain the freedom of reimplementing everything in a different techstack and develop training material additionally to the more standard effect of suddenly have a program that I would like to have. After all, sooner or later, everything changes again. Only the requirements stay.
+By retaining the requirements I get a few positive side effects. 
+1) I can use the same projects as training material for fun with other developers.
+2) I can reimplement projects using different tech stacks and approaches, thus get more depth.
+3) I do not forget anymore what I wanted to achieve.
 
 ## A project is to big for today?
 
