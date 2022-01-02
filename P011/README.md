@@ -2,6 +2,8 @@
 
 This app is there to help you with most of your weekly grocery shopping.
 
+Hint: you have a set of simple recipies in the docs.
+
 There are the following additional common rules that apply: 
 https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
 
@@ -38,6 +40,5 @@ https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requiremen
 - [ ] (R022) Enter and save what you bought.
 - [ ] (R023) From the history, information about what you bought and their expiration dates, and the remaining stock information the app should be able to give you automatic follow up proposals what to eat and buy next without requiring you to configure a lot.
 
-- hint: you have a set of simple recipies in the docs
 
 
