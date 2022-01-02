@@ -1,4 +1,4 @@
-# CH025 - A generic build script/tool, that autodetects the contents of the repository / directory
+# "bld" A generic build script, that autodetects the contents of the repository / directory
 
 (Although named "build script" the script can be a compiled tool as well.)
 
