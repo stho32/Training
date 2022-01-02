@@ -8,7 +8,7 @@ By retaining the requirements I get a few positive side effects.
 
 ## A project is to big for today?
 
-The projects in this repository are not designed with duration in mind. I meank not at all. Most are based on something that I want to have and took the time of at least writing down what I would like. 
+The projects in this repository are not designed with duration in mind. Not at all. Most are based on something that I want to have and took the time of at least writing down what I would like. 
 Although there are a few that you can finish in less than in hour there are also several that can take a week or more. Even longer depending on what you want to achieve. After all it is not just about implementing but about reimplementing in other ways and learning this way what would be better in a surrounding that pays you for the job.
 
 If a project is too big for today, you might exercise with these other things:
