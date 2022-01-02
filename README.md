@@ -14,7 +14,7 @@ If a project is too big for today, you might exercise with these other things:
 
 ## Naming convention for repositories
 
-This is not a must, but I recommend it when you find yourself implementing the projects more often and want to retain a certain overview in your github. I certain,y use it.
+This is not a must, but I recommend it when you find yourself implementing the projects more often and want to retain a certain overview in your github. I certainly use it.
 
 I recommend the following structure for naming your repositories:
  - first the project Id: Pxxx
