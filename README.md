@@ -41,7 +41,7 @@ This might make my repositories a little bit less readable, unless you know what
 - P005 - Create a vocabulary trainer that supports a diverse set of different question types and learning methods
 - P006 - Create a tool to record your working time
 - P008 - Create a network chat application
-- P009 - Create a documentation software
+- P009 - Create a flexible database environment that is configurable using a ui
 - P010 - Create a task management application with a kanban like view
 - [P011](P011/README.md) - Create an app that helps you buy the right ingredients for a set of meals you want to eat
 - P012 - Take a course in discrete math 😃
