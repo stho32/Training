@@ -1,0 +1,7 @@
+"VonProdukt","VonEinheit","UmrechnungDivisor","NachProdukt","NachEinheit"
+"Brot","Scheiben",9,"9-Scheiben-Brot-Packung","Stk."
+"Gurke","Scheiben",35,"Gurke","Stk."
+"Magarine","g",500,"500g-Magarine","Dose"
+"Wurst","Scheiben",10,"10-Scheiben-Wurst-Packung","Stk."
+"Eier","Stk.",6,"6-Eier-Packung","Stk."
+"Schinkenwürfel","g",125,"125g Schinkenwürfel-Packung","Stk."
