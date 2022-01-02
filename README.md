@@ -32,7 +32,7 @@ examples:
 
 This might make my repositories a little bit less readable, unless you know what you are looking for. Nontheless it is a more structured approch and it really makes sense in the grand scope of things.
 
-## The challenge descriptions
+## The projects
 
 - [P001](P001/README.md) - A random stuff generator ( [C](https://github.com/stho32/P001-Console-Linux-C), [CSharp](https://github.com/stho32/P001-Console-Linux-CSharp),  [Rust](https://github.com/stho32/P001-Console-Linux-Rust) )
 - [P002](P002/README.md) - Grab a random saying and make the app read it out loud for you
