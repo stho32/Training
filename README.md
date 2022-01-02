@@ -45,6 +45,7 @@ This might make my repositories a little bit less readable, unless you know what
 - P010 - Create a task management application with a kanban like view
 - P011 - Create an app that helps you buy the right ingredients for a set of meals you want to eat
 - P012 - Take a course in discrete math 😃
+- [P013](P013/README.md) - Write an app that can solve sodoku riddles
 - [P021](P021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
 - [P022](P022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 - [P023](P023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes
