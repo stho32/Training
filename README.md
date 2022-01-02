@@ -1,9 +1,12 @@
-# Collection-Of-Challenges
-A collection of projects which can be used for training
+# Projects
+
+I want to have a long term relationship with the ideas that I have and implement as software.
+This way I retain the freedom of reimplementing everything in a different techstack and develop training material additionally to the more standard effect of suddenly have a program that I would like to have. After all, sooner or later, everything changes again. Only the requirements stay.
 
 ## A project is to big for today?
 
-The projects in this repository are not designed with duration in mind. Altough there are a few that you can finish in less than in hour there are also several that can take a week or more. Even longer depending on what you want to achieve. After all it is not just about implementing but about reimplementing in other ways and learning this way what would be better in a surrounding that pays you for the job.
+The projects in this repository are not designed with duration in mind. I meank not at all. Most are based on something that I want to have and took the time of at least writing down what I would like. 
+Although there are a few that you can finish in less than in hour there are also several that can take a week or more. Even longer depending on what you want to achieve. After all it is not just about implementing but about reimplementing in other ways and learning this way what would be better in a surrounding that pays you for the job.
 
 If a project is too big for today, you might exercise with these other things:
 
@@ -11,7 +14,7 @@ If a project is too big for today, you might exercise with these other things:
 
 ## Naming convention for repositories
 
-This is not a must, but I recommend it when you find yourself implementing the projects more often and want to retain a certain overview in your github.
+This is not a must, but I recommend it when you find yourself implementing the projects more often and want to retain a certain overview in your github. I certain,y use it.
 
 I recommend the following structure for naming your repositories:
  - first the challenge Id: CHxxx
@@ -26,6 +29,8 @@ examples:
 - CH001-Console-Linux-C-002 
 - CH001-Console-Linux-CSharp
 - CH001-GUI-Win64-CSharp
+
+This might make my repositories a little bit less readable, unless you know what you are looking for. Nontheless it is a more structured approch and it really makes sense in the grand scope of things.
 
 ## The challenge descriptions
 
