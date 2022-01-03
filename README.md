@@ -48,12 +48,14 @@ This might make my repositories a little bit less readable, unless you know what
 - [P013](P013/README.md) - Write an app that can solve sodoku riddles
 - P014 - A full blown rights management with groups, users, individual rights, group rights and data row based rights, but generic, a single platform that you can use for a complete environment
 - P015 - A display, edit and search thing for an organizational structure
+- P016 - create a simple "no operation" app and host it professionally
 - [P021](P021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
 - [P022](P022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 - [P023](P023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes
 - [P024](P024/README.md) - "bld" A generic build script, that autodetects the contents of the repository / directory
 - [P025](P025/README.md) - "dpl" A deployment infrastructure for continuous deployment
 - [P026](P026/README.md) - "cld" A tool to manage virtual machines
+
 
 ## additional ideas to make the training more effective and fun
 
