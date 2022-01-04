@@ -1,11 +1,6 @@
 # "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 
-- [ ] (R001) the scanner/lexer contains token scanners for
-  - [ ] (R002) token that are represendet by a set of valid characters, e.g. all forms of whitespaces
-  - [ ] (R003) tokens that are enframed by certain strings like multiline comments in c# ( "/*" -> "*/" )
-  - [ ] (R004) tokens that can start with one set of characters but continue with another set. E.g. a variable might start with $ but another $ later would mean that another variables name starts.
-  - [ ] maybe more, as many as you need
-- [ ] (R005) there are preconfigured scanners for the following languages
+- [ ] (R005) there are preconfigured scanners/parsers for the following languages
   - [ ] (R006) C#
   - [ ] (R007) T-SQL
 - [ ] (R008) the official output format of the scanner is json
@@ -22,3 +17,13 @@
    
 There are the following additional common rules that apply:
 https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
+# Variants
+
+You can achieve the goals using different approaches. Here are some ideas (based on c# experience).
+- write your own scanner / parser (should work in any language)
+- use existing libraries for the creation of scanners/parsers
+- find the answers using scanner output
+- find the answers using parser output (walking through the abstract syntax tree)
+- find the answers using reflection on the compiled results
+
