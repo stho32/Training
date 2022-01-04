@@ -21,9 +21,9 @@ https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requiremen
 # Variants
 
 You can achieve the goals using different approaches. Here are some ideas (based on c# experience).
-- write your own scanner / parser (should work in any language)
-- use existing libraries for the creation of scanners/parsers
-- find the answers using scanner output
-- find the answers using parser output (walking through the abstract syntax tree)
-- find the answers using reflection on the compiled results
+- (V001) write your own scanner / parser (should work in any language)
+- (V002) use existing libraries for the creation of scanners/parsers
+- (V003) find the answers using scanner output
+- (V004) find the answers using parser output (walking through the abstract syntax tree)
+- (V005) find the answers using reflection on the compiled results
 
