@@ -51,6 +51,7 @@ This might make my repositories a little bit less readable, unless you know what
 - P014 - A full blown rights management with groups, users, individual rights, group rights and data row based rights, but generic, a single platform that you can use for a complete environment
 - P015 - A display, edit and search thing for an organizational structure
 - P016 - create a simple "no operation" app and host and secure it professionally
+- P017 - a tool that can batch-convert the encoding of text files (to help with powershell files)
 - [P021](P021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
 - [P022](P022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 - [P023](P023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes
