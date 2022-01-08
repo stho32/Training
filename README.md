@@ -64,3 +64,14 @@ This might make my repositories a little bit less readable, unless you know what
 
 - Remove your mouse from the computer. Let us see if you are good enough to do the challenge keyboard only.
 - Implement the same project multiple times. Measure the time needed. In every iteration try to finish in half the time.
+
+## degrees of maturity for any task / project
+
+- Level 1: We did the task somehow. It works now. 
+- Level 2: We did the task in below 1 hour.
+- Level 3: All information for doing the task was already available. We did not need to use google or search around anywhere else.
+- Level 4: The task was done during regular working hours.
+- Level 5: We planned to do this task at this time.
+
+
+
