@@ -46,7 +46,7 @@ This might make my repositories a little bit less readable, unless you know what
 - P009 - Create a flexible database environment that is configurable using a ui
 - P010 - Create a task management application with a kanban like view
 - [P011](P011/README.md) - Create an app that helps you buy the right ingredients for a set of meals you want to eat
-- P012 - Take a course in discrete math 😃
+- [P012](https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS&index=1) - Take a course in discrete math 😃
 - [P013](P013/README.md) - Write an app that can solve sodoku riddles
 - [P014](P014/README.md) - "righteous" A full blown rights management 
 - P015 - A display, edit and search thing for an organizational structure
