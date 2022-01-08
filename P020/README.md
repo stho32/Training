@@ -3,7 +3,6 @@
 - [ ] (R001) the scraper has the option to scrape a website with no authentication
 - [ ] (R002) the scraper has the option to scrape a website with basic authentication
 - [ ] (R003) the scraper has the option to scrape a website using forms authentication (cookies)
-
 - [ ] (R004) there is a way to configure what data you want extracted
 - [ ] (R005) the tool returns the information in various formats
   - [ ] (R006) json
