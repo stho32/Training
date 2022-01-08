@@ -48,7 +48,7 @@ This might make my repositories a little bit less readable, unless you know what
 - [P011](P011/README.md) - Create an app that helps you buy the right ingredients for a set of meals you want to eat
 - P012 - Take a course in discrete math 😃
 - [P013](P013/README.md) - Write an app that can solve sodoku riddles
-- P014 - A full blown rights management with groups, users, individual rights, group rights and data row based rights, but generic, a single platform that you can use for a complete environment
+- [P014](P014/README.md) - "righteous" A full blown rights management 
 - P015 - A display, edit and search thing for an organizational structure
 - P016 - create a simple "no operation" app and host and secure it professionally
 - P017 - a tool that can batch-convert the encoding of text files (to help with powershell files)
