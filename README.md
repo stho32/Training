@@ -54,7 +54,7 @@ This might make my repositories a little bit less readable, unless you know what
 - P017 - a tool that can batch-convert the encoding of text files (to help with powershell files)
 - P018 - find a dilemma and create a logic tree as a map to help solve the problem in a specific situation (evaporating cloud/current reality tree)
 - P019 - create scales for a self-defined target using Erfolgsfokussierte Priorisierung (https://www.convek.com/)
-- P020 - write a web scraper and scrape a website
+- [P020](P020/README.md) - write a web scraper for an authenticated website and scrape information from it
 - [P021](P021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
 - [P022](P022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 - [P023](P023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes
