@@ -61,6 +61,8 @@ This might make my repositories a little bit less readable, unless you know what
 - [P024](P024/README.md) - "bld" A generic build script, that autodetects the contents of the repository / directory
 - [P025](P025/README.md) - "dpl" A deployment infrastructure for continuous deployment
 - [P026](P026/README.md) - "cld" A tool to manage virtual machines
+- P027 Gemeinschaftskasse
+- P028 Buy lunch for a team application
 
 
 ## additional ideas to make the training more effective and fun
