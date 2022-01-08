@@ -22,3 +22,10 @@ To simulate this we have this file with common requirements:
 
 If no configuration is needed then it is ok not to implement the configuration stuff.
 But logging is necessary in any circumstance.
+
+
+use this snippet to add these rules to all projects
+```
+There are the following additional common rules that apply:
+https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+```

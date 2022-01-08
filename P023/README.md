@@ -1,5 +1,10 @@
 # "ArgLang" A library to parse command line arguments as if they would be routes
 
+There are the following additional common rules that apply:
+https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
+## Requirements
+
 - (R001) The following library works with code similay to this example (example given in c#, may be modified for other target languages)
 
 ```csharp
@@ -30,6 +35,4 @@
   - (R007) There is a way to add aliases to arguments, e.g. --ftp can be abbreviated as -f
   - (R008) "--ignores" is correctly handled as optional argument
 
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
 

@@ -2,6 +2,11 @@
 
 (Although named "build script" the script can be a compiled tool as well.)
 
+There are the following additional common rules that apply:
+https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
+## Requirements
+
 - [ ] (R001) When run, the script will search the directory tree from its current working directory recursivly
 - [ ] (R002) It will autodetect types of programming languages, at least two. Possible ideas:
   - C#
@@ -18,6 +23,4 @@
   - [ ] (R006) automatically execute all contained unit tests
   - [ ] (R007) create a release directory and copy all essential stuff into it
 
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
 

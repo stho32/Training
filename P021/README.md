@@ -1,6 +1,9 @@
 # "mailrules" an imap based email rule engine with your own spam filter
 
-## Anforderungen
+There are the following additional common rules that apply:
+https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
+## Requirements
 
 - [ ] (R001) The app connects to your e-mail account using imap. (Use an interface for the connection method, so you can change or extend the ways the connection works later.)
 
@@ -55,6 +58,5 @@
 - [ ] (R046) there is a test mode which only lists which formulas would be fulfilled and why but does not execute the actions
 - [ ] (R047) there is a mode in which all actions are executed accordingly
 
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
 

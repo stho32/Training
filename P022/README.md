@@ -1,5 +1,10 @@
 # "code2json" a scanner/parser that will convert your code to easily processable json for analytics
 
+There are the following additional common rules that apply:
+https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
+## Requirements
+
 - [ ] (R005) there are preconfigured scanners/parsers for the following languages
   - [ ] (R006) C#
   - [ ] (R007) T-SQL
@@ -15,8 +20,6 @@
   - [ ] (R018) From which other classes or interfaces are those classes derived from (only direct parents)?
   - [ ] (R019) When you resolve all the direct parents parents, what are the root classes and/or interfaces of each class? E.g. if "Scanner" is derived from "ScannerBase" which is derived from "IScanner" then the root of Scanner is "IScanner".
    
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
 
 # Variants
 

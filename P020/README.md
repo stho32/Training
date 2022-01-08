@@ -1,5 +1,10 @@
 # write a web scraper
 
+There are the following additional common rules that apply:
+https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+
+## Requirements
+
 - [ ] (R001) the scraper has the option to scrape a website with no authentication
 - [ ] (R002) the scraper has the option to scrape a website with basic authentication
 - [ ] (R003) the scraper has the option to scrape a website using forms authentication (cookies)
@@ -8,9 +13,6 @@
   - [ ] (R006) json
   - [ ] (R007) csv
 
-
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
 
 ## Variants
 
