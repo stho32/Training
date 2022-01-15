@@ -46,7 +46,7 @@ This might make my repositories a little bit less readable, unless you know what
 - [P004](P004/README.md) - Create a game of Tic-Tac-Toe complete with an AI you can play against
 - [P005](P005/README.md) - Create a vocabulary trainer that supports a diverse set of different question types and learning methods
 - [P006](P006/README.md) - Create a tool to record your working time
-- [P007](P007/README.md)
+- [P007](P007/README.md) - The principles
 - [P008](P008/README.md) - Create a network chat application
 - [P009](P009/README.md) - Create a flexible database environment that is configurable using a ui
 - [P010](P010/README.md) - Create a task management application with a kanban like view
