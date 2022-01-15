@@ -36,7 +36,7 @@ This might make my repositories a little bit less readable, unless you know what
 
 ## The projects
 
-- [P001](P001/README.md) - A random stuff generator ( [C](https://github.com/stho32/P001-Console-Linux-C), [CSharp](https://github.com/stho32/P001-Console-Linux-CSharp),  [Rust](https://github.com/stho32/P001-Console-Linux-Rust) )
+- [P001](P001/README.md) - A random stuff generator ( [Known implementations](P001/KnownImplementations.md) ) 
 - [P002](P002/README.md) - Grab a random saying and make the app read it out loud for you
 - [P003](P003/README.md) - Implement a dice game
 - [P004](P004/README.md) - Create a game of Tic-Tac-Toe complete with an AI you can play against
