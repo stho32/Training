@@ -29,8 +29,8 @@ examples:
 This might make my repositories a little bit less readable, unless you know what you are looking for. Nontheless it is a more structured approch and it really makes sense in the grand scope of things.
 
 ## Environment / Base Projects
-- [BP001](BP001/README.md) - create a project template for your projects (BP001/KnownImplementations.md))
-- [BP002](BP002/README.md) - create an environment-application for your coding endeavours (BP002/KnownImplementations.md))
+- [BP001](BP001/README.md) - create a project template for your projects ([implementations](BP001/KnownImplementations.md))
+- [BP002](BP002/README.md) - create an environment-application for your coding endeavours ([implementations](BP002/KnownImplementations.md))
 
 ## The projects
 
