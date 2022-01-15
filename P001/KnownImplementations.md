@@ -4,4 +4,5 @@
 - [P001-Console-Linux-CSharp](https://github.com/stho32/P001-Console-Linux-CSharp)
 - [P001-Console-Linux-CSharp-Iteration01](https://github.com/stho32/P001-Console-Linux-CSharp-Iteration01)
 - [P001-Console-Linux-Rust](https://github.com/stho32/P001-Console-Linux-Rust)
+- [P001-Console-X-Powershell-001](https://github.com/stho32/P001-Console-X-Powershell-001)
 - [P001-WebApi-Linux-Typescript](https://github.com/stho32/P001-WebApi-Linux-Typescript)
