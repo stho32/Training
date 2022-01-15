@@ -39,21 +39,22 @@ This might make my repositories a little bit less readable, unless you know what
 - [P001](P001/README.md) - A random stuff generator ( [C](https://github.com/stho32/P001-Console-Linux-C), [CSharp](https://github.com/stho32/P001-Console-Linux-CSharp),  [Rust](https://github.com/stho32/P001-Console-Linux-Rust) )
 - [P002](P002/README.md) - Grab a random saying and make the app read it out loud for you
 - [P003](P003/README.md) - Implement a dice game
-- P004 - Create a game of Tic-Tac-Toe complete with an AI you can play against
-- P005 - Create a vocabulary trainer that supports a diverse set of different question types and learning methods
-- P006 - Create a tool to record your working time
-- P008 - Create a network chat application
-- P009 - Create a flexible database environment that is configurable using a ui
-- P010 - Create a task management application with a kanban like view
+- [P004](P004/README.md) - Create a game of Tic-Tac-Toe complete with an AI you can play against
+- [P005](P005/README.md) - Create a vocabulary trainer that supports a diverse set of different question types and learning methods
+- [P006](P006/README.md) - Create a tool to record your working time
+- [P007](P007/README.md)
+- [P008](P008/README.md) - Create a network chat application
+- [P009](P009/README.md) - Create a flexible database environment that is configurable using a ui
+- [P010](P010/README.md) - Create a task management application with a kanban like view
 - [P011](P011/README.md) - Create an app that helps you buy the right ingredients for a set of meals you want to eat
 - [P012](https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS&index=1) - Take a course in discrete math 😃
 - [P013](P013/README.md) - Write an app that can solve sodoku riddles
 - [P014](P014/README.md) - "righteous" A full blown rights management 
-- P015 - A display, edit and search thing for an organizational structure
-- P016 - create a simple "no operation" app and host and secure it professionally
-- P017 - a tool that can batch-convert the encoding of text files (to help with powershell files)
-- P018 - find a dilemma and create a logic tree as a map to help solve the problem in a specific situation (evaporating cloud/current reality tree)
-- P019 - create scales for a self-defined target using Erfolgsfokussierte Priorisierung (https://www.convek.com/)
+- [P015](P015/README.md) - A display, edit and search thing for an organizational structure
+- [P016](P016/README.md) - create a simple "no operation" app and host and secure it professionally
+- [P017](P017/README.md) - a tool that can batch-convert the encoding of text files (to help with powershell files)
+- [P018](P018/README.md) - find a dilemma and create a logic tree as a map to help solve the problem in a specific situation (evaporating cloud/current reality tree)
+- [P019](P019/README.md) - create scales for a self-defined target using Erfolgsfokussierte Priorisierung (https://www.convek.com/)
 - [P020](P020/README.md) - "itchy" write a sophisticated web scraper
 - [P021](P021/README.md) - "mailrules" an imap based email rule engine with your own spam filter
 - [P022](P022/README.md) - "code2json" a scanner/parser that will convert your code to easily processable json for analytics
@@ -61,8 +62,8 @@ This might make my repositories a little bit less readable, unless you know what
 - [P024](P024/README.md) - "bld" A generic build script, that autodetects the contents of the repository / directory
 - [P025](P025/README.md) - "dpl" A deployment infrastructure for continuous deployment
 - [P026](P026/README.md) - "cld" A tool to manage virtual machines
-- P027 Gemeinschaftskasse
-- P028 Buy lunch for a team application
+- [P027](P027/README.md) - Gemeinschaftskasse
+- [P028](P028/README.md) - Buy lunch for a team application
 
 
 ## additional ideas to make the training more effective and fun
