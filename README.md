@@ -6,12 +6,6 @@ By retaining the requirements I get a few positive side effects.
 2) I can reimplement projects using different tech stacks and approaches, thus get more depth.
 3) I do not forget anymore what I wanted to achieve.
 
-## A project is to big for today?
-
-If a project is too big for today, you might exercise with these other things:
-
-- https://www.hackerrank.com/ 
-
 ## Naming convention for repositories
 
 This is not a must, but I recommend it when you find yourself implementing the projects more often and want to retain a certain overview in your github. I certainly use it.
