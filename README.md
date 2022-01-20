@@ -32,9 +32,16 @@ This might make my repositories a little bit less readable, unless you know what
 - [BP001](BP001/README.md) - create a project template for your projects ([implementations](BP001/KnownImplementations.md))
 - [BP002](BP002/README.md) - create an environment-application for your coding endeavours ([implementations](BP002/KnownImplementations.md))
 
+## Meta/Tool Projects
+
+- [M001](M001/README.md) - A code generator that reads a database table structure and generates code (in a window) for copy and paste
+- M002 - A SQL Code Formatter
+- M003 - A core library that helps you in a bunch of projects
+
 ## The projects
 
 - [P001](P001/README.md) - A random stuff generator ([implementations](P001/KnownImplementations.md))
+    - [P001-2](P001-2/README.md) A Password Manager ([implementations](P001-2/KnownImplementations.md))
 - [P002](P002/README.md) - Grab a random saying and make the app read it out loud for you ([implementations](P002/KnownImplementations.md))
 - [P003](P003/README.md) - Implement a dice game ([implementations](P003/KnownImplementations.md))
 - [P004](P004/README.md) - Create a game of Tic-Tac-Toe complete with an AI you can play against ([implementations](P004/KnownImplementations.md))
