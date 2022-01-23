@@ -9,6 +9,7 @@ By retaining the requirements I get a few positive side effects.
 ## Get Started
 - [Using git and github](git-and-github.md)
 - [Naming convention](Naming-convention.md)
+- [Reading List](Reading-List.md)
 
 ## Environment / Base Projects
 - [BP001](BP001/README.md) - create a project template for your projects ([implementations](BP001/KnownImplementations.md))
