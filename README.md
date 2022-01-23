@@ -6,6 +6,8 @@ By retaining the requirements I get a few positive side effects.
 2) I can reimplement projects using different tech stacks and approaches, thus get more depth.
 3) I do not forget anymore what I wanted to achieve.
 
+The long term goal is to create a training program to help people become extraordinary and professional software developers.
+
 ## Get Started
 - [Using git and github](git-and-github.md)
 - [Naming convention](Naming-convention.md)
