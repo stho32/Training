@@ -1,7 +1,9 @@
-# Projects
+# Training program
 
 The long term goal of this repository is to create a training program to help people become extraordinary and professional software developers.
 As I am a coder myself, it helps me to organize my own training as well, which means that I "eat my own dogfood".
+
+I believe strongly that the only way to be a professional programmer is to train a bit every day. (Robert C. Martin actually sets the time to 3 hours a day. I am not sure if I am able to achieve this but I am willing to try.)
 
 ## Get Started
 - [Using git and github](git-and-github.md)
