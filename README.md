@@ -12,9 +12,9 @@ I recommend working on the training in a group of at least two, maybe with someo
 
 There are some things you should know at least to get started.  
 
-- [Using git and github](git-and-github.md) Without an understanding of git and github you cannot share your work efficiently.
-- [Naming convention](Naming-convention.md) Understanding and using the naming convention will help you organize your github-Repositories in a way that you get less confused, when, e.g. you have finally collected 10 different approaches to implement a certain project... 
-- [Reading List](Reading-List.md) A collection of books with short summaries of what help you can expect from it depending on your situation.
+- [Using git and github](GetStarted/git-and-github.md) Without an understanding of git and github you cannot share your work efficiently.
+- [Naming convention](GetStarted/Naming-convention.md) Understanding and using the naming convention will help you organize your github-Repositories in a way that you get less confused, when, e.g. you have finally collected 10 different approaches to implement a certain project... 
+- [Reading List](GetStarted/Reading-List.md) A collection of books with short summaries of what help you can expect from it depending on your situation.
 
 ## Environment / Base Projects
 
