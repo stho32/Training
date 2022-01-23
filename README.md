@@ -1,12 +1,7 @@
 # Projects
 
-I want to have a long term relationship with the ideas that I have and implement as software.
-By retaining the requirements I get a few positive side effects. 
-1) I can use the same projects as training material for fun with other developers.
-2) I can reimplement projects using different tech stacks and approaches, thus get more depth.
-3) I do not forget anymore what I wanted to achieve.
-
-The long term goal is to create a training program to help people become extraordinary and professional software developers.
+The long term goal of this repository is to create a training program to help people become extraordinary and professional software developers.
+As I am a coder myself, it helps me to organize my own training as well, which means that I "eat my own dogfood".
 
 ## Get Started
 - [Using git and github](git-and-github.md)
