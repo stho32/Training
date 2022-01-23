@@ -15,14 +15,20 @@ There are some things you should know at least to get startet.
 - [Reading List](Reading-List.md) A collection of books with short summaries of what help you can expect from it depending on your situation.
 
 ## Environment / Base Projects
+
+Working in a more professional context means, that there are some things you need to share in your group.
+
 - [BP001](BaseProjects/BP001/README.md) - create a project template for your projects ([implementations](BaseProjects/BP001/KnownImplementations.md))
 - [BP002](BaseProjects/BP002/README.md) - create an environment-application for your coding endeavours ([implementations](BaseProjects/BP002/KnownImplementations.md))
 
 ## Meta/Tool Projects
 
+Here is a bunch of meta projects that you should have available in a group, so when you are coding for the same company all applications have a common ground.
+
 - [M001](ToolProjects/M001/README.md) - A code generator that reads a database table structure and generates code (in a window) for copy and paste ([implementations](ToolProjects/M001/KnownImplementations.md))
 - M002 - A SQL Code Formatter
 - M003 - A core library that helps you in a bunch of projects
+- M004 - A style guide that builds the html,css and javascript you need and has a good documentation, so that your apps all look and behave alike
 
 ## The projects
 
