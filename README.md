@@ -7,9 +7,12 @@ The long term goal of this repository is to create a training program to help pe
 As I am a coder myself, it helps me to organize my own training as well, which means that I "eat my own dogfood".
 
 ## Get Started
-- [Using git and github](git-and-github.md)
-- [Naming convention](Naming-convention.md)
-- [Reading List](Reading-List.md)
+
+There are some things you should know at least to get startet.  
+
+- [Using git and github](git-and-github.md) Without an understanding of git and github you cannot share your work efficiently.
+- [Naming convention](Naming-convention.md) Understanding and using the naming convention will help you organize your github-Repositories in a way that you get less confused, when, e.g. you have finally collected 10 different approaches to implement a certain project... 
+- [Reading List](Reading-List.md) A collection of books with short summaries of what help you can expect from it depending on your situation.
 
 ## Environment / Base Projects
 - [BP001](BaseProjects/BP001/README.md) - create a project template for your projects ([implementations](BaseProjects/BP001/KnownImplementations.md))
