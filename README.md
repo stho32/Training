@@ -1,4 +1,4 @@
-# Developer Training program :mortar_board:
+# Developer Training Program :mortar_board:
 
 [![CodeFactor](https://www.codefactor.io/repository/github/stho32/training/badge)](https://www.codefactor.io/repository/github/stho32/training)
 
