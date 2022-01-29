@@ -10,7 +10,7 @@ As I am a coder myself, it helps me to organize my own training as well, which m
 
 I recommend working on the training in a small group of at least two. The requirements are "business centric", not tech-stack-centric. Technologies change. requirements stay. Thus you can again and again revisit the same projects using new tech and trying out new approaches.
 
-## Getting people started on the basics
+## The very basics
 
 There are some things you should know at least to get started.  
 
