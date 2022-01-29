@@ -8,7 +8,7 @@ The long term goal of this repository is to create a training program to help pe
 
 As I am a coder myself, it helps me to organize my own training as well, which means that I "eat my own dogfood".
 
-I recommend working on the training in a small group of at least two. The requirements are "business centric", not tech-stack-centric. Technologies change. requirements stay. Thus you can again and again revisit the same projects using new tech and trying out new approaches.
+I recommend working on the training in a small group of at least two. The requirements are "business centric", not tech-stack-centric. Technologies change. requirements stay. Thus you can again and again revisit the same projects using new tech and try out new approaches.
 
 ## The very basics
 
