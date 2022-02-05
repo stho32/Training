@@ -34,6 +34,7 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - M002 - A SQL Code Formatter
 - M003 - A core library that helps you in a bunch of projects
 - M004 - A style guide that builds the html,css and javascript you need and has a good documentation, so that your apps all look and behave alike
+- [M005](ToolProjects/M005/README.md) - "prov" Provisioning infrastructure and development environments
 
 ## The projects
 
@@ -77,8 +78,6 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - [P024](Projects/P024/README.md) - "bld" A generic build script, that autodetects the contents of the repository / directory ([implementations](Projects/P024/KnownImplementations.md))
 - [P025](Projects/P025/README.md) - "dpl" A deployment infrastructure for continuous deployment ([implementations](Projects/P025/KnownImplementations.md))
 - [P026](Projects/P026/README.md) - "cld" A tool to manage virtual machines ([implementations](Projects/P026/KnownImplementations.md))
-- []
-
 
 ### Level "Strange"
 
