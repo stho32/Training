@@ -22,8 +22,9 @@ When you get stuck and do not know what you need, take 1..n of the projects you 
 ### locations
 
 - [ ] You can easily set up an environment on a hoster, like vultr.
-- [ ] You can easily set up a environment on your local computer.
+- [ ] You can easily set up a vm environment on your local computer.
 - [ ] You can easily install a local machine to make it the way you need it. E.g. a physical laptop. Not a virtual machine.
+- [ ] You can easily create docker containers.
 
 ### variants
 
