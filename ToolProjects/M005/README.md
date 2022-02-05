@@ -3,11 +3,11 @@
 When working as a software developer you will constantly need to install stuff and document what you have done. 
 
 This is necessary to e.g.:
+- create consistent developer environments for your developer group
+- create consistent build machines for your continuous integration workflow
 - create test environments
 - create staging environments
 - create production environments (at least you have to be able to communicate the needs to system administrators)
-- create consistent developer environments for your developer group
-- create consistent build machines for your continuous integration workflow
 
 Optimally you document in a way that is repeatable and can be executed automatically.
 
