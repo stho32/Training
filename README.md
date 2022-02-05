@@ -52,7 +52,7 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - [P006](Projects/P006/README.md) - Create a tool to record your working time ([implementations](Projects/P006/KnownImplementations.md))
 - [P020](Projects/P020/README.md) - "itchy" write a sophisticated web scraper ([implementations](Projects/P020/KnownImplementations.md))
 - [P021](Projects/P021/README.md) - "mailrules" an imap based email rule engine with your own spam filter ([implementations](Projects/P021/KnownImplementations.md))
-- [P029](Projects/P029/README.md) - Number groups in markdown files
+- [P029](Projects/P029/README.md) - "numbermd" a tool for working with number groups in markdown files
 
 ### Level 2
 
