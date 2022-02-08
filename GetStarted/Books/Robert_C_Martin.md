@@ -117,4 +117,14 @@ The author explains what a professional software developer should follow as his 
   - Integrity
   - Teamwork
 
+## Clean Agile: Back to Basics
 
+When you want to know what agile development is and how it came to be, the book is for you.
+
+- Introduction to Agile
+- The Reasons for Agile
+- Business Practices
+- Team Practices
+- Technical Practices
+- Becoming Agile
+- Craftmanship
