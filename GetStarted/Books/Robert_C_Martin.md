@@ -21,7 +21,7 @@ Content:
 - Pressure
 - Collaboration
 - Teams and Projects
-- Mentoring, Apprenticeship and Craftmansship
+- Mentoring, Apprenticeship and Craftmanship
 
 ## Clean Code: A Handbook of Agile Software Craftsmanship
 
