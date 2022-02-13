@@ -100,5 +100,14 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - Level 4: The task was done during regular working hours.
 - Level 5: We planned to do this task at this time.
 
+## Developer Levels
 
+- Level 1: Tinkering around, mostly using google, copying stuff, maybe did a first tutorial
+- Level 2: Did grasp the basic concepts: variables, loops, ...
+- Level 3: Has created a first project of his own, that is something he/she can personally use, all by him-/herself.
+- Level 4: Grasped classes and inheritance, did code at least 10 projects including classes, some of them are libraries to use with other projects.
+- Level 5: Can read and work with other peoples code. 
+- Level 6: Has an understanding of the SOLID principles and uses object oriented design.
+- Level 7: Uses the principles and unit tests to create understandable code that can be used and maintained by others.
+- Level 8: Finds a new technology, methodology or something else and goes back to Level 1.
 
