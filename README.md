@@ -71,6 +71,7 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - [P010](Projects/P010/README.md) - Create a task management application with a kanban like view ([implementations](Projects/P010/KnownImplementations.md))
 - [P014](Projects/P014/README.md) - "righteous" A full blown rights management  ([implementations](Projects/P014/KnownImplementations.md))
 - [P023](Projects/P023/README.md) - "ArgLang" A library to parse command line arguments as if they would be routes ([implementations](Projects/P023/KnownImplementations.md))
+- [P030](Projects/P030/README.md) - design patterns
 
 ### Level 4
 - [P013](Projects/P013/README.md) - Write an app that can solve sodoku riddles ([implementations](Projects/P013/KnownImplementations.md))
