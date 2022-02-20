@@ -12,7 +12,7 @@ Implement the following patterns in the language of your choice:
 
 - [ ] Structural Patterns
     - [ ] Adapter
-    - [ ] Bridge (https://www.youtube.com/watch?v=9jIgSsIfh_8)
+    - [ ] **Bridge** (https://www.youtube.com/watch?v=9jIgSsIfh_8) <br>Progressivly adding functionality while seperating out major differences into separate classes
     - [ ] Composite
     - [ ] Decorator
     - [ ] Facade
