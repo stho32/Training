@@ -95,6 +95,8 @@ Implement the following patterns in the language of your choice:
   - The invoker issues a request by calling Execute on the command. When commands are undoable, ConcreteCommand stores state for undoing the command prior to invoking Execute.
   - The ConcreteCommand object invokes operations on its receiver to carry out the request.
 
+https://www.youtube.com/watch?v=zRbHlDeon3E
+
 ### Interpreter
 
 - [Gamma1995], p. 246:
