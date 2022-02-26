@@ -140,6 +140,8 @@ https://www.youtube.com/watch?v=zRbHlDeon3E
   - Strategy and Context interact to implement the chosen algorithm. A context may pass all data required by the algorithm to the stategy when the algorithm is called. Alternativly, the context can pass itself as an argument to Strategy operations. That lets the strategy call back on the context as required.
   - A context forwards requests from its clients to its strategy. Clients usually create and pass a ConcreteStrategy object to the context; thereafter, clients interact with the context exclusively. There is often a family of ConcreteStrategy classes for a client to choose from.
 
+https://www.youtube.com/watch?v=QZIvlny1Onk
+
 ### Template Method
 
 - [Gamma1995], p. 327:
@@ -159,3 +161,4 @@ https://www.youtube.com/watch?v=zRbHlDeon3E
 - [X] [Gamma1995](https://www.amazon.de/Patterns-Elements-Reusable-Object-Oriented-Software/dp/0201633612/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=169HFZV3RS1XT&keywords=Design+Patterns&qid=1645804329&sprefix=design+patterns+%2Caps%2C94&sr=8-1) Design Patterns - Elements of Reuseable Object-Oriented Software
 - [ ] [Geirhos2015](https://www.amazon.de/Entwurfsmuster-umfassende-Handbuch-Matthias-Geirhos/dp/3836227622/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=JFWOZ44IY034&keywords=Entwurfsmuster+-+das+umfassende+Buch&qid=1645804344&sprefix=entwurfsmuster+-+das+umfassende+buch%2Caps%2C73&sr=8-3) Entwurfsmuster - das umfassende Buch
 - [ ] [Freeman2020](https://www.amazon.de/Head-First-Design-Patterns-Object-Oriented/dp/149207800X/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=33FBW8Q5AO3LZ&keywords=Building+Extensible+%26+Maintainable+Object-Oriented+Software&qid=1645804370&sprefix=building+extensible+%26+maintainable+object-oriented+software%2Caps%2C63&sr=8-1) Head First, Design Patterns - Building Extensible & Maintainable Object-Oriented Software, Second Edition
+- [ ] wikipedia
