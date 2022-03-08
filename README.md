@@ -112,3 +112,8 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - Level 7: Uses the principles and unit tests to create understandable code that can be used and maintained by others.
 - Level 8: Finds a new technology, methodology or something else and goes back to Level 1.
 
+## Algorithm based training
+
+- https://www.hackerrank.com/
+- https://www.codewars.com/
+- https://leetcode.com/ (e.g. https://leetcode.com/problems/maximum-subarray/)
