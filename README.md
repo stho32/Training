@@ -117,3 +117,12 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - https://www.hackerrank.com/
 - https://www.codewars.com/
 - https://leetcode.com/ (e.g. https://leetcode.com/problems/maximum-subarray/)
+
+## Priorisation Techniques
+
+- User Story
+- EFP
+- Logic Tree
+- Kanban
+
+
