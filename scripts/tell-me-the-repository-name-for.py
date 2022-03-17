@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
     It has become quite cumbersome to get the names for repositories right.
     This tool will help you.
