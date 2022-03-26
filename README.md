@@ -118,6 +118,10 @@ Here is a bunch of meta projects that you should have available in a group, so w
 - https://www.codewars.com/
 - https://leetcode.com/ (e.g. https://leetcode.com/problems/maximum-subarray/)
 
+## Security
+
+- https://tryhackme.com/hacktivities
+
 ## Priorisation Techniques
 
 - User Story
