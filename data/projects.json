@@ -7,12 +7,51 @@
             {
                 "id": "BP001",
                 "title": "Project Template",
+                "nickname": "template",
                 "subtitle": "create a project template for your group"
             },
             {
                 "id": "BP002",
                 "title": "Runtime Environment",
+                "nickname": "runtime",
                 "subtitle": "create a common environment for your groups projects to share configuration and logging"
+            }
+        ]
+    },
+    {
+        "name": "Tool Projects",
+        "description": "Projects that describe tools that might be of use. They do not become part of your groups code base, but help to achieve better results faster.",
+        "folder": "ToolProjects",
+        "projects": [
+            {
+                "id": "M001",
+                "title": "Database Based Code Generator",
+                "nickname": "genny",
+                "subtitle": "A code generator that reads a database table structure and generates code (in a window) for copy and paste"
+            },
+            {
+                "id": "M002",
+                "title": "SQL Code Formatter",
+                "nickname": "sqlformat",
+                "subtitle": "I bet your team knows a thousand ways to format the sql. Maybe a common standard would help."
+            },
+            {
+                "id": "M003",
+                "title": "Shared Library",
+                "nickname": "corelib",
+                "subtitle": "Your team needs to achieve certain things in a common way. A library that supports them doing that can reduce trouble and code."
+            },
+            {
+                "id": "M004",
+                "title": "Style Guide",
+                "nickname": "style",
+                "subtitle": "A style guide that builds the html,css and javascript you need and has a good documentation, so that your apps all look and behave alike"
+            },
+            {
+                "id": "M005",
+                "title": "Provisioning Toolset",
+                "nickname": "prov",
+                "subtitle": "You need a way to provision production, test and development environments"
             }
         ]
     }

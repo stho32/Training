@@ -23,17 +23,7 @@ There are some things you should know at least to get started.
 ## Projects
 
 - [Environment / Base Projects](BaseProjects/README.md)
-
-
-## Meta/Tool Projects
-
-Here is a bunch of meta projects that you should have available in a group, so when you are coding for the same company all applications have a common ground.
-
-- [M001](ToolProjects/M001/README.md) - A code generator that reads a database table structure and generates code (in a window) for copy and paste ([implementations](ToolProjects/M001/KnownImplementations.md))
-- M002 - A SQL Code Formatter
-- M003 - A core library that helps you in a bunch of projects
-- M004 - A style guide that builds the html,css and javascript you need and has a good documentation, so that your apps all look and behave alike
-- [M005](ToolProjects/M005/README.md) - "prov" Provisioning infrastructure and development environments
+- [Tool Projects](ToolProjects/README.md)
 
 ## The projects
 
