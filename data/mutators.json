@@ -1,0 +1,12 @@
+[
+    {
+        "id" : "K",
+        "text" : "Keys Only! Remove your mouse from the computer. You are only allowed to user the keyboard. If you have a pair programmer with you, he is in charge of helping you find the right key combinations.",
+        "probabilityInPercent" : 5
+    },
+    {
+        "id" : "T",
+        "text" : "Time Matters! Take 30 Minutes and try to implement the solution. After the round you are allowed to take notes and think about how to get faster. The next round starts without code again.",
+        "probabilityInPercent" : 5
+    }
+]

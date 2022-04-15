@@ -1,6 +1,10 @@
 # Developer Training Program :mortar_board:
 
 This is a repository dedicated to coding training. 
+Essentially it is a collection of requirement sets for projects. It also contains a python script `choose-random-project.py` which will help you to randomly select a challenge, programming language, project type and some mutators.
+
+![Start a training session](screen.jpg)
+
 
 1. [Foreword](Foreword.md)
 
