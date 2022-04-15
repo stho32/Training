@@ -1,0 +1,19 @@
+[
+    {
+        "category": "Environment / Base Projects",
+        "description": "Working in a more professional context means, that there are some things you need to share in your group. These projects should help you with that.",
+        "folder": "BaseProjects",
+        "projects": [
+            {
+                "id": "BP001",
+                "title": "Project Template",
+                "subtitle": "create a project template for your group"
+            },
+            {
+                "id": "BP002",
+                "title": "Runtime Environment",
+                "subtitle": "create a common environment for your groups projects to share configuration and logging"
+            }
+        ]
+    }
+]
