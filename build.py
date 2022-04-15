@@ -37,7 +37,10 @@ def create_category_markdown(category) -> str:
     result.append("")
     result.append("")
 
-    for project in category["projects"]:
+    projects = category["projects"]
+    projects = sorted(projects, key=lambda d: d['id']) 
+
+    for project in projects:
         result.append(create_project_markdown(project, category))
 
     return '\n'.join(result)
