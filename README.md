@@ -20,12 +20,10 @@ There are some things you should know at least to get started.
 - [Watching List](GetStarted/Good-Videos.md) A list of videos
 - [GitHub Badges that might help](GetStarted/github-badges.md) GitHub has small little badges that help you demonstrate your skill and verify certain things about your repository
 
-## Environment / Base Projects
+## Projects
 
-Working in a more professional context means, that there are some things you need to share in your group.
+- [Environment / Base Projects](BaseProjects/README.md)
 
-- [BP001](BaseProjects/BP001/README.md) - create a project template for your projects ([implementations](BaseProjects/BP001/KnownImplementations.md))
-- [BP002](BaseProjects/BP002/README.md) - create an environment-application for your coding endeavours ([implementations](BaseProjects/BP002/KnownImplementations.md))
 
 ## Meta/Tool Projects
 
