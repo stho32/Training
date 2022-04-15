@@ -10,7 +10,7 @@ This is a repository dedicated to coding training.
 
     2. [Tool Projects](ToolProjects/README.md)
 
-    3. [Projects to try yourself out](Projects/README.md)
+    3. [Product simulating projects](Projects/README.md)
 
 3. [Attachments](Attachments.md)
 
