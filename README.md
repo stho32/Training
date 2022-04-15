@@ -1,30 +1,20 @@
 # Developer Training Program :mortar_board:
 
-I believe strongly that the only way to be a professional programmer is to train a bit every day, at least a few hours per week. (Robert C. Martin actually sets the time to 3 hours a day. I am not sure if I am able to achieve this but I am willing to try.)
+This is a repository dedicated to coding training. 
 
-The long term goal of this repository is to create a training program to help people become extraordinary and professional software developers. People that are trained this way should have an awesome knowledge base that they share, which enables them to work together in a company or group of their choice while circumventing the problems that the normal confusion "what it means to be a professional software developer" brings with it.
+1. [Foreword](Foreword.md)
 
-As I am a coder myself, it helps me to organize my own training as well, which means that I "eat my own dogfood".
+2. Training Projects
 
-I recommend working on the training in a small group of at least two. The requirements are "business centric", not tech-stack-centric. Technologies change. requirements stay. Thus you can again and again revisit the same projects using new tech and try out new approaches.
+    1. [Environment / Base Projects](BaseProjects/README.md)
 
-## The very basics
+    2. [Tool Projects](ToolProjects/README.md)
 
-There are some things you should know at least to get started.  
+    3. [Projects to try yourself out](Projects/README.md)
 
-- [Using git and github](GetStarted/git-and-github.md) Without an understanding of git and github you cannot share your work efficiently.
-- [Naming convention](GetStarted/Naming-convention.md) Understanding and using the naming convention will help you organize your github-Repositories in a way that you get less confused, when, e.g. you have finally collected 10 different approaches to implement a certain project... 
-- [Authors](GetStarted/Books/index.md) A collection of good authors and their works so you can look for topics of interest and gain deeper understanding.
-- [Watching List](GetStarted/Good-Videos.md) A list of videos
-- [GitHub Badges that might help](GetStarted/github-badges.md) GitHub has small little badges that help you demonstrate your skill and verify certain things about your repository
+3. [Attachments](Attachments.md)
 
-## Projects
-
-- [Environment / Base Projects](BaseProjects/README.md)
-- [Tool Projects](ToolProjects/README.md)
-
-- [Projects to try yourself out](Projects/README.md)
-
+----
 
 ## additional ideas to make the training more effective and fun
 
