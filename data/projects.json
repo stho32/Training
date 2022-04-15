@@ -54,5 +54,222 @@
                 "subtitle": "You need a way to provision production, test and development environments"
             }
         ]
+    },
+    {
+        "name": "Projects",
+        "description": "Try these projects together and grow in understanding",
+        "folder": "Projects",
+        "projects": [
+            {
+                "id": "P001",
+                "title": "Random Stuff Generator",
+                "nickname": "random",
+                "subtitle": "Generate random numbers, passwords and animals",
+                "level" : 0
+            },
+            {
+                "id": "P001-2",
+                "title": "Password Manager",
+                "nickname": "passman",
+                "subtitle": "Write a password manager",
+                "level" : 0
+            },
+            {
+                "id": "P003",
+                "title": "Implement a dice game",
+                "nickname": "dices",
+                "subtitle": "",
+                "level" : 0
+            },
+            {
+                "id": "P005",
+                "title": "Vocabulary Training",
+                "nickname": "vocabu",
+                "subtitle": "Create a vocabulary trainer that supports a diverse set of different question types and learning methods",
+                "level" : 1
+            },
+            {
+                "id": "P006",
+                "title": "Time Tracker",
+                "nickname": "trackit",
+                "subtitle": "Create a tool to record your working time",
+                "level" : 1
+            },
+            {
+                "id": "P017",
+                "title": "Batch convert file encodings",
+                "nickname": "convert",
+                "subtitle": "Mass update file encodings",
+                "level" : 0
+            },
+            {
+                "id": "P020",
+                "title": "Web scraper",
+                "nickname": "itchy",
+                "subtitle": "write a sophisticated web scraper",
+                "level" : 1
+            },
+            {
+                "id": "P021",
+                "title": "Email rule engine",
+                "nickname": "mailrules",
+                "subtitle": "automate sorting and cleaning up your mails",
+                "level" : 1
+            },
+            {
+                "id": "P027",
+                "title": "Splitting costs in a group of people",
+                "nickname": "split",
+                "subtitle": "",
+                "level" : 0
+            },
+            {
+                "id": "P029",
+                "title": "Markdown Enumeration",
+                "nickname": "numbermd",
+                "subtitle": "a tool for working with number groups in markdown files",
+                "level" : 1
+            },
+            {
+                "id": "P004",
+                "title": "Tic-Tac-Toe",
+                "nickname": "tic",
+                "subtitle": "Create a game of Tic-Tac-Toe complete with an AI you can play against",
+                "level" : 2
+            },
+            {
+                "id": "P008",
+                "title": "Chat Application",
+                "nickname": "chat",
+                "subtitle": "Create a network chat application",
+                "level" : 2
+            },
+            {
+                "id": "P011",
+                "title": "Cooking Helper",
+                "nickname": "cook",
+                "subtitle": "Create an app that helps you buy the right ingredients for a set of meals you want to eat",
+                "level" : 2
+            },
+            {
+                "id": "P015",
+                "title": "Organizational View",
+                "nickname": "orgview",
+                "subtitle": "A display, edit and search thing for an organizational structure",
+                "level" : 2
+            },
+            {
+                "id": "P028",
+                "title": "Buy lunch for a bunch using mixed payments",
+                "nickname": "feed",
+                "subtitle": "Buy lunch for a team application",
+                "level" : 2
+            },
+            {
+                "id": "P007",
+                "title": "Principles",
+                "nickname": "principles",
+                "subtitle": "Train some principles of software development",
+                "level" : 3
+            },
+            {
+                "id": "P009",
+                "title": "Form Builder",
+                "nickname": "forms",
+                "subtitle": "Create a flexible database environment that is configurable using a ui",
+                "level" : 3
+            },
+            {
+                "id": "P010",
+                "title": "Kanban Task Manager",
+                "nickname": "kanban",
+                "subtitle": "Create a task management application with a kanban like view",
+                "level" : 3
+            },
+            {
+                "id": "P014",
+                "title": "Kanban Task Manager",
+                "nickname": "righteous",
+                "subtitle": "A full blown rights management",
+                "level" : 3
+            },
+            {
+                "id": "P023",
+                "title": "Kanban Task Manager",
+                "nickname": "arglang",
+                "subtitle": "A library to parse command line arguments as if they would be routes",
+                "level" : 3
+            },
+            {
+                "id": "P030",
+                "title": "Design Patterns",
+                "nickname": "patterns",
+                "subtitle": "",
+                "level" : 3
+            },
+            {
+                "id": "P013",
+                "title": "Sodoku Solver",
+                "nickname": "sodoku",
+                "subtitle": "Write an app that can solve sodoku riddles",
+                "level" : 4
+            },
+            {
+                "id": "P016",
+                "title": "Create a deployment and hosting pipeline for a NOP-Application",
+                "nickname": "devops",
+                "subtitle": "create a simple 'no operation' app and host and secure it professionally",
+                "level" : 4
+            },
+            {
+                "id": "P022",
+                "title": "Convert Source Code To Json",
+                "nickname": "code2json",
+                "subtitle": "a scanner/parser that will convert your code to easily processable json for analytics",
+                "level" : 4
+            },
+            {
+                "id": "P024",
+                "title": "Generic Build",
+                "nickname": "bld",
+                "subtitle": "A generic build script, that autodetects the contents of the repository / directory",
+                "level" : 4
+            },
+            {
+                "id": "P025",
+                "title": "Deployment Tooling",
+                "nickname": "dpl",
+                "subtitle": "A deployment infrastructure for continuous deployment",
+                "level" : 4
+            },
+            {
+                "id": "P026",
+                "title": "Meta Cloud Tool",
+                "nickname": "cld",
+                "subtitle": "A tool to manage virtual machines",
+                "level" : 4
+            },
+            {
+                "id": "P012",
+                "title": "A Course In Discrete Math",
+                "nickname": "cld",
+                "subtitle": "https://www.youtube.com/watch?v=rdXw7Ps9vxc&list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS&index=1",
+                "level" : 99
+            },
+            {
+                "id": "P018",
+                "title": "Theory Of Constraints",
+                "nickname": "tree",
+                "subtitle": "find a dilemma and create a logic tree as a map to help solve the problem in a specific situation (evaporating cloud/current reality tree)",
+                "level" : 99
+            },
+            {
+                "id": "P019",
+                "title": "Priorization Training",
+                "nickname": "scales",
+                "subtitle": "create scales for a self-defined target using Erfolgsfokussierte Priorisierung (https://www.convek.com/)",
+                "level" : 99
+            }
+        ]
     }
 ]
