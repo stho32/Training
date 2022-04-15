@@ -19,7 +19,12 @@ def create_project_markdown(project, category) -> str:
     result = []
 
     index_filename = get_project_index_filename(project, category)
-    result.append("- [" + project["id"] + "](" + index_filename + ") " + project["title"])
+    list_item = "- [" + project["id"] + "]"
+    list_item += "(" + index_filename + ") "
+    list_item += "\"" + project["nickname"] + "\", "
+    list_item += project["title"]
+
+    result.append(list_item)
 
     return '\n'.join(result)
 
