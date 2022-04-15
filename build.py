@@ -28,20 +28,43 @@ def create_project_markdown(project, category) -> str:
 
     return '\n'.join(result)
 
+def create_project_list_with_level(category) -> str:
+    result = []
+    
+    projects = sorted(category["projects"], key=lambda d: str(d['level']) + ":" + d['id']) 
+    last_level = ""
+
+    for project in projects:
+
+        if last_level != project["level"]:
+            result.append("")
+            result.append("## Level " + str(project["level"]))
+            last_level = project["level"]
+
+        result.append(create_project_markdown(project, category))
+    
+    return '\n'.join(result)
+
+def create_project_list(category) -> str:
+    result = []
+    result.append("")
+    projects = sorted(category["projects"], key=lambda d: d['id']) 
+    for project in projects:
+        result.append(create_project_markdown(project, category))
+    return '\n'.join(result)
+
 def create_category_markdown(category) -> str:
     result = []
 
     result.append("# " + category["name"])
     result.append("")
     result.append(category["description"])
-    result.append("")
-    result.append("")
 
     projects = category["projects"]
-    projects = sorted(projects, key=lambda d: d['id']) 
-
-    for project in projects:
-        result.append(create_project_markdown(project, category))
+    if "level" in projects[0]:
+        result.append(create_project_list_with_level(category))
+    else:
+        result.append(create_project_list(category))
 
     return '\n'.join(result)
 
