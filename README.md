@@ -14,7 +14,7 @@ Essentially it is a collection of requirement sets for projects. It also contain
 
     2. [Tool Projects](ToolProjects/README.md)
 
-    3. [Projects to try yourself out](Projects/README.md)
+    3. [Product simulating projects](Projects/README.md)
 
 3. [Attachments](Attachments.md)
 
