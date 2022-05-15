@@ -11,3 +11,7 @@
 ## David Tielke 
 
   - https://www.youtube.com/results?search_query=david+tielke+
+
+## TDD
+  
+  - https://www.youtube.com/watch?v=EZ05e7EMOLM TDD, Where Did It All Go Wrong (Ian Cooper)
