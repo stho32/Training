@@ -61,4 +61,9 @@ Essentially it is a collection of requirement sets for projects. It also contain
 - Logic Tree
 - Kanban
 
+## TDD Workflow
 
+1. write the test so that it fails
+2. in the test throw down rubbish code (do not implement new classes or methods yet)
+3. this way, make the test go green
+4. refactor: now make the code beautiful while keeping the test green
