@@ -1,0 +1,91 @@
+{
+    "items" : [
+        {
+            "category" : "Version Control",
+            "author" : "Thierry de Pauw",
+            "items" : 
+            {
+                "title" : "Feature Branching Considered Evil (Thierry de Pauw )", 
+                "url" : "https://www.youtube.com/watch?v=h7LeD7VevyI"
+            },
+            "keywords" : [
+                "trunk",
+                "development speed",
+                "Pair programming",
+                "TDD",
+                "code reviews"
+            ]
+        },
+        {
+            "category" : "Clean Code",
+            "author" : "Robert C. Martin",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 1", 
+                "url" : "https://www.youtube.com/watch?v=7EmboKQH8lM&"
+            }
+        },
+        {
+            "category" : "Clean Code",
+            "author" : "Robert C. Martin",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 2", 
+                "url" : "https://www.youtube.com/watch?v=2a_ytyt9sf8"
+            }
+        },
+        {
+            "category" : "Clean Code",
+            "author" : "Robert C. Martin",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 3", 
+                "url" : "https://www.youtube.com/watch?v=Qjywrq2gM8o"
+            }
+        },
+        {
+            "category" : "Clean Code",
+            "author" : "Robert C. Martin",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 4", 
+                "url" : "https://www.youtube.com/watch?v=58jGpV2Cg50"
+            }
+        },
+        {
+            "category" : "Clean Code",
+            "author" : "Robert C. Martin",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 5", 
+                "url" : "https://www.youtube.com/watch?v=sn0aFEMVTpA"
+            }
+        },
+        {
+            "category" : "Clean Code",
+            "author" : "Robert C. Martin",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 6", 
+                "url" : "https://www.youtube.com/watch?v=l-gF0vDhJVI"
+            }
+        },
+        {
+            "category" : "General advice",
+            "author" : "David Tielke",
+            "items" : 
+            {
+                "title" : "Clean Code - Uncle Bob / Lesson 6", 
+                "url" : "https://www.youtube.com/results?search_query=david+tielke+"
+            }
+        },
+        {
+            "category" : "Test-driven development",
+            "author" : "Ian Cooper",
+            "items" : {
+                "title" : "TDD, Where Did It All Go Wrong (Ian Cooper)",
+                "url" : "https://www.youtube.com/watch?v=EZ05e7EMOLM"
+            }
+        }
+    ]
+}
