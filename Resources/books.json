@@ -1,0 +1,15 @@
+[
+    {
+        "title" : "Code That Fits in Your Head",
+        "subtitle" : "Heuristics for Software Engineering",
+        "authors" : [ "Mark Seemann" ],
+        "publishing-year" : 2022,
+        "chapter-summaries" : [
+            { 
+                "number" : 1,
+                "title" : "Art or Science?",
+                "summary" : "The author lists different analogies that are usually used when trying to explain what software development is like. Building a house, growing a garden, crafting and more. He shows that while all of them contain some truth, none fits right. But for the moment software engineering seems right and he wants to contribute something in this direction."
+            }
+        ]
+    }
+]
