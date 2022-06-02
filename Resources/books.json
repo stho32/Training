@@ -9,6 +9,16 @@
                 "number" : 1,
                 "title" : "Art or Science?",
                 "summary" : "The author lists different analogies that are usually used when trying to explain what software development is like. Building a house, growing a garden, crafting and more. He shows that while all of them contain some truth, none fits right. But for the moment software engineering seems right and he wants to contribute something in this direction."
+            },
+	    {
+		"number" : 2,
+		"title" : "Checklists",
+		"summary" : "Checklists improve the outcome with no increase in skill"
+	    },
+            {
+		"number" : 3,
+		"title" : "Tackling complexity",
+		"summary" : "The brain works in certain ways. E.g. we can only keep track of 7 things in our short term memory. Your code needs to respect those rules."
             }
         ]
     }
