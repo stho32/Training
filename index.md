@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+# Developer Training Program :mortar_board:
 
-You can use the [editor on GitHub](https://github.com/stho32/Training/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is a repository dedicated to coding training. 
+Essentially it is a collection of requirement sets for projects. It also contains a python script `choose-random-project.py` which will help you to randomly select a challenge, programming language, project type and some mutators.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Start a training session](screen.jpg)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. [Foreword](Foreword.md)
 
-```markdown
-Syntax highlighted code block
+2. Training Projects
 
-# Header 1
-## Header 2
-### Header 3
+    1. [Environment / Base Projects](BaseProjects/README.md)
 
-- Bulleted
-- List
+    2. [Tool Projects](ToolProjects/README.md)
 
-1. Numbered
-2. List
+    3. [Product simulating projects](Projects/README.md)
 
-**Bold** and _Italic_ and `Code` text
+3. [Attachments](Attachments.md)
 
-[Link](url) and ![Image](src)
-```
+----
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## additional ideas to make the training more effective and fun
 
-### Jekyll Themes
+- Remove your mouse from the computer. Let us see if you are good enough to do the challenge keyboard only.
+- Implement the same project multiple times. Measure the time needed. In every iteration try to finish in half the time.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stho32/Training/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## degrees of maturity for any task / project
 
-### Support or Contact
+- Level 1: We did the task somehow. It works now. 
+- Level 2: We did the task in below 1 hour.
+- Level 3: All information for doing the task was already available. We did not need to use google or search around anywhere else.
+- Level 4: The task was done during regular working hours.
+- Level 5: We planned to do this task at this time.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Developer Levels
+
+- Level 1: Tinkering around, mostly using google, copying stuff, maybe did a first tutorial
+- Level 2: Did grasp the basic concepts: variables, loops, ...
+- Level 3: Has created a first project of his own, that is something he/she can personally use, all by him-/herself.
+- Level 4: Grasped classes and inheritance, did code at least 10 projects including classes, some of them are libraries to use with other projects.
+- Level 5: Can read and work with other peoples code. 
+- Level 6: Has an understanding of the SOLID principles and uses object oriented design.
+- Level 7: Uses the principles and unit tests to create understandable code that can be used and maintained by others.
+- Level 8: Finds a new technology, methodology or something else and goes back to Level 1.
+
+## Algorithm based training
+
+- https://www.hackerrank.com/
+- https://www.codewars.com/
+- https://leetcode.com/ (e.g. https://leetcode.com/problems/maximum-subarray/)
+
+## Security
+
+- https://tryhackme.com/hacktivities
+
+## Priorisation Techniques
+
+- User Story
+- EFP
+- Logic Tree
+- Kanban
+
+## TDD Workflow
+
+1. write the test so that it fails
+2. in the test throw down rubbish code (do not implement new classes or methods yet)
+3. this way, make the test go green
+4. refactor: now make the code beautiful while keeping the test green
