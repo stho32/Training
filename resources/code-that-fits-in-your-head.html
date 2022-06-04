@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Continuous Developer Training - Resources</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Continuous Developer Training - Resources</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">back to resources</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <div class="container mt-2">
+            <h1>Code That Fits in Your Head <small class="text-muted"> Heuristics for Software Engineering</small></h1>
+
+            <p>
+              <ul>
+                <li>authors: Mark Seemann</li>
+                <li>published: 2022</li>
+                <li><a href="https://www.amazon.de/s?k=Code+That+Fits+in+Your+Head">Find the book here</a></li>
+              </ul>
+            </p>
+
+            <br>
+            <h2>Summary</h2>
+            <br>
+            <h3>Chapter 1: Art or Science?</h3>
+
+            <p>The author lists different analogies that are usually used when trying to explain what software development is like. Building a house, growing a garden, crafting and more. He shows that, while all of them contain some truth, none fits right. But for the moment software engineering seems right for him and he wants to contribute something in this direction.</p>
+            
+            <h3>Chapter 2: Checklists</h3>
+            
+            <p>
+              Checklists improve the outcome with no increase in skill. Consider the following checklist for creating new repositories:
+            </p>
+            
+            <ul>
+              <li>use git</li>
+              <li>automate the build</li>
+              <li>turn on all error messages</li>
+            </ul>
+            
+            <h3>Chapter 3: Tackling complexity</h3>
+
+            <p>
+            Software engineering is about tackling complexity. The brain works in certain ways, e.g. we can only keep track of 7 things in our short term memory. Our code needs to respect that.
+            </p>
+            
+            <h3>Chapter 4: Vertical Slice</h3>
+            
+            <p>A vertical slice is a good way to start: It contains all layers of architecture for just one functionality.</p>
+
+            <p class="fw-bold">A vertical slice has advantages:</p>
+            
+            <ul>
+              <li>it is working software</li>
+              <li>you get early feedback about the life cycle of the development process</li>
+            </ul>
+
+            <p class="fw-bold">Use unit testing ("Walking skeleton"):</p>
+            
+            <ul>
+              <li>start with a characterization test, this is a high level test that describes a functionality</li>
+              <li>from there on write more tests and code to complete the functionality</li>
+              <li>Test code should be in balance. When you turn the code 90 degrees and then point to the middle you should point to the act section (this essentially means that the arrange and assert blocks should have about equal length).</li>
+            </ul>
+            
+            <p class="alert alert-info">"Documentation should prioritise explaining *why* a descision was made, rather than *what* was decided."</p>
+            
+            <p class="fw-bold">outside-in test driven development:</p>
+
+            <p>
+              Begin at the outside boundary (user interface) and work your way into the software.
+              (The author calls this method : outside-in test driven development)
+            </p>
+            
+            <p>The author lists different other methodologies:</p>
+            
+            <ul>
+              <li>Test-driven development</li>
+              <li>Behaviour-driven development</li>
+              <li>Domain-driven design</li>
+              <li>Type-driven development</li>
+              <li>Property-driven development</li>
+            </ul>
+
+            <p class="alert alert-info">"The goal is not to write code fast. The goal is sustainable software."</p>
+            
+            <p>The author suggests using value objects making the Domain Model easier and easier to test (Example given on Page 71). Also he does not create tests for those value objects, because they are implemented by a tool which makes error probability very low.</p>
+            
+            <ul>
+              <li>Commit database schema to the Git repository.</li>
+              <li>Classes that interact with subsystems are not easily tested. Therefor remove internal logic of those classes to the utmost extend so you do not have much that could fail.</li>
+            </ul>            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
