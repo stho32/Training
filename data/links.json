@@ -3,5 +3,10 @@
         "title" : "Clean Coders",
         "description" : "Resources for clean coding from Robert C. Martin and son",
         "url" : "https://cleancoders.com/"
+    },
+    {
+        "title" : "Richardson Maturity Model for REST",
+        "description" : "Martin Fowler explains the levels of REST and what problems they address",
+        "url" : "https://martinfowler.com/articles/richardsonMaturityModel.html"
     }
 ]
