@@ -142,6 +142,26 @@
               <li>variable count: the number of variables + parameters your method uses. The higher it is the more complex the code.</li>
             </ul>
 
+            <h4>Chapter 8: API Design</h4>
+            <ul>
+              <li>dot-driven development means supporting intellisense so that users can quickly find what they are looking for</li>
+              <li>poka-yoke: fool-proof your api by making mistakes impossible by design. Compiler-errors are preferable to runtime errors.</li>
+              <li>remember to write for <i>readers</i></li>
+              <li>favor well-named code over comments</li>
+              <li>try to x-out names of methods and then try to infer the name from thje signature. Is it self-explanatory? You do not have to say what the types already state.</li>
+              <li>Command-Query-Separation: Methods that return data should not have side effects. Methods with side effects should not return data.</li>
+              <li>Use the Hierarchy of Communication (prefer solutions with a lower number to solutions with a higher number) :
+                <ol>
+                  <li>give APIs distinct types</li>
+                  <li>give methods helpful names</li>
+                  <li>write good comments</li>
+                  <li>provide illustrative examples as automated tests</li>
+                  <li>write helpful commit messages in git</li>
+                  <li>write good documentation</li>
+                </ol>
+              </li>
+            </ul>
+
             <h3>Part 2</h3>
             <br/>
 
