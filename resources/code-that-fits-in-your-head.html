@@ -106,7 +106,7 @@
             
             <ul>
               <li>Commit database schema to the Git repository.</li>
-              <li>Classes that interact with subsystems are not easily tested. Therefor remove internal logic of those classes to the utmost extend so you do not have much that could fail.</li>
+              <li>Classes that interact with subsystems are not easily tested. Therefore remove internal logic of those classes to the utmost extend so you do not have much that could fail.</li>
             </ul>            
             <h4>Chapter 5: Encapsulation</h4>
             <ul>
@@ -160,6 +160,70 @@
                   <li>write good documentation</li>
                 </ol>
               </li>
+            </ul>
+
+            <h4>Chapter 9: Teamwork</h4>
+            <ul>
+              <li>git commit messages:
+                <ul>
+                  <li>50/72-rule:
+                    <ul>
+                      <li>write a summary in the <i>imperative</i> no wider than 50 characters</li>
+                      <li>if you add more text, leave the second line blank</li>
+                      <li>you can add as much text as you'd like, but format it so that it's no wider than 72 characters</li>
+                    </ul>
+                  </li>
+                </ul>
+                This will also enable <pre>git log --oneline</pre>
+              </li>
+              <li>use continuous integration (merge at average every 4 hours, if your change requires more time, hide it behind a feature flag and merge anyway)</li>
+              <li>small commits enhance manouverability</li>
+              <li>collective code ownership: a stable team does not exist, how many people can exit your team before the operation stops?</li>
+              <li>pair programming comes with a real time code review and an informal approval process</li>
+              <li>mob programming
+                <ul>
+                  <li>remember: productivity is unrelated to how fast someone is typing on his computer; <br/>still: mob programming becomes unproductive in bigger groups (imagine 50 people...)</li>
+                  <li>in small groups effective, e.g. coaching scenarios</li>
+                </ul>
+              </li>
+              <li>code reviews
+                <ul>
+                  <li>the longer the time between the coding and the code review the more time it will take because the developer forgets</li>
+                  <li>
+                    without reviews the probability of bugs in production increases, which are sometimes only found a long time after publishing, 
+                    and then the dev will not remember his own code so fixing the bug will take even longer
+                  </li>
+                  <li>reviews should therefore be performed in at least a daily rhythm</li>
+                  <li>reject big changesets</li>
+                  <li>code review answers one question: "Will I be ok maintaining this?"</li>
+                  <li>code reviews should be driven by the reviewer, the developer is biased and is not in the position to tell if the code is readable.</li>
+                  <li>Good questions for a code review:
+                    <ul>
+                      <li>Does the code work as intended?</li>
+                      <li>Is the intent clear?</li>
+                      <li>Is there needless duplication?</li>
+                      <li>Could existing code have solved this?</li>
+                      <li>Could this be simpler?</li>
+                      <li>Are the tests comprehensive and clear?</li>
+                    </ul>
+                  </li>
+                  <li>The author should be absent during the code reading, the reviewer takes notes about what the people go into dialog later.</li>
+                  <li>Code reviews should be conducted by all team members, it is not a privilege for a selected few.</li>
+                </ul>
+              </li>
+              <li>pull requests:
+                <ul>
+                  <li>Make each pull request as small as possible. That's smaller than you think.</li>
+                  <li>Do only one thing in each pull request. If you want to do multiple things, put them in separate pull requests.</li>
+                  <li>Avoid reformatting unless it is the only thing that you do in your pull request.</li>
+                  <li>make sure the code builds</li>
+                  <li>make sure all tests pass</li>
+                  <li>add tests of new behaviour</li>
+                  <li>write proper commit messages</li>
+                </ul>
+              </li>
+              <li class="fw-bold">Teamwork is one of the most engineering-like practices you can adopt.</li>
+
             </ul>
 
             <h3>Part 2</h3>
