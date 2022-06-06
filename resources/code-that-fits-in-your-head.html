@@ -38,7 +38,7 @@
             <br>
             <h2>Summary</h2>
             <br>
-            <h3>Part 1</h3>
+            <h3>Part 1 - Getting up to speed</h3>
             <br/>
             <h4>Chapter 1: Art or Science?</h4>
 
@@ -223,13 +223,35 @@
                 </ul>
               </li>
               <li class="fw-bold">Teamwork is one of the most engineering-like practices you can adopt.</li>
-
             </ul>
 
-            <h3>Part 2</h3>
+            <h3>Part 2 Sustainability</h3>
             <br/>
+            <h4>Chapter 10 - Augmenting Code</h4>
 
-
+            <div class="alert alert-info">
+              For any significant change, don't make it in-place, make it side-by-side.
+            </div>
+            <ul>
+              <li>Feature Flags can easily be used when you introduce a new functionality</li>
+              <li>You can use the "strangler pattern"
+                <ul>
+                  <li>on method level:
+                    <ul>
+                      <li>do not start by modifying the interface rather by implementing & testing on a concrete object</li>
+                      <li>or do change the interface but only implement the new method in one concrete class - as long as you have no other consumers than tests</li>
+                    </ul>
+                  </li>
+                  <li>on class level: create a new class and move the implementation over step by step</li>
+                </ul>
+              </li>
+              <li>Versioning
+                <ul>
+                  <li>take advice from the semantic versioning specification to learn about breaking and nonbreaking changes</li>
+                  <li>warn users of your api when you have breaking changes</li>
+                </ul>
+              </li>
+            </ul>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
     </body>
