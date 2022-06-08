@@ -38,6 +38,10 @@
             <br>
             <h2>Summary</h2>
             <br>
+            <div class="alert alert-info">
+              How to get away from the shifting sands of individual experience?
+            </div>
+            <br>
             <h3>Part 1 - Getting up to speed</h3>
             <br/>
             <h4>Chapter 1: Art or Science?</h4>
@@ -266,6 +270,33 @@
                 <li>git stash pop : reapply the stashed changes to HEAD as if they are new changes</li>
               </ul>
             </div>
+
+            <h4>Chapter 12 - Troubleshooting</h4>
+            <ul>
+              <li>programming by coincidence: throw code at a problem, look what sticks</li>
+              <li>scientific method
+                <ul>
+                  <li>make a hypothesis</li>
+                  <li>perform the experiment</li>
+                  <li>compare outcome to prediciton repeat until you understand what is going on.</li>
+                </ul>
+              </li>
+              <li>simplify code</li>
+              <li>rubber ducking: explain the problem to a collegue or rubber duck. You can do this in writing to.</li>
+              <li>address defects early, do not schedule them for later</li>
+              <li>reproduce defects as tests</li>
+              <li>use slow tests, but when they take >10 seconds let them be run by a second system, maybe your build system</li>
+              <li>nondeterministic defects e.g. race conditions: create test loops that run for some time a test case as fast as possible</li>
+              <li>bisection:
+                <ol>
+                  <li>Find a way to detect or reproduce the problem</li>
+                  <li>remove half of the code</li>
+                  <li>if the problem is still present, repeat from step 2. If the problem goes away, restore the code you removed, and remove the other half. Again repeat from step 2.</li>
+                  <li>Keep going until you've whittled down the code that reproduces the problem to a size so small that you understand what is going on</li>
+                </ol>
+              </li>
+              <li>bisection using git: walk back in the history to identify the commit that introduced the bug; git has a bisect command to explicitly help with this interactivly using a binary search like algorithm</li>
+            </ul>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
     </body>
