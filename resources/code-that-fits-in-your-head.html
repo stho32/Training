@@ -297,6 +297,30 @@
               </li>
               <li>bisection using git: walk back in the history to identify the commit that introduced the bug; git has a bisect command to explicitly help with this interactivly using a binary search like algorithm</li>
             </ul>
+
+            <h4>Chapter 13 - Separation of concerns</h4>
+            <ul>
+              <li>Nesting is bad: hidden side effects can easily make your code less comprehensible</li>
+              <li>Sequencial combination is easier</li>
+              <li>Pure functions reduce the complexity because their result is only dependent on their parameters, not other information sources. So when reasoning
+                about the result you can be sure that there is no hidden complexity caused by external effects you cannot see. 
+                Pure functions are also very testable.
+              </li>
+              <li>Keep nondeterministric queries and behaviour with the side effects close to the edges of the system and write complex logic as pure functions.</li>
+              <li>Cross Cutting Concerns:
+                <ul>
+                  <li>are e.g. Logging, Performance Monitoring, Auditing, Metering, Instrumentation, Caching, Fault Tolerance and Security</li>
+                  <li>are best implemented using the decorator pattern</li>
+                  <li>you log the right amount of information when you can repeat the execution</li>
+                  <li>
+                    <div class="alert alert-info">
+                      log all impure actions, but not more
+                    </div>
+                  </li>
+                  <li>The author recommends "functional core, imperative shell" as coding style</li>
+                </ul>
+              </li>
+            </ul>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
     </body>
