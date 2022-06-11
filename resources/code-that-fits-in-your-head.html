@@ -1,328 +1,402 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Continuous Developer Training - Resources</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Continuous Developer Training - Resources</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">back to resources</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Continuous Developer Training - Resources</title>
 
-        <div class="container mt-2">
-            <h1>Code That Fits in Your Head <small class="text-muted"> Heuristics for Software Engineering</small></h1>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
 
-            <p>
-              <ul>
-                <li>authors: Mark Seemann</li>
-                <li>published: 2022</li>
-                <li><a href="https://www.amazon.de/s?k=Code+That+Fits+in+Your+Head">Find the book here</a></li>
-              </ul>
-            </p>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Continuous Developer Training - Resources</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">back to resources</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <br>
-            <h2>Summary</h2>
-            <br>
-            <div class="alert alert-info">
-              How to get away from the shifting sands of individual experience?
-            </div>
-            <br>
-            <h3>Part 1 - Getting up to speed</h3>
-            <br/>
-            <h4>Chapter 1: Art or Science?</h4>
+  <div class="container mt-2">
+    <h1>Code That Fits in Your Head <small class="text-muted"> Heuristics for Software Engineering</small></h1>
 
-            <p>The author lists different analogies that are usually used when trying to explain what software development is like. Building a house, growing a garden, crafting and more. He shows that, while all of them contain some truth, none fits right. But for the moment software engineering seems right for him and he wants to contribute something in this direction.</p>
-            
-            <h4>Chapter 2: Checklists</h4>
-            
-            <p>
-              Checklists improve the outcome with no increase in skill. Consider the following checklist for creating new repositories:
-            </p>
-            
-            <ul>
-              <li>use git</li>
-              <li>automate the build</li>
-              <li>turn on all error messages</li>
-            </ul>
-            
-            <h4>Chapter 3: Tackling complexity</h4>
+    <p>
+    <ul>
+      <li>authors: Mark Seemann</li>
+      <li>published: 2022</li>
+      <li><a href="https://www.amazon.de/s?k=Code+That+Fits+in+Your+Head">Find the book here</a></li>
+    </ul>
+    </p>
 
-            <p>
-            Software engineering is about tackling complexity. The brain works in certain ways, e.g. we can only keep track of 7 things in our short term memory. Our code needs to respect that.
-            </p>
-            
-            <h4>Chapter 4: Vertical Slice</h4>
-            
-            <p>A vertical slice is a good way to start: It contains all layers of architecture for just one functionality.</p>
+    <br>
+    <h2>Summary</h2>
+    <br>
+    <div class="alert alert-info">
+      How to get away from the shifting sands of individual experience?
+    </div>
+    <br>
+    <h3>Part 1 - Getting up to speed</h3>
+    <br />
+    <h4>Chapter 1: Art or Science?</h4>
 
-            <p class="fw-bold">A vertical slice has advantages:</p>
-            
-            <ul>
-              <li>it is working software</li>
-              <li>you get early feedback about the life cycle of the development process</li>
-            </ul>
+    <p>The author lists different analogies that are usually used when trying to explain what software development is
+      like. Building a house, growing a garden, crafting and more. He shows that, while all of them contain some truth,
+      none fits right. But for the moment software engineering seems right for him and he wants to contribute something
+      in this direction.</p>
 
-            <p class="fw-bold">Use unit testing ("Walking skeleton"):</p>
-            
-            <ul>
-              <li>start with a characterization test, this is a high level test that describes a functionality</li>
-              <li>from there on write more tests and code to complete the functionality</li>
-              <li>Test code should be in balance. When you turn the code 90 degrees and then point to the middle you should point to the act section (this essentially means that the arrange and assert blocks should have about equal length).</li>
-            </ul>
-            
-            <p class="alert alert-info">"Documentation should prioritise explaining *why* a descision was made, rather than *what* was decided."</p>
-            
-            <p class="fw-bold">outside-in test driven development:</p>
+    <h4>Chapter 2: Checklists</h4>
 
-            <p>
-              Begin at the outside boundary (user interface) and work your way into the software.
-              (The author calls this method : outside-in test driven development)
-            </p>
-            
-            <p>The author lists different other methodologies:</p>
-            
-            <ul>
-              <li>Test-driven development</li>
-              <li>Behaviour-driven development</li>
-              <li>Domain-driven design</li>
-              <li>Type-driven development</li>
-              <li>Property-driven development</li>
-            </ul>
+    <p>
+      Checklists improve the outcome with no increase in skill. Consider the following checklist for creating new
+      repositories:
+    </p>
 
-            <p class="alert alert-info">"The goal is not to write code fast. The goal is sustainable software."</p>
-            
-            <p>The author suggests using value objects making the Domain Model easier and easier to test (Example given on Page 71). Also he does not create tests for those value objects, because they are implemented by a tool which makes error probability very low.</p>
-            
-            <ul>
-              <li>Commit database schema to the Git repository.</li>
-              <li>Classes that interact with subsystems are not easily tested. Therefore remove internal logic of those classes to the utmost extend so you do not have much that could fail.</li>
-            </ul>            
-            <h4>Chapter 5: Encapsulation</h4>
-            <ul>
-                <li>Encapsulation is about being able to trust an object to behave in a certain way.</li>
-                <li>Write production code as answer to drivers like tests or analyzers.</li>
-                <li>Keep the time your code is invalid as short as possible. Concept: Transformation Priority Premis</li>
-                <li>Reference to red-green-refactor.</li>
-                <li>Robert C. Martin: "Abstraction is the elimination of the irrelevant and the amplification of the essential." (Agile Principles, Patterns, and Practices in C#", 2006)</li>
-                <li>Postel's law: "Be conservative in what you send, be liberal in what you accept."</li>
-                <li>"The most important notion is that an object should guarantee that it'll never be in an invalid state." (p.108)</li>
-                <li>"The less you ask of the caller, the easier it is for the caller to interact with the object. The better guaranties you give, the less defensive code the caller has to write." (p.109)</li>
-            </ul>
-            
-            <h4>Chapter 6: Triangulation</h4>
-            <ul>
-                <li>introducing: our long term memory, and how unfortunately it is not very valuable in software development organization, neither for the long term value of developers nor for the company.</li>
-                <li>While coding, when you see things that you want to change, make a list and keep to the change that you are doing at the moment.</li>
-                <li>
-                    <div class="alert alert-info">
-                        The devil's advocate:<br>
-                        It is a technique where you continue to try to implement a clearly wrong solution that still makes all tests pass. You continue that until your tests are so good that they force you to implement the right thing.
-                    </div>
-                </li>
-            </ul>
-            
-            <h4>Chapter 7: Decomposition</h4>
-            <ul>
-              <li>Code increases in complexity over time and it is a bad habit to leave it unchecked. Some ideas for measures follow.</li>
-              <li>Cyclometic complexity could be monitored by a build system. (Counts the number of branching and looping instructions). You should strive for less than 7.</li>
-              <li>80x24 rule: based on the constraints of early terminals, the code of a method should fit these constraints</li>
-              <li>Parse, don't validate: reduces the complexity (See TryParse Methods in c#)</li>
-              <li>Fractal architecture: Your architecture should at every level not exceed a maximum of 7 elements. This will span a tree and still be within some bounds to be comprehensible by your brains constraint.</li>
-              <li>variable count: the number of variables + parameters your method uses. The higher it is the more complex the code.</li>
-            </ul>
+    <ul>
+      <li>use git</li>
+      <li>automate the build</li>
+      <li>turn on all error messages</li>
+    </ul>
 
-            <h4>Chapter 8: API Design</h4>
-            <ul>
-              <li>dot-driven development means supporting intellisense so that users can quickly find what they are looking for</li>
-              <li>poka-yoke: fool-proof your api by making mistakes impossible by design. Compiler-errors are preferable to runtime errors.</li>
-              <li>remember to write for <i>readers</i></li>
-              <li>favor well-named code over comments</li>
-              <li>try to x-out names of methods and then try to infer the name from thje signature. Is it self-explanatory? You do not have to say what the types already state.</li>
-              <li>Command-Query-Separation: Methods that return data should not have side effects. Methods with side effects should not return data.</li>
-              <li>Use the Hierarchy of Communication (prefer solutions with a lower number to solutions with a higher number) :
-                <ol>
-                  <li>give APIs distinct types</li>
-                  <li>give methods helpful names</li>
-                  <li>write good comments</li>
-                  <li>provide illustrative examples as automated tests</li>
-                  <li>write helpful commit messages in git</li>
-                  <li>write good documentation</li>
-                </ol>
-              </li>
-            </ul>
+    <h4>Chapter 3: Tackling complexity</h4>
 
-            <h4>Chapter 9: Teamwork</h4>
-            <ul>
-              <li>git commit messages:
-                <ul>
-                  <li>50/72-rule:
-                    <ul>
-                      <li>write a summary in the <i>imperative</i> no wider than 50 characters</li>
-                      <li>if you add more text, leave the second line blank</li>
-                      <li>you can add as much text as you'd like, but format it so that it's no wider than 72 characters</li>
-                    </ul>
-                  </li>
-                </ul>
-                This will also enable <pre>git log --oneline</pre>
-              </li>
-              <li>use continuous integration (merge at average every 4 hours, if your change requires more time, hide it behind a feature flag and merge anyway)</li>
-              <li>small commits enhance manouverability</li>
-              <li>collective code ownership: a stable team does not exist, how many people can exit your team before the operation stops?</li>
-              <li>pair programming comes with a real time code review and an informal approval process</li>
-              <li>mob programming
-                <ul>
-                  <li>remember: productivity is unrelated to how fast someone is typing on his computer; <br/>still: mob programming becomes unproductive in bigger groups (imagine 50 people...)</li>
-                  <li>in small groups effective, e.g. coaching scenarios</li>
-                </ul>
-              </li>
-              <li>code reviews
-                <ul>
-                  <li>the longer the time between the coding and the code review the more time it will take because the developer forgets</li>
-                  <li>
-                    without reviews the probability of bugs in production increases, which are sometimes only found a long time after publishing, 
-                    and then the dev will not remember his own code so fixing the bug will take even longer
-                  </li>
-                  <li>reviews should therefore be performed in at least a daily rhythm</li>
-                  <li>reject big changesets</li>
-                  <li>code review answers one question: "Will I be ok maintaining this?"</li>
-                  <li>code reviews should be driven by the reviewer, the developer is biased and is not in the position to tell if the code is readable.</li>
-                  <li>Good questions for a code review:
-                    <ul>
-                      <li>Does the code work as intended?</li>
-                      <li>Is the intent clear?</li>
-                      <li>Is there needless duplication?</li>
-                      <li>Could existing code have solved this?</li>
-                      <li>Could this be simpler?</li>
-                      <li>Are the tests comprehensive and clear?</li>
-                    </ul>
-                  </li>
-                  <li>The author should be absent during the code reading, the reviewer takes notes about what the people go into dialog later.</li>
-                  <li>Code reviews should be conducted by all team members, it is not a privilege for a selected few.</li>
-                </ul>
-              </li>
-              <li>pull requests:
-                <ul>
-                  <li>Make each pull request as small as possible. That's smaller than you think.</li>
-                  <li>Do only one thing in each pull request. If you want to do multiple things, put them in separate pull requests.</li>
-                  <li>Avoid reformatting unless it is the only thing that you do in your pull request.</li>
-                  <li>make sure the code builds</li>
-                  <li>make sure all tests pass</li>
-                  <li>add tests of new behaviour</li>
-                  <li>write proper commit messages</li>
-                </ul>
-              </li>
-              <li class="fw-bold">Teamwork is one of the most engineering-like practices you can adopt.</li>
-            </ul>
+    <p>
+      Software engineering is about tackling complexity. The brain works in certain ways, e.g. we can only keep track of
+      7 things in our short term memory. Our code needs to respect that.
+    </p>
 
-            <h3>Part 2 Sustainability</h3>
-            <br/>
-            <h4>Chapter 10 - Augmenting Code</h4>
+    <h4>Chapter 4: Vertical Slice</h4>
 
-            <div class="alert alert-info">
-              For any significant change, don't make it in-place, make it side-by-side.
-            </div>
-            <ul>
-              <li>Feature Flags can easily be used when you introduce a new functionality</li>
-              <li>You can use the "strangler pattern"
-                <ul>
-                  <li>on method level:
-                    <ul>
-                      <li>do not start by modifying the interface rather by implementing & testing on a concrete object</li>
-                      <li>or do change the interface but only implement the new method in one concrete class - as long as you have no other consumers than tests</li>
-                    </ul>
-                  </li>
-                  <li>on class level: create a new class and move the implementation over step by step</li>
-                </ul>
-              </li>
-              <li>Versioning
-                <ul>
-                  <li>take advice from the semantic versioning specification to learn about breaking and nonbreaking changes</li>
-                  <li>warn users of your api when you have breaking changes</li>
-                </ul>
-              </li>
-            </ul>
+    <p>A vertical slice is a good way to start: It contains all layers of architecture for just one functionality.</p>
 
-            <h4>Chapter 11 - Editing Unit Tests</h4>
-            <ul>
-              <li>When you edit the test code you have the risk that your test code breaks. Therefore the author recommends that 
-                you only edit either test or production code. This improves the chances to get it right.</li>
-                <li>Deleting assertions and tests weakens the integrity of the system.</li>
-                <li>Automated refactorings are safe most of the time.</li>
-            </ul>
-            <div class="alert alert-info">
-              <ul>
-                <li>git stash push : put all your dirty files in a hidden commit so you can work on HEAD and commit changes "around" your latest changes</li>
-                <li>git stash pop : reapply the stashed changes to HEAD as if they are new changes</li>
-              </ul>
-            </div>
+    <p class="fw-bold">A vertical slice has advantages:</p>
 
-            <h4>Chapter 12 - Troubleshooting</h4>
-            <ul>
-              <li>programming by coincidence: throw code at a problem, look what sticks</li>
-              <li>scientific method
-                <ul>
-                  <li>make a hypothesis</li>
-                  <li>perform the experiment</li>
-                  <li>compare outcome to prediciton repeat until you understand what is going on.</li>
-                </ul>
-              </li>
-              <li>simplify code</li>
-              <li>rubber ducking: explain the problem to a collegue or rubber duck. You can do this in writing to.</li>
-              <li>address defects early, do not schedule them for later</li>
-              <li>reproduce defects as tests</li>
-              <li>use slow tests, but when they take >10 seconds let them be run by a second system, maybe your build system</li>
-              <li>nondeterministic defects e.g. race conditions: create test loops that run for some time a test case as fast as possible</li>
-              <li>bisection:
-                <ol>
-                  <li>Find a way to detect or reproduce the problem</li>
-                  <li>remove half of the code</li>
-                  <li>if the problem is still present, repeat from step 2. If the problem goes away, restore the code you removed, and remove the other half. Again repeat from step 2.</li>
-                  <li>Keep going until you've whittled down the code that reproduces the problem to a size so small that you understand what is going on</li>
-                </ol>
-              </li>
-              <li>bisection using git: walk back in the history to identify the commit that introduced the bug; git has a bisect command to explicitly help with this interactivly using a binary search like algorithm</li>
-            </ul>
+    <ul>
+      <li>it is working software</li>
+      <li>you get early feedback about the life cycle of the development process</li>
+    </ul>
 
-            <h4>Chapter 13 - Separation of concerns</h4>
-            <ul>
-              <li>Nesting is bad: hidden side effects can easily make your code less comprehensible</li>
-              <li>Sequencial combination is easier</li>
-              <li>Pure functions reduce the complexity because their result is only dependent on their parameters, not other information sources. So when reasoning
-                about the result you can be sure that there is no hidden complexity caused by external effects you cannot see. 
-                Pure functions are also very testable.
-              </li>
-              <li>Keep nondeterministric queries and behaviour with the side effects close to the edges of the system and write complex logic as pure functions.</li>
-              <li>Cross Cutting Concerns:
-                <ul>
-                  <li>are e.g. Logging, Performance Monitoring, Auditing, Metering, Instrumentation, Caching, Fault Tolerance and Security</li>
-                  <li>are best implemented using the decorator pattern</li>
-                  <li>you log the right amount of information when you can repeat the execution</li>
-                  <li>
-                    <div class="alert alert-info">
-                      log all impure actions, but not more
-                    </div>
-                  </li>
-                  <li>The author recommends "functional core, imperative shell" as coding style</li>
-                </ul>
-              </li>
-            </ul>
+    <p class="fw-bold">Use unit testing ("Walking skeleton"):</p>
+
+    <ul>
+      <li>start with a characterization test, this is a high level test that describes a functionality</li>
+      <li>from there on write more tests and code to complete the functionality</li>
+      <li>Test code should be in balance. When you turn the code 90 degrees and then point to the middle you should
+        point to the act section (this essentially means that the arrange and assert blocks should have about equal
+        length).</li>
+    </ul>
+
+    <p class="alert alert-info">"Documentation should prioritise explaining *why* a descision was made, rather than
+      *what* was decided."</p>
+
+    <p class="fw-bold">outside-in test driven development:</p>
+
+    <p>
+      Begin at the outside boundary (user interface) and work your way into the software.
+      (The author calls this method : outside-in test driven development)
+    </p>
+
+    <p>The author lists different other methodologies:</p>
+
+    <ul>
+      <li>Test-driven development</li>
+      <li>Behaviour-driven development</li>
+      <li>Domain-driven design</li>
+      <li>Type-driven development</li>
+      <li>Property-driven development</li>
+    </ul>
+
+    <p class="alert alert-info">"The goal is not to write code fast. The goal is sustainable software."</p>
+
+    <p>The author suggests using value objects making the Domain Model easier and easier to test (Example given on Page
+      71). Also he does not create tests for those value objects, because they are implemented by a tool which makes
+      error probability very low.</p>
+
+    <ul>
+      <li>Commit database schema to the Git repository.</li>
+      <li>Classes that interact with subsystems are not easily tested. Therefore remove internal logic of those classes
+        to the utmost extend so you do not have much that could fail.</li>
+    </ul>
+    <h4>Chapter 5: Encapsulation</h4>
+    <ul>
+      <li>Encapsulation is about being able to trust an object to behave in a certain way.</li>
+      <li>Write production code as answer to drivers like tests or analyzers.</li>
+      <li>Keep the time your code is invalid as short as possible. Concept: Transformation Priority Premis</li>
+      <li>Reference to red-green-refactor.</li>
+      <li>Robert C. Martin: "Abstraction is the elimination of the irrelevant and the amplification of the essential."
+        (Agile Principles, Patterns, and Practices in C#", 2006)</li>
+      <li>Postel's law: "Be conservative in what you send, be liberal in what you accept."</li>
+      <li>"The most important notion is that an object should guarantee that it'll never be in an invalid state."
+        (p.108)</li>
+      <li>"The less you ask of the caller, the easier it is for the caller to interact with the object. The better
+        guaranties you give, the less defensive code the caller has to write." (p.109)</li>
+    </ul>
+
+    <h4>Chapter 6: Triangulation</h4>
+    <ul>
+      <li>introducing: our long term memory, and how unfortunately it is not very valuable in software development
+        organization, neither for the long term value of developers nor for the company.</li>
+      <li>While coding, when you see things that you want to change, make a list and keep to the change that you are
+        doing at the moment.</li>
+      <li>
+        <div class="alert alert-info">
+          The devil's advocate:<br>
+          It is a technique where you continue to try to implement a clearly wrong solution that still makes all tests
+          pass. You continue that until your tests are so good that they force you to implement the right thing.
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
-    </body>
-</html>
+      </li>
+    </ul>
 
+    <h4>Chapter 7: Decomposition</h4>
+    <ul>
+      <li>Code increases in complexity over time and it is a bad habit to leave it unchecked. Some ideas for measures
+        follow.</li>
+      <li>Cyclometic complexity could be monitored by a build system. (Counts the number of branching and looping
+        instructions). You should strive for less than 7.</li>
+      <li>80x24 rule: based on the constraints of early terminals, the code of a method should fit these constraints
+      </li>
+      <li>Parse, don't validate: reduces the complexity (See TryParse Methods in c#)</li>
+      <li>Fractal architecture: Your architecture should at every level not exceed a maximum of 7 elements. This will
+        span a tree and still be within some bounds to be comprehensible by your brains constraint.</li>
+      <li>variable count: the number of variables + parameters your method uses. The higher it is the more complex the
+        code.</li>
+    </ul>
+
+    <h4>Chapter 8: API Design</h4>
+    <ul>
+      <li>dot-driven development means supporting intellisense so that users can quickly find what they are looking for
+      </li>
+      <li>poka-yoke: fool-proof your api by making mistakes impossible by design. Compiler-errors are preferable to
+        runtime errors.</li>
+      <li>remember to write for <i>readers</i></li>
+      <li>favor well-named code over comments</li>
+      <li>try to x-out names of methods and then try to infer the name from thje signature. Is it self-explanatory? You
+        do not have to say what the types already state.</li>
+      <li>Command-Query-Separation: Methods that return data should not have side effects. Methods with side effects
+        should not return data.</li>
+      <li>Use the Hierarchy of Communication (prefer solutions with a lower number to solutions with a higher number) :
+        <ol>
+          <li>give APIs distinct types</li>
+          <li>give methods helpful names</li>
+          <li>write good comments</li>
+          <li>provide illustrative examples as automated tests</li>
+          <li>write helpful commit messages in git</li>
+          <li>write good documentation</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h4>Chapter 9: Teamwork</h4>
+    <ul>
+      <li>git commit messages:
+        <ul>
+          <li>50/72-rule:
+            <ul>
+              <li>write a summary in the <i>imperative</i> no wider than 50 characters</li>
+              <li>if you add more text, leave the second line blank</li>
+              <li>you can add as much text as you'd like, but format it so that it's no wider than 72 characters</li>
+            </ul>
+          </li>
+        </ul>
+        This will also enable
+        <pre>git log --oneline</pre>
+      </li>
+      <li>use continuous integration (merge at average every 4 hours, if your change requires more time, hide it behind
+        a feature flag and merge anyway)</li>
+      <li>small commits enhance manouverability</li>
+      <li>collective code ownership: a stable team does not exist, how many people can exit your team before the
+        operation stops?</li>
+      <li>pair programming comes with a real time code review and an informal approval process</li>
+      <li>mob programming
+        <ul>
+          <li>remember: productivity is unrelated to how fast someone is typing on his computer; <br />still: mob
+            programming becomes unproductive in bigger groups (imagine 50 people...)</li>
+          <li>in small groups effective, e.g. coaching scenarios</li>
+        </ul>
+      </li>
+      <li>code reviews
+        <ul>
+          <li>the longer the time between the coding and the code review the more time it will take because the
+            developer forgets</li>
+          <li>
+            without reviews the probability of bugs in production increases, which are sometimes only found a long time
+            after publishing,
+            and then the dev will not remember his own code so fixing the bug will take even longer
+          </li>
+          <li>reviews should therefore be performed in at least a daily rhythm</li>
+          <li>reject big changesets</li>
+          <li>code review answers one question: "Will I be ok maintaining this?"</li>
+          <li>code reviews should be driven by the reviewer, the developer is biased and is not in the position to tell
+            if the code is readable.</li>
+          <li>Good questions for a code review:
+            <ul>
+              <li>Does the code work as intended?</li>
+              <li>Is the intent clear?</li>
+              <li>Is there needless duplication?</li>
+              <li>Could existing code have solved this?</li>
+              <li>Could this be simpler?</li>
+              <li>Are the tests comprehensive and clear?</li>
+            </ul>
+          </li>
+          <li>The author should be absent during the code reading, the reviewer takes notes about what the people go
+            into dialog later.</li>
+          <li>Code reviews should be conducted by all team members, it is not a privilege for a selected few.</li>
+        </ul>
+      </li>
+      <li>pull requests:
+        <ul>
+          <li>Make each pull request as small as possible. That's smaller than you think.</li>
+          <li>Do only one thing in each pull request. If you want to do multiple things, put them in separate pull
+            requests.</li>
+          <li>Avoid reformatting unless it is the only thing that you do in your pull request.</li>
+          <li>make sure the code builds</li>
+          <li>make sure all tests pass</li>
+          <li>add tests of new behaviour</li>
+          <li>write proper commit messages</li>
+        </ul>
+      </li>
+      <li class="fw-bold">Teamwork is one of the most engineering-like practices you can adopt.</li>
+    </ul>
+
+    <h3>Part 2 Sustainability</h3>
+    <br />
+    <h4>Chapter 10 - Augmenting Code</h4>
+
+    <div class="alert alert-info">
+      For any significant change, don't make it in-place, make it side-by-side.
+    </div>
+    <ul>
+      <li>Feature Flags can easily be used when you introduce a new functionality</li>
+      <li>You can use the "strangler pattern"
+        <ul>
+          <li>on method level:
+            <ul>
+              <li>do not start by modifying the interface rather by implementing & testing on a concrete object</li>
+              <li>or do change the interface but only implement the new method in one concrete class - as long as you
+                have no other consumers than tests</li>
+            </ul>
+          </li>
+          <li>on class level: create a new class and move the implementation over step by step</li>
+        </ul>
+      </li>
+      <li>Versioning
+        <ul>
+          <li>take advice from the semantic versioning specification to learn about breaking and nonbreaking changes
+          </li>
+          <li>warn users of your api when you have breaking changes</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Chapter 11 - Editing Unit Tests</h4>
+    <ul>
+      <li>When you edit the test code you have the risk that your test code breaks. Therefore the author recommends that
+        you only edit either test or production code. This improves the chances to get it right.</li>
+      <li>Deleting assertions and tests weakens the integrity of the system.</li>
+      <li>Automated refactorings are safe most of the time.</li>
+    </ul>
+    <div class="alert alert-info">
+      <ul>
+        <li>git stash push : put all your dirty files in a hidden commit so you can work on HEAD and commit changes
+          "around" your latest changes</li>
+        <li>git stash pop : reapply the stashed changes to HEAD as if they are new changes</li>
+      </ul>
+    </div>
+
+    <h4>Chapter 12 - Troubleshooting</h4>
+    <ul>
+      <li>programming by coincidence: throw code at a problem, look what sticks</li>
+      <li>scientific method
+        <ul>
+          <li>make a hypothesis</li>
+          <li>perform the experiment</li>
+          <li>compare outcome to prediciton repeat until you understand what is going on.</li>
+        </ul>
+      </li>
+      <li>simplify code</li>
+      <li>rubber ducking: explain the problem to a collegue or rubber duck. You can do this in writing to.</li>
+      <li>address defects early, do not schedule them for later</li>
+      <li>reproduce defects as tests</li>
+      <li>use slow tests, but when they take >10 seconds let them be run by a second system, maybe your build system
+      </li>
+      <li>nondeterministic defects e.g. race conditions: create test loops that run for some time a test case as fast as
+        possible</li>
+      <li>bisection:
+        <ol>
+          <li>Find a way to detect or reproduce the problem</li>
+          <li>remove half of the code</li>
+          <li>if the problem is still present, repeat from step 2. If the problem goes away, restore the code you
+            removed, and remove the other half. Again repeat from step 2.</li>
+          <li>Keep going until you've whittled down the code that reproduces the problem to a size so small that you
+            understand what is going on</li>
+        </ol>
+      </li>
+      <li>bisection using git: walk back in the history to identify the commit that introduced the bug; git has a bisect
+        command to explicitly help with this interactivly using a binary search like algorithm</li>
+    </ul>
+
+    <h4>Chapter 13 - Separation of concerns</h4>
+    <ul>
+      <li>Nesting is bad: hidden side effects can easily make your code less comprehensible</li>
+      <li>Sequencial combination is easier</li>
+      <li>Pure functions reduce the complexity because their result is only dependent on their parameters, not other
+        information sources. So when reasoning
+        about the result you can be sure that there is no hidden complexity caused by external effects you cannot see.
+        Pure functions are also very testable.
+      </li>
+      <li>Keep nondeterministric queries and behaviour with the side effects close to the edges of the system and write
+        complex logic as pure functions.</li>
+      <li>Cross Cutting Concerns:
+        <ul>
+          <li>are e.g. Logging, Performance Monitoring, Auditing, Metering, Instrumentation, Caching, Fault Tolerance
+            and Security</li>
+          <li>are best implemented using the decorator pattern</li>
+          <li>you log the right amount of information when you can repeat the execution</li>
+          <li>
+            <div class="alert alert-info">
+              log all impure actions, but not more
+            </div>
+          </li>
+          <li>The author recommends "functional core, imperative shell" as coding style</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Chapter 14 - Rhythm</h4>
+    <ul>
+      <li>personal rhythm
+        <ul>
+          <li>use boxes of time</li>
+          <li>do breaks</li>
+          <li>Break out of the flow every now and then. In the state of flow you can easily waste hours, because
+            you do not have enough capacity left to know if you are working on the right things. Remember that intellectual
+            work is not about the hours you put in.
+          </li>
+          <li>use time deliberatly</li>
+          <li>learn touch typing, so you can look at the screen while typing and can use all the features modern IDEs give you</li>
+        </ul>
+      </li>
+      <li>Team Rhythm
+        <ul>
+          <li>Update dependencies regularily so you do not get stuck on old library versions (once per month)</li>
+          <li>schedule maintenance tasks</li>
+          <li>consider Conway's Law:
+            <br>"An organisation that designs a system [...] will inevitably produce a design whose structure is a copy of the oganizations communication structure."
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
