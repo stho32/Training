@@ -7,6 +7,12 @@
   <title>Continuous Developer Training - Resources</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    li {
+      margin-bottom: 1em;
+    }
+  </style>
 </head>
 
 <body>
@@ -31,101 +37,108 @@
     <h1>Code That Fits in Your Head <small class="text-muted"> Heuristics for Software Engineering</small></h1>
 
     <p>
-    <ul>
-      <li>authors: Mark Seemann</li>
-      <li>published: 2022</li>
-      <li><a href="https://www.amazon.de/s?k=Code+That+Fits+in+Your+Head">Find the book here</a></li>
-    </ul>
+    <table class="table">
+      <tr>
+        <th>Authors</th>
+        <th>published</th>
+        <td>Link</td>
+      </tr>
+      <tr>
+        <td>Mark Seemann</td>
+        <td>2022</td>
+        <td><a href="https://www.amazon.de/s?k=Code+That+Fits+in+Your+Head">Find the book here</a></td>
+      </tr>
+    </table>
     </p>
 
     <br>
     <h2>Summary</h2>
-    <br>
-    <div class="alert alert-info">
-      How to get away from the shifting sands of individual experience?
-    </div>
-    <br>
-    <h3>Part 1 - Getting up to speed</h3>
-    <br />
+    <p>The book focusses on two areas, that are mixed up in the content:</p>
+    <ul>
+      <li><mark>How to keep code simple and easy to comprehend?</mark><br />
+        Starting from the things that we know about how our brain works, what does simple mean and how can we see and
+        improve on that?
+      </li>
+      <li><mark>How to get away from the shifting sands of individual experience?</mark><br />
+        We software developers are dominated by our own individual experiences heavily. That hinders team work. So what
+        practices can we lend and modify from engineering to achieve more conformity?
+      </li>
+    </ul>
+
+    <hr>
     <h4>Chapter 1: Art or Science?</h4>
 
-    <p>The author lists different analogies that are usually used when trying to explain what software development is
-      like. Building a house, growing a garden, crafting and more. He shows that, while all of them contain some truth,
-      none fits right. But for the moment software engineering seems right for him and he wants to contribute something
+    <p>The author lists different analogies that are usually used when trying to explain what software development is,
+      like: Building a house, growing a garden, crafting and more. </p>
+    <p>
+      He shows that, while all of them contain some truth,
+      none fits right. But for the moment <mark>software engineering</mark> seems right for him and he wants to
+      contribute something
       in this direction.</p>
+
+    <hr>
 
     <h4>Chapter 2: Checklists</h4>
 
-    <p>
-      Checklists improve the outcome with no increase in skill. Consider the following checklist for creating new
-      repositories:
-    </p>
+    <p><mark>Checklists improve the outcome with no increase in skill.</mark></p>
 
-    <ul>
-      <li>use git</li>
-      <li>automate the build</li>
-      <li>turn on all error messages</li>
-    </ul>
+    <p>Create them. They are easy to create and can help everybody on the team. In a lot of different complex jobs they
+      already help a lot.</p>
+
+    <hr>
 
     <h4>Chapter 3: Tackling complexity</h4>
 
     <p>
-      Software engineering is about tackling complexity. The brain works in certain ways, e.g. we can only keep track of
-      7 things in our short term memory. Our code needs to respect that.
+      Software engineering is about tackling complexity. <mark>The brain works in certain ways, e.g. we can only keep track of
+      7 things in our short term memory. Our code needs to respect that.</mark>
     </p>
+
+    <hr>
 
     <h4>Chapter 4: Vertical Slice</h4>
 
-    <p>A vertical slice is a good way to start: It contains all layers of architecture for just one functionality.</p>
-
-    <p class="fw-bold">A vertical slice has advantages:</p>
-
-    <ul>
-      <li>it is working software</li>
-      <li>you get early feedback about the life cycle of the development process</li>
-    </ul>
-
-    <p class="fw-bold">Use unit testing ("Walking skeleton"):</p>
+    <p>Instead of working your way from the UI down to the database or the other way round, consider creating a vertical slice.</p>
+    <p>A vertical slice contains everything from the ui down to the database. It means that you only implement one feature, but through your complete architecture.</p>
+      
+    <p>This has advantages:</p>
 
     <ul>
-      <li>start with a characterization test, this is a high level test that describes a functionality</li>
-      <li>from there on write more tests and code to complete the functionality</li>
-      <li>Test code should be in balance. When you turn the code 90 degrees and then point to the middle you should
-        point to the act section (this essentially means that the arrange and assert blocks should have about equal
-        length).</li>
+      <li><mark>It is working software</mark><br>
+        You can already get user feedback on it. Maybe the users can even already use it for a certain part of their work?
+      </li>
+      <li><mark>You can already test drive your CI/CD pipelines</mark><br>
+        ... and they start small, so it should be easier to create them early.
+      </li>
     </ul>
 
-    <p class="alert alert-info">"Documentation should prioritise explaining *why* a descision was made, rather than
-      *what* was decided."</p>
+    <p>This vertical slice can also be described by the name of "walking skeleton" (<a href="https://lazaroibanez.com/management-walking-skeleton-the-simple-prioritization-technique-for-mvps-5d99490dad59" target="_blank">external explanation)</a>.</p>
 
-    <p class="fw-bold">outside-in test driven development:</p>
-
-    <p>
-      Begin at the outside boundary (user interface) and work your way into the software.
-      (The author calls this method : outside-in test driven development)
-    </p>
-
-    <p>The author lists different other methodologies:</p>
+    <p>Then <mark>use outside-in test-driven development</mark>:</p>
 
     <ul>
-      <li>Test-driven development</li>
-      <li>Behaviour-driven development</li>
-      <li>Domain-driven design</li>
-      <li>Type-driven development</li>
-      <li>Property-driven development</li>
+      <li><mark>start with a characterization test</mark><br>This is a high level test that describes a functionality.</li>
+      <li><mark>From there on write more tests and code to complete the functionality</mark><br>... , working your way inward on the details.</li>
     </ul>
 
-    <p class="alert alert-info">"The goal is not to write code fast. The goal is sustainable software."</p>
-
-    <p>The author suggests using value objects making the Domain Model easier and easier to test (Example given on Page
-      71). Also he does not create tests for those value objects, because they are implemented by a tool which makes
-      error probability very low.</p>
-
+    Other recommendations are:
     <ul>
-      <li>Commit database schema to the Git repository.</li>
-      <li>Classes that interact with subsystems are not easily tested. Therefore remove internal logic of those classes
-        to the utmost extend so you do not have much that could fail.</li>
+      <li><mark>Test code should be in balance</mark><br>
+        When you turn the code 90 degrees and then point to the middle you should
+      point to the act section (this essentially means that the arrange and assert blocks should have about equal
+      length).
+      </li>
+      <li><mark>Documentation should prioritise explaining <em>why</em> a descision was made</mark><br>
+        ..., rather than <em>what</em> was decided.
+      </li>
+      <li><mark>Use value objects</mark><br>
+        This makes the Domain Model easier and easier to test (Example given on Page 71). Since they are not complicated and often also fully implemented by a tool, the error probability is very low. Thus you do not need to write tests for them.</li>
+      <li><mark>Commit database schema to the Git repository.</mark></li>
+      <li><mark>Remove internal logic from classes that interact with subsystems to the utmost extend so you do not have much that could fail.</mark><br>Classes that interact with subsystems are not easily tested.</li>
     </ul>
+
+    <hr>
+
     <h4>Chapter 5: Encapsulation</h4>
     <ul>
       <li>Encapsulation is about being able to trust an object to behave in a certain way.</li>
@@ -378,11 +391,13 @@
           <li>use boxes of time</li>
           <li>do breaks</li>
           <li>Break out of the flow every now and then. In the state of flow you can easily waste hours, because
-            you do not have enough capacity left to know if you are working on the right things. Remember that intellectual
+            you do not have enough capacity left to know if you are working on the right things. Remember that
+            intellectual
             work is not about the hours you put in.
           </li>
           <li>use time deliberatly</li>
-          <li>learn touch typing, so you can look at the screen while typing and can use all the features modern IDEs give you</li>
+          <li>learn touch typing, so you can look at the screen while typing and can use all the features modern IDEs
+            give you</li>
         </ul>
       </li>
       <li>Team Rhythm
@@ -390,7 +405,8 @@
           <li>Update dependencies regularily so you do not get stuck on old library versions (once per month)</li>
           <li>schedule maintenance tasks</li>
           <li>consider Conway's Law:
-            <br>"An organisation that designs a system [...] will inevitably produce a design whose structure is a copy of the oganizations communication structure."
+            <br>"An organisation that designs a system [...] will inevitably produce a design whose structure is a copy
+            of the oganizations communication structure."
           </li>
         </ul>
       </li>
@@ -399,7 +415,8 @@
     <h4>Chapter 15 - The usual suspects</h4>
     <ul>
       <li>Performance</li>
-      <li>If the program does not need to work correctly, you can always make it run faster. Correctness should be the center of your attention.</li>
+      <li>If the program does not need to work correctly, you can always make it run faster. Correctness should be the
+        center of your attention.</li>
       <li>If you need to work on performance, then measure it.</li>
     </ul>
     <ul>
@@ -407,20 +424,24 @@
       <li>Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege</li>
     </ul>
     <p>
-      Other Techniques worth looking at: Canary Releases, A/B Testing, fault tolerance and resiliency, dependency analysis, leadership,
-      distributed, systems algorithms, architecture, finite state machines, design patterns, continuous delivery, the SOLID principles
+      Other Techniques worth looking at: Canary Releases, A/B Testing, fault tolerance and resiliency, dependency
+      analysis, leadership,
+      distributed, systems algorithms, architecture, finite state machines, design patterns, continuous delivery, the
+      SOLID principles
     </p>
     <ul>
-      <li>property-based testing:<br/>
-      Marking a test as [Property] and running it using FsCheck that auto-generates the parameters for the test method (random tests)</li>
-      <li>behavioural code analysis: reasoning over your git log, which files seem to be involved in most changes, which "cause the most trouble"?</li>
+      <li>property-based testing:<br />
+        Marking a test as [Property] and running it using FsCheck that auto-generates the parameters for the test method
+        (random tests)</li>
+      <li>behavioural code analysis: reasoning over your git log, which files seem to be involved in most changes, which
+        "cause the most trouble"?</li>
     </ul>
 
     <h4>Chapter 16</h4>
     <ul>
       <li>Structuring code so that we can navigate the complexity</li>
       <li>File organization: put all files in one folder!<br>
-      "When you put a file in one folder you cannot put it into another folder at the same time."</li>
+        "When you put a file in one folder you cannot put it into another folder at the same time."</li>
       <li>Use IDE features to navigate</li>
       <li>avoid cyclic dependencies in your code</li>
     </ul>
@@ -429,7 +450,7 @@
       The future is already here - it's just not evenly distributed. (William Gibson)
     </div>
   </div>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
 </body>
 
