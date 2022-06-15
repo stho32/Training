@@ -143,112 +143,129 @@
 
     <ul>
       <li><mark>Encapsulation</mark><br> is about being able to trust an object to behave in a certain way. So it is good to reduce complexity, as long </li>
-      <li>Write production code as answer to drivers like tests or analyzers.</li>
-      <li>Keep the time your code is invalid as short as possible. Concept: Transformation Priority Premis</li>
-      <li>Reference to red-green-refactor.</li>
-      <li>Robert C. Martin: "Abstraction is the elimination of the irrelevant and the amplification of the essential."
-        (Agile Principles, Patterns, and Practices in C#", 2006)</li>
-      <li>Postel's law: "Be conservative in what you send, be liberal in what you accept."</li>
-      <li>"The most important notion is that an object should guarantee that it'll never be in an invalid state."
+      <li><mark>Write production code as answer to drivers</mark><br/> like tests or analyzers.</li>
+      <li><mark>Keep the time your code is invalid as short as possible.</mark><br> Concept: Transformation Priority Premise</li>      
+      <li><mark>Postel's law</mark><br> "Be conservative in what you send, be liberal in what you accept."</li>
+      <li><mark>"The most important notion is that an object should guarantee that it'll never be in an invalid state."</mark><br>
         (p.108)</li>
-      <li>"The less you ask of the caller, the easier it is for the caller to interact with the object. The better
-        guaranties you give, the less defensive code the caller has to write." (p.109)</li>
+      <li><mark>"The less you ask of the caller, the easier it is for the caller to interact with the object. The better
+        guaranties you give, the less defensive code the caller has to write."</mark><br> (p.109)</li>
     </ul>
 
     <h4>Chapter 6: Triangulation</h4>
     <ul>
-      <li>introducing: our long term memory, and how unfortunately it is not very valuable in software development
-        organization, neither for the long term value of developers nor for the company.</li>
-      <li>While coding, when you see things that you want to change, make a list and keep to the change that you are
-        doing at the moment.</li>
-      <li>
-        <div class="alert alert-info">
-          The devil's advocate:<br>
+      <li><mark>Do not count on your long term memory</mark><br/>
+        Our long term memory it is not very valuable in a software development
+        organization, neither for the long term value of developers nor for the company.<br><br>
+        The developers collect information on legacy code. While this makes them
+        hard to replace for one company it also renders them not valuable for any other 
+        organisation and ultimatly restricts their personal development.<br><br>
+        And the company has increased bus factor problems.
+      </li>
+      <li><mark>Short development bursts</mark><br>
+        While coding, when you see things that you want to change, make a list and keep to the change that you are
+        doing at the moment. Do not get distracted.</li>
+      <li><mark>Use the devil's advocate for writing unit tests</mark><br>
           It is a technique where you continue to try to implement a clearly wrong solution that still makes all tests
           pass. You continue that until your tests are so good that they force you to implement the right thing.
-        </div>
       </li>
     </ul>
 
     <h4>Chapter 7: Decomposition</h4>
     <ul>
-      <li>Code increases in complexity over time and it is a bad habit to leave it unchecked. Some ideas for measures
-        follow.</li>
-      <li>Cyclometic complexity could be monitored by a build system. (Counts the number of branching and looping
+      <li><mark>Continuously watch your code complexity</mark><br> Code increases in complexity over time and it is a bad habit to leave it unchecked.</li>
+      <li><mark>Cyclometic complexity</mark><br>
+         could be monitored by a build system. (Counts the number of branching and looping
         instructions). You should strive for less than 7.</li>
-      <li>80x24 rule: based on the constraints of early terminals, the code of a method should fit these constraints
+      <li><mark>80x24 rule</mark><br> based on the constraints of early terminals, the code of a method should fit these constraints
       </li>
-      <li>Parse, don't validate: reduces the complexity (See TryParse Methods in c#)</li>
-      <li>Fractal architecture: Your architecture should at every level not exceed a maximum of 7 elements. This will
-        span a tree and still be within some bounds to be comprehensible by your brains constraint.</li>
-      <li>variable count: the number of variables + parameters your method uses. The higher it is the more complex the
-        code.</li>
+      <li><mark>Parse, don't validate</mark><br> 
+        Using the TryParse-Methods in the .Net library reduces the complexity</li>
+      <li><mark>Fractal architecture</mark><br> 
+        At every level your architecture should not exceed a maximum of 7 elements. 
+        This will span a tree and still be within some bounds to be comprehensible by your brains constraint.</li>
+      <li>
+        <mark>variable count</mark><br> 
+        The number of variables and parameters your method uses. The higher it is the more complex the
+        code. Keep it below 7.</li>
     </ul>
 
     <h4>Chapter 8: API Design</h4>
     <ul>
-      <li>dot-driven development means supporting intellisense so that users can quickly find what they are looking for
+      <li><mark>dot-driven development</mark><br>
+        This means supporting intellisense so that users can quickly find what they are looking for
       </li>
-      <li>poka-yoke: fool-proof your api by making mistakes impossible by design. Compiler-errors are preferable to
-        runtime errors.</li>
-      <li>remember to write for <i>readers</i></li>
-      <li>favor well-named code over comments</li>
-      <li>try to x-out names of methods and then try to infer the name from thje signature. Is it self-explanatory? You
-        do not have to say what the types already state.</li>
-      <li>Command-Query-Separation: Methods that return data should not have side effects. Methods with side effects
-        should not return data.</li>
-      <li>Use the Hierarchy of Communication (prefer solutions with a lower number to solutions with a higher number) :
-        <ol>
-          <li>give APIs distinct types</li>
-          <li>give methods helpful names</li>
-          <li>write good comments</li>
-          <li>provide illustrative examples as automated tests</li>
-          <li>write helpful commit messages in git</li>
-          <li>write good documentation</li>
+      <li><mark>poka-yoke</mark><br> 
+        Fool-proof your api by making mistakes impossible by design. 
+        Compiler-errors are preferable to runtime errors.</li>
+      <li><mark>Remember to write for <i>readers</i></mark></li>
+      <li><mark>Favor well-named code over comments</mark></li>
+      <li><mark>Can you create self-explaining signatures?</mark>
+        <br>Try to x-out names of methods and then try to infer the name from the signature. 
+        You may be able to shorten the name since you do not have to say what the types already state.</li>
+      <li><mark>Use Command-Query-Separation</mark><br>
+        Methods that return data should not have side effects.<br> 
+        Methods with side effects should not return data.</li>
+      <li><mark>Use the Hierarchy of Communication</mark><br/><ol>
+          <li style="margin:0">give APIs distinct types</li>
+          <li style="margin:0">give methods helpful names</li>
+          <li style="margin:0">write good comments</li>
+          <li style="margin:0">provide illustrative examples as automated tests</li>
+          <li style="margin:0">write helpful commit messages in git</li>
+          <li style="margin:0">write good documentation</li>
         </ol>
+        Prefer the methods with the lower number, when having a choice.
       </li>
     </ul>
 
     <h4>Chapter 9: Teamwork</h4>
+
+    <span class="fw-bold">Teamwork is one of the most engineering-like practices you can adopt.</span>
+
     <ul>
-      <li>git commit messages:
+      <li><mark>Use the 50/72-rule for git commit messages</mark>
         <ul>
-          <li>50/72-rule:
-            <ul>
-              <li>write a summary in the <i>imperative</i> no wider than 50 characters</li>
-              <li>if you add more text, leave the second line blank</li>
-              <li>you can add as much text as you'd like, but format it so that it's no wider than 72 characters</li>
-            </ul>
-          </li>
-        </ul>
-        This will also enable
-        <pre>git log --oneline</pre>
-      </li>
-      <li>use continuous integration (merge at average every 4 hours, if your change requires more time, hide it behind
+          <li style="margin:0">write a summary in the <i>imperative</i> no wider than 50 characters</li>
+          <li style="margin:0">if you add more text, leave the second line blank</li>
+          <li style="margin:0">you can add as much text as you'd like, but format it so that it's no wider than 72 characters</li>
+        </ul> 
+        You can then use <code>git log --oneline</code> to get a summary of the log while preserving detail.
+        </li>
+      <li><mark>Use continuous integration</mark><br>
+        (merge at average every 4 hours, if your change 
+        requires more time, hide it behind
         a feature flag and merge anyway)</li>
-      <li>small commits enhance manouverability</li>
-      <li>collective code ownership: a stable team does not exist, how many people can exit your team before the
+      <li><mark>small commits enhance manouverability</mark></li>
+      <li><mark>collective code ownership</mark><br>
+        A stable team does not exist, how many people can exit your team before the
         operation stops?</li>
-      <li>pair programming comes with a real time code review and an informal approval process</li>
-      <li>mob programming
-        <ul>
-          <li>remember: productivity is unrelated to how fast someone is typing on his computer; <br />still: mob
-            programming becomes unproductive in bigger groups (imagine 50 people...)</li>
-          <li>in small groups effective, e.g. coaching scenarios</li>
-        </ul>
+      <li><mark>pair programming</mark><br> 
+        comes with a real time code review and
+        an informal approval process. It removes the time between 
+        the development and the review effectivly countering the negative
+        effects of late or no reviews.
       </li>
-      <li>code reviews
+      <li><mark>mob programming</mark><br>
+        Is effective in small groups, e.g. for coaching scenarios.
+        <br>
+        Remember: Productivity is unrelated to typing speed.
+      </li>
+    </ul>
+
+    <h5>Code Reviews</h5>
+
         <ul>
-          <li>the longer the time between the coding and the code review the more time it will take because the
-            developer forgets</li>
-          <li>
-            without reviews the probability of bugs in production increases, which are sometimes only found a long time
+          <li><mark>Review early</mark><br/>
+            The longer the time between the coding and the code review the more time it will take because the
+            developer forgets.</li>
+          <li><mark>Review</mark><br/>
+            Without reviews the probability of bugs in production increases, which are sometimes only found a long time
             after publishing,
-            and then the dev will not remember his own code so fixing the bug will take even longer
+            and then the dev will not remember his own code so fixing the bug will take even longer.
           </li>
-          <li>reviews should therefore be performed in at least a daily rhythm</li>
-          <li>reject big changesets</li>
-          <li>code review answers one question: "Will I be ok maintaining this?"</li>
+          <li><mark>Reviews should be performed in at least a daily rhythm</mark></li>
+          <li><mark>reject big changesets</mark></li>
+          <li><mark>Ask yourself: "Will I be ok maintaining this?"</mark></li>
           <li>code reviews should be driven by the reviewer, the developer is biased and is not in the position to tell
             if the code is readable.</li>
           <li>Good questions for a code review:
@@ -265,8 +282,9 @@
             into dialog later.</li>
           <li>Code reviews should be conducted by all team members, it is not a privilege for a selected few.</li>
         </ul>
-      </li>
-      <li>pull requests:
+
+        <h5>pull requests</h5>
+
         <ul>
           <li>Make each pull request as small as possible. That's smaller than you think.</li>
           <li>Do only one thing in each pull request. If you want to do multiple things, put them in separate pull
@@ -278,8 +296,8 @@
           <li>write proper commit messages</li>
         </ul>
       </li>
-      <li class="fw-bold">Teamwork is one of the most engineering-like practices you can adopt.</li>
-    </ul>
+
+
 
     <h3>Part 2 Sustainability</h3>
     <br />
