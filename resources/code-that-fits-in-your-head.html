@@ -80,10 +80,12 @@
 
     <h4>Chapter 2: Checklists</h4>
 
-    <p><mark>Checklists improve the outcome with no increase in skill.</mark></p>
-
-    <p>Create them. They are easy to create and can help everybody on the team. In a lot of different complex jobs they
-      already help a lot.</p>
+    <ul>
+      <li><mark>Use checklists</mark><br>
+        They are easy to create and can help everybody on the team. In a lot of different complex jobs they
+        already help a lot.
+      </li>
+    </ul>
 
     <hr>
 
@@ -104,7 +106,7 @@
     <p>This has advantages:</p>
 
     <ul>
-      <li><mark>It is working software</mark><br>
+      <li><mark>You create working software</mark><br>
         You can already get user feedback on it. Maybe the users can even already use it for a certain part of their work?
       </li>
       <li><mark>You can already test drive your CI/CD pipelines</mark><br>
@@ -142,7 +144,7 @@
     <h4>Chapter 5: Encapsulation</h4>
 
     <ul>
-      <li><mark>Encapsulation</mark><br> is about being able to trust an object to behave in a certain way. So it is good to reduce complexity, as long </li>
+      <li><mark>Encapsulation</mark><br> is about being able to trust an object to behave in a certain way. So it is good to reduce complexity.</li>
       <li><mark>Write production code as answer to drivers</mark><br/> like tests or analyzers.</li>
       <li><mark>Keep the time your code is invalid as short as possible.</mark><br> Concept: Transformation Priority Premise</li>      
       <li><mark>Postel's law</mark><br> "Be conservative in what you send, be liberal in what you accept."</li>
@@ -160,14 +162,17 @@
         The developers collect information on legacy code. While this makes them
         hard to replace for one company it also renders them not valuable for any other 
         organisation and ultimatly restricts their personal development.<br><br>
-        And the company has increased bus factor problems.
+        The company has increased bus factor problems, because the developers on a project 
+        are not easily replaced. This also restricts scaling, keeping the software operational,
+        and might be a kill switch, if the company is to dependent on the software.
       </li>
       <li><mark>Short development bursts</mark><br>
         While coding, when you see things that you want to change, make a list and keep to the change that you are
         doing at the moment. Do not get distracted.</li>
       <li><mark>Use the devil's advocate for writing unit tests</mark><br>
           It is a technique where you continue to try to implement a clearly wrong solution that still makes all tests
-          pass. You continue that until your tests are so good that they force you to implement the right thing.
+          pass. Then you try to be more specific in your tests and continue this loop until your tests are so good 
+          that they force you to implement the right thing.
       </li>
     </ul>
 
@@ -185,17 +190,16 @@
         At every level your architecture should not exceed a maximum of 7 elements. 
         This will span a tree and still be within some bounds to be comprehensible by your brains constraint.</li>
       <li>
-        <mark>variable count</mark><br> 
-        The number of variables and parameters your method uses. The higher it is the more complex the
-        code. Keep it below 7.</li>
+        <mark>Variable count</mark><br> 
+        The number of variables and parameters your method uses should be kept below or equal to 7.</li>
     </ul>
 
-    <h4>Chapter 8: API Design</h4>
+    <h4>Chapter 8: API design</h4>
     <ul>
-      <li><mark>dot-driven development</mark><br>
-        This means supporting intellisense so that users can quickly find what they are looking for
+      <li><mark>Dot-Driven Development</mark><br>
+        This means supporting Intellisense so that users can quickly find what they are looking for.
       </li>
-      <li><mark>poka-yoke</mark><br> 
+      <li><mark>Poka-Yoke</mark><br> 
         Fool-proof your api by making mistakes impossible by design. 
         Compiler-errors are preferable to runtime errors.</li>
       <li><mark>Remember to write for <i>readers</i></mark></li>
@@ -264,210 +268,211 @@
             and then the dev will not remember his own code so fixing the bug will take even longer.
           </li>
           <li><mark>Reviews should be performed in at least a daily rhythm</mark></li>
-          <li><mark>reject big changesets</mark></li>
+          <li><mark>Reject big changesets</mark></li>
           <li><mark>Ask yourself: "Will I be ok maintaining this?"</mark></li>
-          <li>code reviews should be driven by the reviewer, the developer is biased and is not in the position to tell
+          <li><mark>Driven by the reviewer</mark><br>
+            code reviews should be driven by the reviewer, the developer is biased and is not in the position to tell
             if the code is readable.</li>
-          <li>Good questions for a code review:
+          <li><mark>Good questions for a code review</mark>
             <ul>
-              <li>Does the code work as intended?</li>
-              <li>Is the intent clear?</li>
-              <li>Is there needless duplication?</li>
-              <li>Could existing code have solved this?</li>
-              <li>Could this be simpler?</li>
-              <li>Are the tests comprehensive and clear?</li>
+              <li style="margin: 0;">Does the code work as intended?</li>
+              <li style="margin: 0;">Is the intent clear?</li>
+              <li style="margin: 0;">Is there needless duplication?</li>
+              <li style="margin: 0;">Could existing code have solved this?</li>
+              <li style="margin: 0;">Could this be simpler?</li>
+              <li style="margin: 0;">Are the tests comprehensive and clear?</li>
             </ul>
           </li>
-          <li>The author should be absent during the code reading, the reviewer takes notes about what the people go
+          <li><mark>Absent author</mark><br>
+            The author should be absent during the code reading, 
+            the reviewer takes notes about what the people go
             into dialog later.</li>
-          <li>Code reviews should be conducted by all team members, it is not a privilege for a selected few.</li>
+          <li><mark>No privilege</mark><br>
+            Code reviews should be conducted by all team members, 
+            it is not a privilege for a selected few.</li>
         </ul>
 
-        <h5>pull requests</h5>
+        <h5>Pull Requests</h5>
 
         <ul>
-          <li>Make each pull request as small as possible. That's smaller than you think.</li>
-          <li>Do only one thing in each pull request. If you want to do multiple things, put them in separate pull
+          <li><mark>Make each pull request as small as possible.</mark><br>That's smaller than you think.</li>
+          <li><mark>Do only one thing in each pull request.</mark><br> If you want to do multiple things, put them in separate pull
             requests.</li>
-          <li>Avoid reformatting unless it is the only thing that you do in your pull request.</li>
-          <li>make sure the code builds</li>
-          <li>make sure all tests pass</li>
-          <li>add tests of new behaviour</li>
-          <li>write proper commit messages</li>
+          <li><mark>Avoid reformatting</mark>
+            <br> unless it is the only thing that you do in your pull request.</li>
+          <li><mark>Make sure the code builds</mark></li>
+          <li><mark>Make sure all tests pass</mark></li>
+          <li><mark>Add tests of new behaviour</mark></li>
+          <li><mark>Write proper commit messages</mark></li>
         </ul>
       </li>
 
 
-
+    <br>
     <h3>Part 2 Sustainability</h3>
     <br />
     <h4>Chapter 10 - Augmenting Code</h4>
 
-    <div class="alert alert-info">
-      For any significant change, don't make it in-place, make it side-by-side.
-    </div>
     <ul>
-      <li>Feature Flags can easily be used when you introduce a new functionality</li>
-      <li>You can use the "strangler pattern"
-        <ul>
-          <li>on method level:
-            <ul>
-              <li>do not start by modifying the interface rather by implementing & testing on a concrete object</li>
-              <li>or do change the interface but only implement the new method in one concrete class - as long as you
-                have no other consumers than tests</li>
-            </ul>
-          </li>
-          <li>on class level: create a new class and move the implementation over step by step</li>
-        </ul>
+      <li><mark>Split up big changes into little changes</mark><br>
+        For any significant change, don't make it in-place, make it side-by-side.
       </li>
-      <li>Versioning
+      <li><mark>Use feature flags</mark><br>
+        Feature flags can easily be used when you introduce a new functionality</li>
+      <li><mark>Strangler-pattern on method level</mark>
         <ul>
-          <li>take advice from the semantic versioning specification to learn about breaking and nonbreaking changes
+          <li style="margin:0">do not start by modifying the interface rather by implementing & testing on a concrete object</li>
+          <li style="margin:0">or do change the interface but only implement the new method in one concrete class - as long as you
+            have no other consumers than tests</li>
+        </ul>
+        </li>
+        <li><mark>Strangler-pattern on class level</mark><br>
+          create a new class and move the implementation over step 
+          by step</li>
+      </li>
+      <li><mark>Versioning</mark>
+        <ul>
+          <li style="margin:0">take advice from the semantic versioning specification to learn about breaking and nonbreaking changes
           </li>
-          <li>warn users of your api when you have breaking changes</li>
+          <li style="margin:0">warn users of your api when you have breaking changes</li>
         </ul>
       </li>
     </ul>
-
+    <br/>
     <h4>Chapter 11 - Editing Unit Tests</h4>
     <ul>
-      <li>When you edit the test code you have the risk that your test code breaks. Therefore the author recommends that
-        you only edit either test or production code. This improves the chances to get it right.</li>
-      <li>Deleting assertions and tests weakens the integrity of the system.</li>
-      <li>Automated refactorings are safe most of the time.</li>
+      <li>
+        <mark>Only edit either test or production code</mark>
+        <br>When you edit the test code you have the risk that your test code breaks. This improves the chances to get it right.</li>
+      <li><mark>Deleting assertions and tests weakens the integrity of the system.</mark></li>
+      <li><mark>Automated refactorings are safe most of the time.</mark></li>
+      <li><mark>Use the stash to get around merge problems at inappropriate times</mark><br>
+        <code>git stash</code> : put all your dirty files in a hidden commit<br>
+        <code>git stash pop</code> : reapply the stashed changes to HEAD as if they are new changes
+      </li>
     </ul>
-    <div class="alert alert-info">
-      <ul>
-        <li>git stash push : put all your dirty files in a hidden commit so you can work on HEAD and commit changes
-          "around" your latest changes</li>
-        <li>git stash pop : reapply the stashed changes to HEAD as if they are new changes</li>
-      </ul>
-    </div>
 
+    <br>
     <h4>Chapter 12 - Troubleshooting</h4>
+
+    <strong>What to do when your code does not work?</strong><br><br>
     <ul>
-      <li>programming by coincidence: throw code at a problem, look what sticks</li>
-      <li>scientific method
+      <li><mark>The lowest level is programming by coincidence</mark><br>
+        Throw code at a problem, look what sticks...<br>
+        This is not recommended.
+      </li>
+      <li><mark>The Scientific Method</mark>
         <ul>
-          <li>make a hypothesis</li>
-          <li>perform the experiment</li>
-          <li>compare outcome to prediciton repeat until you understand what is going on.</li>
+          <li style="margin: 0;">make a hypothesis</li>
+          <li style="margin: 0;">perform the experiment</li>
+          <li style="margin: 0;">compare outcome to prediciton repeat until you understand what is going on.</li>
         </ul>
       </li>
-      <li>simplify code</li>
-      <li>rubber ducking: explain the problem to a collegue or rubber duck. You can do this in writing to.</li>
-      <li>address defects early, do not schedule them for later</li>
-      <li>reproduce defects as tests</li>
-      <li>use slow tests, but when they take >10 seconds let them be run by a second system, maybe your build system
+      <li><mark>Simplify code</mark></li>
+      <li><mark>Rubber Ducking</mark><br> 
+        explain the problem to a collegue or rubber Duck. 
+        You can do this in writing to.</li>
+      <li><mark>Address defects early</mark><br>
+        Do not schedule solving known defects for later, as they probably will cause secondary and 
+        tertiary effects that will create additional work</li>
+      <li><mark>Reproduce defects as tests</mark><br>
+        If a defect occurs once it has already proven that it can occur. Creating an automated test 
+        that reproduces the problem will help you not only fixing it but also protect you against a second occurence.
       </li>
-      <li>nondeterministic defects e.g. race conditions: create test loops that run for some time a test case as fast as
-        possible</li>
-      <li>bisection:
+      <li><mark>Do not be afraid of slow tests</mark><br>
+        Use slow tests, but when they take more than 10 seconds let them be run by a second system, maybe your build system.<br>
+      </li>
+      <li><mark>Reproduce nondeterministic defects with loops</mark><br/>
+        Nondeterministic defects e.g. race conditions cannot be 100% tested. But you can 
+        create tests that make the problem probable and then loop over them for a few minutes.
+        If you get away with a green flag you then can be relativly certain that you addressed the 
+        problem.</li>
+      <li><mark>Use Bisection</mark>
         <ol>
-          <li>Find a way to detect or reproduce the problem</li>
-          <li>remove half of the code</li>
-          <li>if the problem is still present, repeat from step 2. If the problem goes away, restore the code you
-            removed, and remove the other half. Again repeat from step 2.</li>
-          <li>Keep going until you've whittled down the code that reproduces the problem to a size so small that you
-            understand what is going on</li>
+          <li style="margin: 0;">Find a way to detect or reproduce the problem</li>
+          <li style="margin: 0;">remove half of the code</li>
+          <li style="margin: 0;">If the problem is still present, repeat from step 2. If the problem goes away, restore the code you removed, and remove the other half. Again repeat from step 2.</li>
+          <li style="margin: 0;">Keep going until you've whittled down the code that reproduces the problem to a size so small that you
+            understand what is going on.</li>
         </ol>
       </li>
-      <li>bisection using git: walk back in the history to identify the commit that introduced the bug; git has a bisect
-        command to explicitly help with this interactivly using a binary search like algorithm</li>
+      <li><mark>Use Bisection using GIT</mark><br>
+        Walk back in the history to identify the commit that introduced the bug; git has a <code>git bisect</code>
+        command to explicitly help with this interactivly using a search algorithm.</li>
     </ul>
 
-    <h4>Chapter 13 - Separation of concerns</h4>
+    <h4>Chapter 13 - Separation of Concerns</h4>
     <ul>
-      <li>Nesting is bad: hidden side effects can easily make your code less comprehensible</li>
-      <li>Sequencial combination is easier</li>
-      <li>Pure functions reduce the complexity because their result is only dependent on their parameters, not other
-        information sources. So when reasoning
-        about the result you can be sure that there is no hidden complexity caused by external effects you cannot see.
-        Pure functions are also very testable.
+      <li><mark>Nesting is bad</mark><br>
+        Hidden side effects can easily make your code less comprehensible.</li>
+      <li><mark>Sequencial combination is good</mark></li>
+      <li><mark>Pure functions reduce the complexity</mark><br> 
+        Pure functions are only dependent on their parameters, not external side-effects.
+        This also makes them very testable.
       </li>
-      <li>Keep nondeterministric queries and behaviour with the side effects close to the edges of the system and write
+      <li><mark>Keep side effects close to the edges of the system</mark><br/>
+        Keep nondeterministric queries and behaviour with the side effects close to the edges of the system and write
         complex logic as pure functions.</li>
-      <li>Cross Cutting Concerns:
-        <ul>
-          <li>are e.g. Logging, Performance Monitoring, Auditing, Metering, Instrumentation, Caching, Fault Tolerance
-            and Security</li>
-          <li>are best implemented using the decorator pattern</li>
-          <li>you log the right amount of information when you can repeat the execution</li>
-          <li>
-            <div class="alert alert-info">
-              log all impure actions, but not more
-            </div>
-          </li>
-          <li>The author recommends "functional core, imperative shell" as coding style</li>
-        </ul>
+      <li><mark>Use decorators for cross cutting concerns</mark><br>
+        (e.g. Logging, Performance Monitoring, Auditing, Metering, Instrumentation, Caching, Fault Tolerance
+        and Security)</li>
+      <li><mark>Log all impure actions, but not more</mark><br>
+        You log the right amount of information when you can repeat the execution.
       </li>
+      <li><mark>Try "functional core, imperative shell" as coding style</mark></li>
     </ul>
 
     <h4>Chapter 14 - Rhythm</h4>
+
+    <strong>Personal rhythm:</strong>
+
     <ul>
-      <li>personal rhythm
-        <ul>
-          <li>use boxes of time</li>
-          <li>do breaks</li>
-          <li>Break out of the flow every now and then. In the state of flow you can easily waste hours, because
-            you do not have enough capacity left to know if you are working on the right things. Remember that
-            intellectual
-            work is not about the hours you put in.
-          </li>
-          <li>use time deliberatly</li>
-          <li>learn touch typing, so you can look at the screen while typing and can use all the features modern IDEs
-            give you</li>
-        </ul>
+      <li><mark>Use boxes of time</mark></li>
+      <li><mark>Do breaks</mark></li>
+      <li><mark>Break out of the flow</mark><br>
+        In the state of flow you can easily waste hours, because you do not have enough capacity left to 
+        know if you are working on the right things. Remember that intellectual work is not about the hours 
+        you put in. <mark>Use time deliberatly!</mark>
       </li>
-      <li>Team Rhythm
-        <ul>
-          <li>Update dependencies regularily so you do not get stuck on old library versions (once per month)</li>
-          <li>schedule maintenance tasks</li>
-          <li>consider Conway's Law:
-            <br>"An organisation that designs a system [...] will inevitably produce a design whose structure is a copy
-            of the oganizations communication structure."
-          </li>
-        </ul>
+      <li><mark>Learn touch typing</mark><br>
+        so you can look at the screen while typing and can use all the features modern IDEs give you
       </li>
     </ul>
 
-    <h4>Chapter 15 - The usual suspects</h4>
+    <strong>Team Rhythm:</strong>
     <ul>
-      <li>Performance</li>
-      <li>If the program does not need to work correctly, you can always make it run faster. Correctness should be the
-        center of your attention.</li>
-      <li>If you need to work on performance, then measure it.</li>
+      <li><mark>Update dependencies regularily</mark>
+        <br>... so you do not get stuck on old library versions (recommended once per month)</li>
+      <li><mark>Schedule maintenance tasks</mark></li>
     </ul>
+
+    <h4>Chapter 15 - The Usual Suspects</h4>
+
     <ul>
-      <li>Security</li>
-      <li>Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege</li>
-    </ul>
-    <p>
-      Other Techniques worth looking at: Canary Releases, A/B Testing, fault tolerance and resiliency, dependency
-      analysis, leadership,
-      distributed, systems algorithms, architecture, finite state machines, design patterns, continuous delivery, the
-      SOLID principles
-    </p>
-    <ul>
-      <li>property-based testing:<br />
-        Marking a test as [Property] and running it using FsCheck that auto-generates the parameters for the test method
-        (random tests)</li>
-      <li>behavioural code analysis: reasoning over your git log, which files seem to be involved in most changes, which
-        "cause the most trouble"?</li>
+      <li><mark>Correctness is more important than performance</mark><br>
+        If the program does not need to work correctly, you can always make it run faster. 
+        Correctness should be the center of your attention.</li>
+      <li><mark>If you need to work on performance, then measure it.</mark><br>
+        You cannot work on performance without measuring it!
+        </li>
+      <li><mark>Use the STRIDE acronym to think about security</mark><br>
+        Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege</li>
+      <li><mark>Try property-based testing</mark><br />
+        Mark a test as [Property] and running it using FsCheck. FsCheck auto-generates the parameters for the test method
+        It is like [TestCase], just random.</li>
+      <li><mark>Use Behavioural Code Analysis</mark><br /> 
+        reasoning over your git log, which files seem to be involved in most changes, which
+        "cause the most trouble"? (This is an own research topic).</li>
     </ul>
 
     <h4>Chapter 16</h4>
     <ul>
-      <li>Structuring code so that we can navigate the complexity</li>
-      <li>File organization: put all files in one folder!<br>
+      <li><mark>Put all files in one folder</mark><br>
         "When you put a file in one folder you cannot put it into another folder at the same time."</li>
-      <li>Use IDE features to navigate</li>
-      <li>avoid cyclic dependencies in your code</li>
+      <li><mark>Use IDE features to navigate</mark><br>
+      Instead of a folder structure</li>
+      <li><mark>Avoid cyclic dependencies in your code</mark></li>
     </ul>
-
-    <div class="alert alert-info">
-      The future is already here - it's just not evenly distributed. (William Gibson)
-    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
