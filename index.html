@@ -65,10 +65,9 @@
                     </h1>
                     <p class="lead fw-normal"></p>
                     <br /><br />
-                    <small class="text-muted">
-                        ... or use one of the menues above to directly navigate
-                        to the content you want.
-                    </small>
+                    I propose the following topic for further investigation:<br />
+                    <br />
+                    <small class="display-5 text-muted" id="proposal"> </small>
                     <br />
                 </div>
                 <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -78,5 +77,47 @@
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
+        <script>
+            let options = [
+                "How can I debottleneck a process?",
+                "What is the devil's advocate?",
+                "What is an evaporating cloud?",
+                "How can checklists help me?",
+                "What is a vertical slice?",
+                "What is meant by outside-in test-driven development?",
+                "How does test-driven development work?",
+                "What does a good documentation look like?",
+                "How can value objects help me code better?",
+                "How can I apply encapsulation to reduce the complexity of code?",
+                "What are 'drivers for code changes' and how can I use them?",
+                "How long should the time between two compilable versions of the code be?",
+                "What is Postel's law?",
+                "Why should you keep the complexity of code below 7?",
+                "What methods are there to continuously watch your code complexity?",
+                "What benefits does pair programming have compared to developing alone?",
+                "When is pair programming inefficient compared to developing alone?",
+                "What is meant by 'Fractal architecture'?",
+                "What is dot-driven development and how can you apply it?",
+                "What is domain-driven development and how to you differenciate it from behaviour driven development?",
+                "How can you find out, if you have a good name for a variable or function at hand?",
+                "Practice some rounds of pair programming!",
+                "Practice some rounds of mob programming!",
+                "How long is the optimal time span between a feature completion and its review process?",
+                "Does the code work as intended?",
+                "How to validate if the codes intent is clear?",
+                "How to find needless duplication?",
+                "Could this be simpler?",
+                "Are the tests comprehensive?",
+                "What are the rules of semantic versioning?",
+                "What is meant by 'Strangler pattern'?",
+                "Are you sure you really know git?",
+                "What is Rubber Ducking?",
+            ];
+
+            let randomElement =
+                options[Math.floor(Math.random() * options.length)];
+
+            document.getElementById("proposal").innerText = randomElement;
+        </script>
     </body>
 </html>
