@@ -31,7 +31,7 @@ Try these projects together and grow in understanding
 -   [P007](P007/README.md) "principles", Principles
 -   [P009](P009/README.md) "forms", Form Builder
 -   [P010](P010/README.md) "kanban", Kanban Task Manager
--   [P014](P014/README.md) "righteous", Kanban Task Manager
+-   [P014](P014/README.md) "righteous", user right management
 -   [P023](P023/README.md) "arglang", A library to parse command line arguments as if they would be routes
 -   [P030](P030/README.md) "patterns", Design Patterns
 
