@@ -1,26 +1,92 @@
-# "bld" A generic build script, that autodetects the contents of the repository / directory
+# Universal Build Tool
 
-(Although named "build script" the script can be a compiled tool as well.)
+An intelligent build automation system teaching environment detection, multi-language support, and build process automation.
 
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+## Level 0 - Project Detection
+- [ ] Create directory scanner
+  - Recursive traversal
+  - File pattern matching
+  - Project identification
+- [ ] Add language detection
+  - File extensions
+  - Project files
+  - Build scripts
+- [ ] Create basic logging
+- [ ] Implement error handling
 
-## Requirements
+## Level 1 - Environment Setup
+- [ ] Add environment detection
+  - SDK presence
+  - Tool versions
+  - System requirements
+- [ ] Implement auto-installation
+  - .NET SDK
+  - Python
+  - Node.js
+  - Rust
+- [ ] Create environment validation
+- [ ] Add dependency resolution
+- [ ] Support version management
 
-- [ ] (R001) When run, the script will search the directory tree from its current working directory recursivly
-- [ ] (R002) It will autodetect types of programming languages, at least two. Possible ideas:
-  - C#
-  - python
-  - javascript
-  - rust
-- [ ] (R003) It will detect if the computer, that it runs on, has the needed environment installed. If not, it will set up the computer so that it has. This means for example: 
-  - download and install the dotnet sdk
-  - download and install python3
-  - download and install nodejs
-  - download and install rust
-- [ ] (R004) It will run build processes using the following process
-  - [ ] (R005) build as release
-  - [ ] (R006) automatically execute all contained unit tests
-  - [ ] (R007) create a release directory and copy all essential stuff into it
+## Level 2 - Build Process
+- [ ] Add build configuration
+  - Release mode
+  - Debug mode
+  - Custom profiles
+- [ ] Implement test running
+  - Unit tests
+  - Integration tests
+  - Test reporting
+- [ ] Create artifact management
+  - Output organization
+  - File copying
+  - Clean builds
+- [ ] Add build caching
 
+## Level 3 - Advanced Features
+- [ ] Add parallel builds
+- [ ] Implement incremental builds
+- [ ] Create build pipelines
+- [ ] Add custom scripts
+- [ ] Support plugins
+- [ ] Create build reports
 
+## Level 4 - Integration
+- [ ] Add CI/CD support
+- [ ] Create API endpoints
+- [ ] Implement webhooks
+- [ ] Add monitoring
+- [ ] Support notifications
+- [ ] Create build analytics
+
+## Level 5 - Enterprise Features
+- [ ] Add distributed builds
+- [ ] Implement caching system
+- [ ] Create access control
+- [ ] Add compliance checks
+- [ ] Support custom tools
+- [ ] Create build dashboards
+
+## Supported Languages
+- C# (.NET)
+- Python
+- JavaScript (Node.js)
+- Rust
+- Java (Future)
+- Go (Future)
+
+## Build Features
+- Auto-detection
+- Environment setup
+- Dependency management
+- Test automation
+- Artifact generation
+- Build optimization
+
+## Environment Management
+- SDK installation
+- Version control
+- Path configuration
+- Tool integration
+- System validation
+- Update management

@@ -1,32 +1,89 @@
-# "code2json" a scanner/parser that will convert your code to easily processable json for analytics
+# Code to JSON Analyzer
 
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+A code analysis tool teaching parsing techniques, AST manipulation, and static analysis.
 
-## Requirements
+## Level 0 - Basic Parsing
+- [ ] Create file scanner
+  - Directory traversal
+  - File filtering
+  - Basic tokenization
+- [ ] Implement JSON output
+  - File metadata
+  - Basic structure
+  - Token information
+- [ ] Add error handling
+- [ ] Create simple CLI
 
-- [ ] (R005) there are preconfigured scanners/parsers for the following languages
-  - [ ] (R006) C#
-  - [ ] (R007) T-SQL
-- [ ] (R008) the official output format of the scanner is json
-- [ ] (R011) the app can be called with a file filter expression which causes it to scan a directory recursivly and scan all contents at once, e.g. all \*.cs files
-- [ ] (R012) in the resulting json you can see which results belong to which source file
+## Level 1 - Language Support
+- [ ] Add C# parser
+  - Class detection
+  - Method parsing
+  - Property analysis
+- [ ] Add T-SQL parser
+  - Table references
+  - Stored procedures
+  - Query analysis
+- [ ] Create language detection
+- [ ] Add syntax validation
+- [ ] Support multiple files
 
-- [ ] (R013) answer the following questions on a test set of files of your choice:
-  - [ ] (R014) Which files contain references to the t-sql table named xyz? (t-sql)
-  - [ ] (R015) What stored procedures do exist? (t-sql)
-  - [ ] (R016) Which of those stored procedures contain a reference to the table xyz? (t-sql)
-  - [ ] (R017) Which classes are implemented? (c#)
-  - [ ] (R018) From which other classes or interfaces are those classes derived from (only direct parents)?
-  - [ ] (R019) When you resolve all the direct parents parents, what are the root classes and/or interfaces of each class? E.g. if "Scanner" is derived from "ScannerBase" which is derived from "IScanner" then the root of Scanner is "IScanner".
-   
+## Level 2 - Code Analysis
+- [ ] Add inheritance tracking
+  - Direct parents
+  - Interface implementation
+  - Root class detection
+- [ ] Implement reference finding
+  - Table usage
+  - Method calls
+  - Variable references
+- [ ] Create dependency mapping
+- [ ] Add code metrics
+- [ ] Support custom queries
 
-# Variants
+## Level 3 - Advanced Features
+- [ ] Add AST generation
+  - Tree visualization
+  - Node navigation
+  - Pattern matching
+- [ ] Implement code search
+- [ ] Create impact analysis
+- [ ] Add documentation generation
+- [ ] Support custom rules
 
-You can achieve the goals using different approaches. Here are some ideas (based on c# experience).
-- (V001) write your own scanner / parser (should work in any language)
-- (V002) use existing libraries for the creation of scanners/parsers
-- (V003) find the answers using scanner output
-- (V004) find the answers using parser output (walking through the abstract syntax tree)
-- (V005) find the answers using reflection on the compiled results
+## Level 4 - Integration
+- [ ] Add IDE plugins
+- [ ] Create API endpoints
+- [ ] Implement CI/CD hooks
+- [ ] Add export formats
+- [ ] Create reporting system
+- [ ] Support automation
 
+## Level 5 - Enterprise Features
+- [ ] Add team collaboration
+- [ ] Implement access control
+- [ ] Create custom analyzers
+- [ ] Add compliance checking
+- [ ] Support large codebases
+- [ ] Create analytics dashboard
+
+## Supported Languages
+- C# (Primary)
+- T-SQL (Primary)
+- JavaScript (Future)
+- Python (Future)
+- Java (Future)
+
+## Analysis Features
+- Code structure
+- Dependencies
+- Inheritance chains
+- Reference tracking
+- Query analysis
+- Custom metrics
+
+## Implementation Approaches
+- Custom scanner/parser
+- Library-based parsing
+- Scanner-based analysis
+- AST traversal
+- Reflection-based analysis

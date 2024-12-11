@@ -1,28 +1,81 @@
-# "righteous" A full blown rights management
+# Rights Management System
 
-The aim is to write a full blown generic rights management system including a demo that one could use for a single application or a cluster of apps.
+A comprehensive access control system teaching security principles, permission management, and system integration.
 
-There are the following additional common rules that apply:
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+## Level 0 - Core Entities
+- [ ] Implement user management
+  - User creation
+  - User properties
+  - Authentication
+- [ ] Create group system
+  - Group creation
+  - Group membership
+  - Group hierarchy
+- [ ] Add basic permissions
+- [ ] Create simple UI
+- [ ] Add data persistence
 
-## Requirements
+## Level 1 - Permission Types
+- [ ] Implement individual rights
+  - Single action permissions
+  - Resource-specific rights
+- [ ] Create permission groups
+  - CRUD operations
+  - Feature access
+  - Resource bundles
+- [ ] Add inheritance rules
+- [ ] Create permission templates
+- [ ] Support custom permissions
 
--   [ ] (R001) There are users in the system.
--   [ ] (R002) There are groups in the system.
+## Level 2 - Resource Management
+- [ ] Add database resource control
+  - Table access
+  - Row-level security
+  - Column permissions
+  - Query restrictions
+- [ ] Implement file system access
+  - File permissions
+  - Directory control
+  - Path restrictions
+- [ ] Add external resource management
+- [ ] Create resource discovery
+- [ ] Support dynamic resources
 
--   [ ] (R003) There are two kinds of rights:
+## Level 3 - Administration
+- [ ] Create management interface
+- [ ] Add permission analysis
+- [ ] Implement audit logging
+- [ ] Create reporting system
+- [ ] Add batch operations
+- [ ] Support permission testing
 
-    -   [ ] (R004) There are individual rights in the system, that are just representing a single thing that can be done.
-    -   [ ] (R005) There are groups of rights, that always come together. Like access rights normally consist of a right to create, read, write and/or delete that kinda needs to be bunched together all the time.
+## Level 4 - Integration
+- [ ] Create REST API
+- [ ] Add API key management
+- [ ] Implement SDK
+- [ ] Create documentation
+- [ ] Add integration examples
+- [ ] Support multiple protocols
 
--   [ ] (R006) There are "things" in the system. The defined rights refer to these things.
+## Level 5 - Enterprise Features
+- [ ] Add multi-tenancy
+- [ ] Implement SSO integration
+- [ ] Create compliance tools
+- [ ] Add policy enforcement
+- [ ] Support delegation
+- [ ] Create emergency access
 
-    -   [ ] (R007) A thing can be a database table.
-    -   [ ] (R008) A thing can be a row or a set of rows in a database table.
-    -   [ ] (R009) A thing can be one column or a set of columns in a database table.
-    -   [ ] (R010) A thing can be a selection of rows and columns in a database table.
-    -   [ ] (R011) A thing can also be a file or a bunch of files on the disk.
-    -   [ ] (R012) A thing can be an external url describing an resource
-
--   [ ] (R013) The system has a website where you can compfortably configure all those rights.
--   [ ] (R014) The system has an integrated api with keys that allow for scripted management and retrieval.
+## Resource Types
+- Database objects
+  - Tables
+  - Rows
+  - Columns
+  - Custom queries
+- File system
+  - Files
+  - Directories
+  - Patterns
+- External resources
+  - URLs
+  - APIs
+  - Services

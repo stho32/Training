@@ -1,32 +1,63 @@
-# "feed"
+# Group Lunch Organizer
 
-- [ ] There is a web application.
+A collaborative food ordering system teaching session management, payment processing, and real-time notifications.
 
-- [ ] There is a list of food delivery options (e.g. dominos, different restaurants)
+## Level 0 - Basic Session
+- [ ] Create web interface
+- [ ] Add food supplier management
+- [ ] Implement session creation
+  - Title and description
+  - Supplier selection
+  - Deadline setting
+- [ ] Create basic order form
+- [ ] Add participant management
+- [ ] Support simple notifications
 
-- [ ] There is one person that organizes the food for everybody. We call him "host".
+## Level 1 - Order Management
+- [ ] Add email invitations
+- [ ] Create unique session links
+- [ ] Implement order submission
+- [ ] Add price tracking
+- [ ] Create order summaries
+- [ ] Support order modifications
+- [ ] Add deadline enforcement
 
-- [ ] There are many people that the host wants to supply with food. We call them "feed-me-buddies".
+## Level 2 - Payment Processing
+- [ ] Add payment tracking
+- [ ] Create payment status view
+- [ ] Implement payment confirmation
+- [ ] Add balance calculations
+- [ ] Support multiple payment methods
+- [ ] Create payment reminders
 
-- Process:
+## Level 3 - Advanced Features
+- [ ] Add real-time updates
+- [ ] Create order templates
+- [ ] Implement recurring sessions
+- [ ] Add supplier ratings
+- [ ] Create order history
+- [ ] Support group preferences
 
-  1. [ ] The host creates a new food supply session and gets an individual link.
-     1. [ ] The host selects 1-n food suppliers.
-     2. [ ] The host adds a list of email-adresses that he wishes to invite.
-     3. [ ] The host adds a deadline time after which ordering for the feed-me-buddies is not possible anymore.
-     4. [ ] The host can add a title and a description to the session.
-  2. [ ] An email is sent to the "feed-me-buddies" containing a buddy link for all feed-me-buddies.
-  3. [ ] The "feed-me-buddies" click the link in the mail and are sent to a web site in which they can write down their name and the food wishes as well as the price that they anticipate.
-  4. [ ] The "feed-me-buddies" have a button with which they can finalize their order.
-  5. [ ] When the order is finalized a message is sent out to the host which contains the order changes so the host is informed.
-  6. [ ] When the time limit has been reached the host
-     1. [ ] receives an email detailling the complete order
-     2. [ ] the individual link of the session still works and also contains the full order
-  7. [ ] The session website changes its look for payment management
-     1. [ ] Next to each participant there is a field in which the host can enter the amount of payment that he has received from the "feed-me-buddy"
-     2. [ ] Differences are shown
-     3. [ ] The host has the option to close the session when everything is to his or her liking (all payments received or distributed ...)
-  
-## Preparation
+## Level 4 - Enterprise Features
+- [ ] Add multi-organization support
+- [ ] Create expense reporting
+- [ ] Implement budget tracking
+- [ ] Add supplier integration
+- [ ] Support custom workflows
+- [ ] Create analytics dashboard
 
-- The host has the possiblity to preselect a bunch of food suppliers.
+## Roles and Workflow
+### Host
+- Creates food supply session
+- Selects food suppliers
+- Manages participant list
+- Sets order deadline
+- Tracks payments
+- Closes session
+
+### Participants ("Feed-me-buddies")
+- Receive unique session link
+- Submit food orders
+- Specify order details
+- Make payments
+- Receive confirmations

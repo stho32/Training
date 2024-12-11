@@ -1,36 +1,50 @@
-# "split", Splitting costs in a group of people
+# Cost Splitter
 
-Imagine you go on holidays in a group. 
+A practical tool for managing shared expenses, teaching financial calculations, optimization algorithms, and group expense management.
 
-- There are always expenses, and there is always someone that pays.
-- Some expenses are for more than one person. (E.g. Bob buys food for everyone).
-- The costs need to be splitted.
+## Level 0 - Basic Splitting
+- [ ] Create console interface
+- [ ] Add expenses with single payer
+- [ ] Support equal splits
+- [ ] Calculate who owes whom
+- [ ] Show simple settlement plan
 
-Write an application that can return the amount of money each person ows any other person in the group.
+## Level 1 - Enhanced Features
+- [ ] Support unequal splits
+- [ ] Add expense categories
+- [ ] Implement group management
+- [ ] Save/load expense history
+- [ ] Add basic reporting
 
-It should return a list of payments and who has to pay whom to equally distribute all expenses throughout the group.
+## Level 2 - Advanced Features
+- [ ] Support multiple currencies
+- [ ] Add expense templates
+- [ ] Implement smart debt consolidation
+- [ ] Generate detailed reports
+- [ ] Add data visualization
+
+## Level 3 - Professional Features
+- [ ] Create web interface
+- [ ] Add user accounts
+- [ ] Implement real-time updates
+- [ ] Add receipt scanning
+- [ ] Create mobile app
 
 ## Examples
 
-- You drive together in a car. Cost for gas is 50 EUR. You are 5 people. You are Bob. Bob has payed. The result should read something like:
-
+### Basic Split
+Gas expense: 50 EUR paid by Bob, split equally by 5 people:
 ```
-OtherGuy1 : pay 10 EUR to Bob.
-OtherGuy2 : pay 10 EUR to Bob.
-OtherGuy3 : pay 10 EUR to Bob.
-OtherGuy4 : pay 10 EUR to Bob.
-```
-
-- You have another expense. You stop by a pizza store. OtherGuy2 buys a pizza and shares it with Bob. Cost for the pizza 10 EUR.
-
-The result is now: 
-```
-OtherGuy1 : pay 10 EUR to Bob.
-OtherGuy2 : pay 5 EUR to Bob.
-OtherGuy3 : pay 10 EUR to Bob.
-OtherGuy4 : pay 10 EUR to Bob.
+OtherGuy1 owes Bob: 10 EUR
+OtherGuy2 owes Bob: 10 EUR
+OtherGuy3 owes Bob: 10 EUR
+OtherGuy4 owes Bob: 10 EUR
 ```
 
-- You have another expense. OtherGuy4 pays for the hotel room. 100 EUR. 
+### Complex Split
+Multiple expenses:
+- Gas (50 EUR, Bob, split by 5)
+- Pizza (10 EUR, OtherGuy2, split by 2)
+- Hotel (100 EUR, OtherGuy4, split by 5)
 
-... now Bob owes OtherGuy4 something, right?
+The app calculates the optimal settlement plan.

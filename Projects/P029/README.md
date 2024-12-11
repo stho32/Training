@@ -1,48 +1,49 @@
-# "numbermd" a tool for working with number groups in markdown files
+# Markdown Enumerator
 
-There are [common requirements](https://github.com/stho32/Training/blob/master/Common-Requirements.md) that should be satisfied, too.
+A tool for managing and organizing numbered requirements in markdown files, teaching text processing, tree structures, and document analysis.
 
-## Requirements
+## Level 0 - Basic Processing
+- [ ] Implement markdown file reading
+- [ ] Parse checkbox list items
+- [ ] Detect reference patterns (e.g., R001)
+- [ ] Extract number groups
+- [ ] Create basic reporting
+- [ ] Add simple validation
 
-In the training repository I use markdown files a lot that describe requirements. The requirements are written as list items with checkboxes. Those list items should always have explicit numbers. 
+## Level 1 - Tree Analysis
+- [ ] Implement indentation level detection
+- [ ] Add parent-child relationship tracking
+- [ ] Create tree structure representation
+- [ ] Support multiple number groups
+- [ ] Add JSON export
+- [ ] Implement reference inheritance
 
-Now, when such a file grows or changes it becomes difficult to see which numbers are already taken or might be used twice with different descriptions. The tool is there to help with that.
+## Level 2 - Validation & Linting
+- [ ] Check for duplicate references
+- [ ] Detect missing numbers
+- [ ] Validate reference formats
+- [ ] Check consistency of texts
+- [ ] Create detailed error reports
+- [ ] Add warning levels
 
-### General Data
+## Level 3 - Auto-fixing
+- [ ] Generate missing references
+- [ ] Auto-assign numbers to new items
+- [ ] Implement smart inheritance rules
+- [ ] Add batch processing
+- [ ] Create backup system
+- [ ] Support custom numbering schemes
 
-- [ ] A number group consists of:
-  - [ ] a prefix of some characters, all in upper case
-  - [ ] a number in 3 digits
-- [ ] We call a combination prefix + specific number a reference. E.g. R001 is a reference, derived from a specific number group.
-- [ ] A reference is associated by putting (Xddd) next to the checkbox like so: "- [ ] (R001) ..."
-- [ ] A file might contain items using multiple different number groups
+## Level 4 - Advanced Features
+- [ ] Create interactive mode
+- [ ] Add visual tree representation
+- [ ] Implement change tracking
+- [ ] Add version control integration
+- [ ] Create documentation generator
+- [ ] Support multiple file analysis
 
-### Extracting Information
-
-- [ ] The tool can read a markdown file and list all contained list items that have checkboxes including the information which number is associated.
-- [ ] The tool knows what indentation level a specific item is, so you can: 
-  - [ ] list items of a specific level, e.g. get the root nodes only from a file
-  - [ ] The tool can list the direct children by a given reference to a root node
-- [ ] The tool can retrieve all list items from a file as json that also contains the tree structure with root and child nodes
-
-### Linting
-
-- [ ] It will show there is a problem when: 
-  - [ ] It finds the same reference associated with list items with different text.
-- [ ] It has an option to list all missing numbers from a number group e.g. if you have a reference R001 and one R003 it will tell you that you have not used R002.
-
-### Helping and auto-fixing
-
-- [ ] It will give you the number groups in the file and the next free references for each one
-- [ ] It can automatically generate and add references to list items with checkboxes that do not have an associated reference following the rules:
-  - [ ] A child of a list item always inherits the number group. E.g. if the parent has a number from the number group "R..." the child gets a number of the group "R...", too.
-  - [ ] Each number in each number group is only to be used once in the file.
-  - [ ] The automatic completion only adds references above the currently highest reference, it does not fill "the gaps". E.g. if you have R001 and R003 already taken, the next reference it will generate and use is R004. R002 is ignored.
-  - [ ] When no number group is given, then R... is used
-- [ ] There is an option to remove all references from a file
-- [ ] There is an option to remove all references from a parent node and all its children. E.g. `remove-from-subtree R001` will remove all references from a file.
-
-### Import/Export
-
-- [ ] There is an option to export the content to a dot file to visualize the relationships of all list items in the file
-- [ ] There is an option to export hte content to flying logic to visualize the relationships of all list items in the file
+## Reference Format
+- Prefix: Uppercase characters (e.g., 'R', 'REQ')
+- Number: 3 digits (e.g., '001', '042')
+- Full reference: PREFIX + NUMBER (e.g., 'R001', 'REQ042')
+- Usage: `- [ ] (R001) Requirement text`

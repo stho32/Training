@@ -1,17 +1,34 @@
-# A random stuff generator
+# Random Stuff Generator
 
-There are the following additional common rules that apply: 
-https://github.com/stho32/Collection-Of-Challenges/blob/master/Common-Requirements.md
+A utility that generates various types of random content, teaching concepts of randomization, string manipulation, and secure content generation.
 
-## Requirements
+## Level 0 - Basic Generation
+- [ ] Create a simple console menu interface
+- [ ] Generate random numbers between 1-10
+- [ ] Generate random numbers between two given numbers
+- [ ] Generate basic passwords (fixed length, alphanumeric)
+- [ ] Generate fun animal names (e.g., "happy dancing elephant")
 
-- [ ] (R001) There is an easy way to grab a random number between 1 and 10
-- [ ] (R002) There is a way to grab a random number between 2 given numbers
-- [ ] (R003) There is a way to request a newly generated password
-  - [ ] (R004) with a configurable amount of special characters
-  - [ ] (R005) of a configurable length
-  - [ ] (R006) with a configurable amount of digits
-  - [ ] (R007) using upper- and lowercase characters
-- [ ] (R008) There is a way to grab a random animal name like "funny dancing elephant"
+## Level 1 - Enhanced Features
+- [ ] Add configurable password generation
+  - Length
+  - Special characters
+  - Numbers
+  - Case sensitivity
+- [ ] Implement multiple generation modes
+- [ ] Add batch generation capability
+- [ ] Save generated content to file
+- [ ] Add command-line arguments support
 
+## Level 2 - Security & Interface
+- [ ] Create a web interface
+- [ ] Add password strength indicators
+- [ ] Implement secure random generation
+- [ ] Add content validation rules
+- [ ] Create API endpoints
 
+## Level 3 - Advanced Features
+- [ ] Add custom generation templates
+- [ ] Implement plugin system for new generators
+- [ ] Add multilingual support
+- [ ] Create browser extension

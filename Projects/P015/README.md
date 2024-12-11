@@ -1,19 +1,55 @@
-# OrgView
+# Organizational View
 
-You are part of an organisational structure. Your task is to make this structure visible.
+A visualization tool for complex organizational structures teaching tree data structures, graph visualization, and interactive UI development.
 
-There are the following elements in the structure you want to display: 
+## Level 0 - Basic Structure
+- [ ] Create tree data structure
+- [ ] Implement basic node properties
+  - Person details
+  - Reporting relationships
+- [ ] Add node management
+- [ ] Create simple tree display
+- [ ] Support basic navigation
+- [ ] Add data validation
 
-- [ ] There is a root node "The Company"
-- [ ] Below that root node every node represents a person with attributes.
-- [ ] Every parent-node can have an unlimited list of sub-nodes.
-- [ ] Since every node represents a person and companies are a mess, people can pop up multiple times in the hierarchy.
+## Level 1 - Enhanced Visualization
+- [ ] Create interactive tree view
+- [ ] Add person search functionality
+- [ ] Implement node highlighting
+- [ ] Support multiple instances of same person
+- [ ] Add zoom and pan controls
+- [ ] Create basic filters
 
+## Level 2 - Advanced Features
+- [ ] Add drag-and-drop reorganization
+- [ ] Implement different view layouts
+  - Hierarchical
+  - Circular
+  - Force-directed
+- [ ] Create detailed person profiles
+- [ ] Add relationship types
+- [ ] Support data import/export
 
-- [ ] Find a way to create random structures and display them.
-- [ ] Enable the following functions:
-    - [ ] When you hover above a person, all other places the person pops up should be highlighted as well.
-    - [ ] You can search the tree to find a person quickly.
-    
+## Level 3 - Analysis Tools
+- [ ] Add organizational metrics
+- [ ] Create hierarchy analysis
+- [ ] Implement role-based views
+- [ ] Add team visualization
+- [ ] Create reporting tools
+- [ ] Support data validation
 
- 
+## Level 4 - Enterprise Features
+- [ ] Add multi-company support
+- [ ] Implement version control
+- [ ] Create change history
+- [ ] Add access controls
+- [ ] Support data integration
+- [ ] Create custom reports
+
+## Features
+- Root node represents "The Company"
+- Each node represents a person with attributes
+- Unlimited child nodes per parent
+- Support for duplicate person entries
+- Interactive highlighting of duplicate entries
+- Quick search functionality
