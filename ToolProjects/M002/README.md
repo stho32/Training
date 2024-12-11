@@ -1,41 +1,106 @@
-# "sqlformat" SQL Formatter
+# SQL Code Formatter
 
-- [ ] The input should be presented as text. The engine splits the text, parses it and then formats the results.
+A SQL formatting tool teaching query parsing, code styling, and SQL best practices.
 
-- [ ] Be able to format the following SQL elements
-  - [ ] SELECT clause
-    - [ ] columns with name
-    - [ ] columns with case statements
-    - [ ] columns with subselects
-    - [ ] columns with function calls
-  - [ ] FROM Table/View
-  - [ ] FROM with LEFT JOIN
-  - [ ] FROM with RIGHT JOIN
-  - [ ] FROM with CROSS JOIN
-  - [ ] FROM with LEFT HASH JOIN 
-  - [ ] FROM with JOIN
-  - [ ] WHERE clauses
-  - [ ] WHERE clauses with AND
-  - [ ] WHERE clauses with OR
-  - [ ] UNION ALL
-  - [ ] ORDER BY
-  - [ ] GROUP BY
-  - [ ] combinded WHERE expressions with AND and OR
-  - [ ] INSERT with VALUES
-  - [ ] INSERT with SELECT
-  - [ ] UPDATE
-  - [ ] UPDATE WHERE
-  - [ ] UPDATE FROM 
-  - [ ] using aliases for columns and tables
-  - [ ] CREATE VIEW
-  - [ ] ALTER VIEW
-  - [ ] GO
-  - [ ] CREATE FUNCTION
-  - [ ] ALTER FUNCTION
-  - [ ] DROP FUNCTION
-  - [ ] CREATE PROCEDURE
-  - [ ] DROP PROCEDURE
-  - [ ] ALTER PROCEDURE
-  - ...
+## Level 0 - Basic Queries
+- [ ] Add SELECT formatting
+  - Column names
+  - Case statements
+  - Subqueries
+  - Function calls
+- [ ] Create FROM handling
+  - Table/View references
+  - Basic joins
+  - Table aliases
+- [ ] Implement WHERE
+  - Basic conditions
+  - AND/OR operators
+  - Combined expressions
 
+## Level 1 - Advanced Queries
+- [ ] Add JOIN types
+  - LEFT JOIN
+  - RIGHT JOIN
+  - CROSS JOIN
+  - HASH JOIN
+  - INNER JOIN
+- [ ] Create set operations
+  - UNION ALL
+  - INTERSECT
+  - EXCEPT
+- [ ] Implement grouping
+  - GROUP BY
+  - ORDER BY
+  - HAVING
 
+## Level 2 - Data Modification
+- [ ] Add INSERT handling
+  - VALUES clause
+  - INSERT SELECT
+  - Bulk insert
+- [ ] Create UPDATE formatting
+  - Basic updates
+  - WHERE conditions
+  - UPDATE FROM
+- [ ] Implement DELETE
+  - Basic deletes
+  - WHERE conditions
+  - Multi-table
+
+## Level 3 - Schema Objects
+- [ ] Add VIEW handling
+  - CREATE VIEW
+  - ALTER VIEW
+  - DROP VIEW
+- [ ] Create FUNCTION support
+  - CREATE FUNCTION
+  - ALTER FUNCTION
+  - DROP FUNCTION
+- [ ] Implement PROCEDURE
+  - CREATE PROCEDURE
+  - ALTER PROCEDURE
+  - DROP PROCEDURE
+
+## Level 4 - Advanced Features
+- [ ] Add batch handling
+  - GO statements
+  - Multiple batches
+  - Error handling
+- [ ] Create comments
+  - Inline comments
+  - Block comments
+  - Documentation
+- [ ] Implement validation
+  - Syntax check
+  - Best practices
+  - Style rules
+
+## Level 5 - Integration
+- [ ] Add IDE support
+  - Editor integration
+  - Keyboard shortcuts
+  - Live formatting
+- [ ] Create configuration
+  - Style options
+  - Rule customization
+  - Team standards
+- [ ] Implement tooling
+  - CLI support
+  - Build integration
+  - Version control
+
+## SQL Elements
+- DML statements
+- DDL statements
+- Queries and subqueries
+- Joins and unions
+- Functions and procedures
+- Views and schemas
+
+## Best Practices
+- Consistent indentation
+- Logical grouping
+- Clear aliases
+- Proper spacing
+- Comment usage
+- Query organization

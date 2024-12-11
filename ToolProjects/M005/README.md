@@ -1,6 +1,6 @@
 # "prov" Provisioning infrastructure and development environments
 
-When working as a software developer you will constantly need to install stuff and document what you have done. 
+When working as a software developer you will constantly need to install stuff and document what you have done.
 
 This is necessary to e.g.:
 - create consistent developer environments for your developer group
@@ -30,3 +30,104 @@ When you get stuck and do not know what you need, take 1..n of the projects you 
 
 - you might try to use provisioning tools that are already available, like terraform, ansible, chef ... still, keep in mind that they contain lots of code and might become a weak spot in your environment creation process by themselfs, as they might break when you do not expect it
 
+## Progressive Levels
+
+### Level 0 - Local Setup
+- [ ] Add version control
+  - Specific versions
+  - Dependencies
+  - Compatibility
+- [ ] Create local installation
+  - Physical machines
+  - Developer laptops
+  - Manual processes
+- [ ] Implement documentation
+  - Setup guides
+  - Requirements
+  - Troubleshooting
+
+### Level 1 - Virtualization
+- [ ] Add VM support
+  - Local VMs
+  - Configuration
+  - Networking
+- [ ] Create containers
+  - Docker setup
+  - Image building
+  - Container management
+- [ ] Implement automation
+  - Scripts
+  - Templates
+  - Workflows
+
+### Level 2 - Cloud Integration
+- [ ] Add cloud providers
+  - Vultr setup
+  - AWS support
+  - Azure integration
+- [ ] Create environments
+  - Development
+  - Staging
+  - Production
+- [ ] Implement scaling
+  - Load balancing
+  - Auto-scaling
+  - Resource management
+
+### Level 3 - Infrastructure
+- [ ] Add configuration
+  - Environment vars
+  - Config files
+  - Secrets
+- [ ] Create networking
+  - VPN setup
+  - Security groups
+  - DNS management
+- [ ] Implement monitoring
+  - Health checks
+  - Metrics
+  - Alerts
+
+### Level 4 - CI/CD
+- [ ] Add build machines
+  - CI setup
+  - Build agents
+  - Test environments
+- [ ] Create deployment
+  - Release process
+  - Rollback
+  - Blue-green
+- [ ] Implement validation
+  - Environment checks
+  - Security scans
+  - Compliance
+
+### Level 5 - Enterprise
+- [ ] Add governance
+  - Access control
+  - Audit logs
+  - Compliance
+- [ ] Create disaster recovery
+  - Backup strategy
+  - Recovery plans
+  - Failover
+- [ ] Implement optimization
+  - Cost management
+  - Performance
+  - Resource usage
+
+## Environments
+- Development
+- Testing
+- Staging
+- Production
+- CI/CD
+- Disaster recovery
+
+## Best Practices
+- Version control
+- Documentation
+- Automation
+- Security
+- Monitoring
+- Cost optimization

@@ -1,12 +1,103 @@
-# genny the code generator
+# Database Code Generator
 
-- [ ] (R001) This is a ui application
-- [ ] (R002) There is a way to enter a connection string
-- [ ] (R003) The application displays a searchable list of database views and tables
-- [ ] (R004) There is an update button that rereads all database objects from the database
-- [ ] (R005) When an object is selected the following c# snippets are displayed in a source text window:
-  - [ ] (R006) a repository interface with some basic operations
-  - [ ] (R007) a repository class
-  - [ ] (R008) an entity interface
-  - [ ] (R009) an entity class
-  
+A code generation tool teaching database integration, template-based generation, and clean architecture patterns.
+
+## Level 0 - Database Connection
+- [ ] Create UI application
+  - Connection string input
+  - Database connection
+  - Error handling
+- [ ] Add object browser
+  - View/table list
+  - Search functionality
+  - Refresh capability
+- [ ] Implement basic generation
+  - Entity classes
+  - Basic operations
+  - Code preview
+
+## Level 1 - Code Generation
+- [ ] Add repository generation
+  - Repository interface
+  - Repository implementation
+  - CRUD operations
+- [ ] Create entity generation
+  - Entity interface
+  - Entity class
+  - Property mapping
+- [ ] Implement templates
+  - Template management
+  - Custom patterns
+  - Code formatting
+
+## Level 2 - Enhanced Features
+- [ ] Add type mapping
+  - Database types
+  - Language types
+  - Custom conversions
+- [ ] Create validation
+  - Schema validation
+  - Code validation
+  - Naming rules
+- [ ] Implement customization
+  - Template editing
+  - Style options
+  - Output format
+
+## Level 3 - Architecture Support
+- [ ] Add clean architecture
+  - Layer separation
+  - Dependency rules
+  - Interface patterns
+- [ ] Create patterns
+  - Repository pattern
+  - Unit of Work
+  - CQRS support
+- [ ] Implement testing
+  - Unit test generation
+  - Mock objects
+  - Test data
+
+## Level 4 - Integration
+- [ ] Add multi-database
+  - Multiple providers
+  - Schema comparison
+  - Migration support
+- [ ] Create documentation
+  - Code comments
+  - API documentation
+  - Usage examples
+- [ ] Implement tooling
+  - IDE integration
+  - CLI support
+  - Build hooks
+
+## Level 5 - Enterprise Features
+- [ ] Add team features
+  - Template sharing
+  - Pattern library
+  - Best practices
+- [ ] Create governance
+  - Code standards
+  - Review process
+  - Change tracking
+- [ ] Implement analytics
+  - Usage metrics
+  - Quality checks
+  - Impact analysis
+
+## Generated Components
+- Repository interfaces
+- Repository implementations
+- Entity interfaces
+- Entity classes
+- Unit tests
+- Documentation
+
+## Best Practices
+- Clean architecture
+- SOLID principles
+- DRY patterns
+- Type safety
+- Error handling
+- Documentation
